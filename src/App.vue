@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App with AWS S3"/>
+    <HelloWorld msg="Welcome to Your Vue.js App with AWS S3 setting for HomeOS"/>
   </div>
 </template>
 
