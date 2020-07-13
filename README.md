@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # drawyourmind-web
 
 ## Project setup
@@ -23,6 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-# drawyourmind-web
->>>>>>> 630b4f78750d1809a55223fb3e1600ac58fabbfd
