@@ -31,11 +31,24 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
   },
+
+  mounted(){
+    axios.get('http://localhost:8080/controller/sample/basic').then(function(response){
+      console.log('!!!');
+      console.log(response);
+    })
+    .catch(function(error){
+      console.log('error');
+      console.log(error);
+    })
+  }
 }
 </script>
 

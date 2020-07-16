@@ -9,6 +9,7 @@
     "deploy": "yarn build && aws s3 sync ./dist s3://drawyourmind.com"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
