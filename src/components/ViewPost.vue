@@ -1,5 +1,19 @@
 <template>
   <div>
+    
+    <!-- <span class="md-display-1">drawyourmind.com</span> -->
+    
+    <div class="md-layout md-alignment-left" style="width:300px;">
+      <div v-for="(item, item_idx) in data" :key="item_idx" style="width:300px;">
+        <span><a :href="item.url" target="myframe">{{item.title}}</a></span>
+      </div>
+    </div>
+
+
+    <md-button class="md-fab md-primary" @click="showDialog=true">
+      <md-icon>add</md-icon>
+    </md-button>
+    
     <md-dialog :md-active.sync="showDialog">
       <div class="md-layout md-alignment-vertical md-alignment-center md-size-100">
         <md-dialog-title>Add Content</md-dialog-title>
@@ -19,11 +33,7 @@
         <md-button class="md-primary" @click="addPost">Save</md-button>
       </md-dialog-actions>
     </md-dialog>
-
-    <md-button class="md-fab md-primary" @click="showDialog=true">
-        <md-icon>add</md-icon>
-      </md-button>
-  
+    
   </div>
 </template>
 
@@ -33,24 +43,32 @@ import axios from "axios";
 export default {
   data(){
     return {
+      data: {},
       showDialog: false,
 
       title: '',
       url: '',
+      
     }
   },
 
   mounted(){
-    axios.get('http://localhost:8080/post/list').then(response => {
-      console.log(response);
-    }).catch(error => {
-      console.log(error);
-    })
+    this.getList();
   },
 
   methods: {
+    getList(){
+      axios.get('http://ec2-3-34-8-184.ap-northeast-2.compute.amazonaws.com/drawyourmind-api/post/list').then(response => {
+        console.log(response);
+
+        this.data = response.data;
+      }).catch(error => {
+        console.log(error);
+      })
+    },
+
     addPost(){
-      axios.get('http://localhost:8080/post/register', {
+      axios.get('http://ec2-3-34-8-184.ap-northeast-2.compute.amazonaws.com/drawyourmind-api/post/register', {
         params: {
           title: this.title,
           url: this.url,
@@ -58,6 +76,7 @@ export default {
       }).then(response => {
         console.log(response.data);
         this.showDialog = false;
+        this.getList();
       }).catch(error => {
         console.log(error);
       })
@@ -68,8 +87,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.md-dialog /deep/.md-dialog-container {
-  width: 50%;
-  max-width: 768px;
-}
+
+// .md-dialog /deep/.md-dialog-container {
+//   width: 50%;
+//   max-width: 768px;
+// }
 </style>
