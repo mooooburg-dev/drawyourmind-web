@@ -49,7 +49,7 @@ body {
 
 .router-container {
   float: left;
-  /* width: 100%; */
+  width: 880px;
 }
 
 .profile-menu-continer {
@@ -81,6 +81,7 @@ body {
 }
 
 .content-wrapper {
+  /* width: 840px; */
   margin-left: 40px;
 }
 
@@ -135,4 +136,9 @@ body {
 .work-text {
   color: #3ab67f;
   font-size: 36pt;
+}
+
+
+.comment-form {
+  float: left;
 }
