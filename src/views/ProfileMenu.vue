@@ -16,8 +16,8 @@
         <img src="/static/img/web_icons.png">
       </div>
       <div class="menus mt-5">
-        <div v-for="(item, item_idx) in menus" :key="item_idx">
-          <span class="oxtail menu-text menu-item"><a href="#">{{ item }}</a></span>
+        <div v-for="(item, item_idx) in menus" :key="item_idx" @click="menuClickHandler(item)">
+          <span :class="`oxtail menu-text menu-item ${item.active ? 'active' : 'unActive'}`">{{ item.name }}</span>
         </div>
       </div>
     </div>
@@ -30,21 +30,46 @@ export default {
   data(){
     return {
       menus: [
-        'CAREER',
-        'WORKS',
-        'ORDINARY',
-        'BLOG',
-        'COMMENTS',
-      ]
+        {
+          name: 'CAREER',
+          active: false,
+        },
+        {
+          name: 'WORKS',
+          active: false,
+        },
+        {
+          name: 'ORDINARY',
+          active: false,
+        },
+        {
+          name: 'BLOG',
+          active: false,
+        },
+        {
+          name: 'COMMENTS',
+          active: false,
+        },
+      ],
+
+      sIdx: -1,
+    }
+  },
+
+  watch: {
+    sIdx : function(){
+
     }
   },
 
   mounted(){
-    console.log($('.menu-item'));
   },
 
   methods: {
-    
+    menuClickHandler(menu){
+      this.menus.forEach(menu => menu.active = false);
+      menu.active = true;
+    }
   }
 }
 </script>

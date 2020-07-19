@@ -14,13 +14,13 @@ font-style: italic;
  */
 
  a:link {
-  color: #212121 !important;
+  color: #3ab67f !important;
   background-color: transparent !important;
   text-decoration: none !important;
 }
 
 a:visited {
-  color: #212121 !important;
+  color: #3ab67f !important;
   background-color: transparent !important;
   text-decoration: none !important;
 }
@@ -56,8 +56,17 @@ body {
   font-size: 36pt;
 }
 
-.menu-text {
+.menu-item {
   font-size: 24pt;
   transition: color .5s;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  color: #3ab67f;
+}
+
+.menu-item.unActive {
+  color: #212121;
 }
 
