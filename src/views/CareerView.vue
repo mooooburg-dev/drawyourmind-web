@@ -4,8 +4,8 @@
       <span class="oxtail content-title">CAREER</span>
     </div>
     <div class="content-container career-list">
-      <div v-for="(item, item_idx) in careers" :key="item_idx" class="career-item" @click.prevent="careerItemClick(item, item_idx)">
-        <span class="career-text oxtail">{{ item.name }}</span>
+      <div v-for="(item, item_idx) in careers" :key="item_idx" class="career-item">
+        <span class="career-text oxtail" @click.prevent="careerItemClick(item, item_idx)">{{ item.name }}</span>
         <div class="career-item-desc">
           <span>{{ item.date }}</span><br/>
           <span>Role: Front-ent Developer</span><br/>
@@ -22,31 +22,31 @@ export default {
     return {
       careers: [
         {
-          name: 'MEDIT',
+          name: 'Medit',
           date: '2019.09',
         },
         {
-          name: 'MEDIA BLING',
+          name: 'Mediabling',
           date: '2019.09',
         },
         {
-          name: 'ETRIBE',
+          name: 'e-tribe',
           date: '2019.09',
         },
         {
-          name: 'SOLUTION WIDE',
+          name: 'Solutionwide Pty Ltd',
           date: '2019.09',
         },
         {
-          name: 'PIXDINE',
+          name: 'Pixdine',
           date: '2019.09',
         },
         {
-          name: 'XPRIME',
+          name: 'xPrime',
           date: '2019.09',
         },
         {
-          name: 'DESIGNART',
+          name: 'DesignArt',
           date: '2019.09',
         },
       ],

@@ -26,8 +26,8 @@ a:visited {
 }
 
 a:hover {
-  color: #3ab67f !important;
-  background-color: transparent !important;
+  color: white !important;
+  background-color: #3ab67f !important;
   text-decoration: none !important
 }
 
@@ -86,6 +86,7 @@ body {
 }
 
 .content-label {
+  margin-left: -36px;
   width: 224px;
   height: 56px;
   background-image: url('/static/img/menu_bg.png');
@@ -107,17 +108,12 @@ body {
 ------------------------------------ */
 .career-item {
   line-height: 42pt;
-  cursor: pointer;
 }
-
-.career-item {
-  
-}
-
 .career-item .career-text {
-  font-size: 50pt;
-  line-height: 42pt;
+  font-size: 42pt;
+  /* line-height: 50pt; */
   transition: color 0.5s;
+  cursor: pointer;
 }
 .career-item .career-text.active {
   color: #3ab67f;
@@ -140,5 +136,13 @@ body {
 
 
 .comment-form {
+  float: left;
+}
+.comment-item div {
+  position: relative;
+  /* float: left; */
+}
+.comment-name {
+  width: 100px;
   float: left;
 }

@@ -33,33 +33,31 @@ export default {
     return {
       menus: [
         {
-          name: 'CAREER',
+          name: 'Career',
           path: '/career',
           active: false,
         },
         {
-          name: 'WORKS',
+          name: 'Works',
           path: '/works',
           active: false,
         },
         {
-          name: 'ORDINARY',
+          name: 'Ordinary',
           path: '/ordinary',
           active: false,
         },
         {
-          name: 'BLOG',
+          name: 'Blog',
           path: '/blog',
           active: false,
         },
         {
-          name: 'COMMENTS',
+          name: 'Comments',
           path: '/comments',
           active: false,
         },
       ],
-
-      sIdx: -1,
     }
   },
 
@@ -75,6 +73,7 @@ export default {
   methods: {
     homeClickHandler(){
       this.$router.push({path:'/'}).catch(err => err);
+      this.menus.forEach(menu => menu.active = false);
     },
 
     menuClickHandler(menu){
