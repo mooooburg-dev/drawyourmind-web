@@ -1,0 +1,63 @@
+
+/* 
+Oxtail OT Bold
+
+font-family: oxtail, serif;
+font-weight: 700;
+font-style: normal;
+
+Oxtail OT BoldItalic
+
+font-family: oxtail, serif;
+font-weight: 700;
+font-style: italic;
+ */
+
+ a:link {
+  color: #212121 !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #212121 !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #3ab67f !important;
+  background-color: transparent !important;
+  text-decoration: none !important
+}
+
+a:active {
+  color: #3ab67f !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+
+body {
+  font-style: 12pt;
+  color: #212121 !important;
+}
+.oxtail {
+  font-family: oxtail, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#job {
+  font-size: 18pt;
+}
+
+#name {
+  line-height: 28px;
+  font-size: 36pt;
+}
+
+.menu-text {
+  font-size: 24pt;
+  transition: color .5s;
+}
+

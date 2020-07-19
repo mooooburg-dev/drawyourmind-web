@@ -1,31 +1,20 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App with AWS S3 setting for HomeOS"/> -->
-    <view-post></view-post>
+    <profile-menu></profile-menu>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-import ViewPost from './components/ViewPost.vue'
+import ProfileMenu from "./views/ProfileMenu.vue"
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    ViewPost
+    ProfileMenu,
   }
 }
 </script>
 
 <style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
+@import url('/static/css/common.css');
 </style>
