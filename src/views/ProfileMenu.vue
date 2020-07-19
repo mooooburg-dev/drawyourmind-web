@@ -1,7 +1,9 @@
 <template>
   <div class="profile-menu-continer">
     <div class="profile mt-5 ml-5">
-      <img src="/static/img/avatar.png"><br/>
+      <div class="avatar" @click.prevent="homeClickHandler">
+        <img src="/static/img/avatar.png"><br/>
+      </div>
       <div class="profile-text-1 mt-4">
         <span id="job" class="oxtail">Web Developer</span><br/>
         <span id="name" class="oxtail">Jeongmu Park</span><br/>
@@ -32,22 +34,27 @@ export default {
       menus: [
         {
           name: 'CAREER',
+          path: '/career',
           active: false,
         },
         {
           name: 'WORKS',
+          path: '/works',
           active: false,
         },
         {
           name: 'ORDINARY',
+          path: '/ordinary',
           active: false,
         },
         {
           name: 'BLOG',
+          path: '/blog',
           active: false,
         },
         {
           name: 'COMMENTS',
+          path: '/comments',
           active: false,
         },
       ],
@@ -66,9 +73,14 @@ export default {
   },
 
   methods: {
+    homeClickHandler(){
+      this.$router.push({path:'/'}).catch(err => err);
+    },
+
     menuClickHandler(menu){
       this.menus.forEach(menu => menu.active = false);
       menu.active = true;
+      this.$router.push({path:menu.path}).catch(err => err);
     }
   }
 }

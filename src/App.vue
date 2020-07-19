@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <profile-menu></profile-menu>
+    <div class="router-container">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 

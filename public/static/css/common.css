@@ -47,6 +47,16 @@ body {
   font-style: normal;
 }
 
+.router-container {
+  float: left;
+  /* width: 100%; */
+}
+
+.profile-menu-continer {
+  float: left;
+  width: 400px;
+}
+
 #job {
   font-size: 18pt;
 }
@@ -70,3 +80,59 @@ body {
   color: #212121;
 }
 
+.content-wrapper {
+  margin-left: 40px;
+}
+
+.content-label {
+  width: 224px;
+  height: 56px;
+  background-image: url('/static/img/menu_bg.png');
+}
+
+.content-title {
+  font-size: 24px;
+  color: white;
+  margin-left: 40px;
+  line-height: 60px;
+}
+
+.content-container {
+  margin-top: 72px;
+}
+
+/* ------------------------------------
+  CARRER
+------------------------------------ */
+.career-item {
+  line-height: 42pt;
+  cursor: pointer;
+}
+
+.career-item {
+  
+}
+
+.career-item .career-text {
+  font-size: 50pt;
+  line-height: 42pt;
+  transition: color 0.5s;
+}
+.career-item .career-text.active {
+  color: #3ab67f;
+}
+
+.career-item .career-item-desc{
+  line-height: 20pt;
+}
+
+/* ------------------------------------
+  CARRER
+------------------------------------ */
+.work-item {
+  width: 840px;
+}
+.work-text {
+  color: #3ab67f;
+  font-size: 36pt;
+}
