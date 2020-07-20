@@ -82,7 +82,8 @@ body {
 
 .content-wrapper {
   /* width: 840px; */
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .content-label {
@@ -143,6 +144,15 @@ body {
   /* float: left; */
 }
 .comment-name {
-  width: 100px;
+  width: 200px;
   float: left;
+}
+.comment-text {
+  /* font-size: 14pt; */
+}
+
+.wirte-button {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
 }
