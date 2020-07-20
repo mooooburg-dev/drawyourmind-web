@@ -1,15 +1,15 @@
 <template>
   <div class="content-wrapper mt-5">
     <div class="content-label">
-      <span class="oxtail content-title">CAREER</span>
+      <span class="oxtail content-title text-uppercase">{{$route.name}}</span>
     </div>
     <div class="content-container career-list">
       <div v-for="(item, item_idx) in careers" :key="item_idx" class="career-item">
         <span class="career-text oxtail" @click.prevent="careerItemClick(item, item_idx)">{{ item.name }}</span>
-        <div class="career-item-desc">
-          <span>{{ item.date }}</span><br/>
-          <span>Role: Front-ent Developer</span><br/>
-          <span>{{ item.date }}</span><br/><br/><br/>
+        <div class="career-item-desc ml-3">
+          <span>{{ item.date }}</span><br/><br/>
+          <span v-if="item.role" v-html="item.role"></span><br/><br/>
+          <span v-if="item.projects" v-html="item.projects"></span><br/><br/><br/>
         </div>
       </div>
     </div>
@@ -23,15 +23,21 @@ export default {
       careers: [
         {
           name: 'Medit',
-          date: '2019.09',
+          date: '2019.09 ~ ',
+          role: '<b>Role_</b><br/>Informatation Startegy Team / Web Developer',
+          projects: '<b>Projects_</b><br/>*Partner Portal System / HR System'
         },
         {
           name: 'Mediabling',
-          date: '2019.09',
+          date: '2016.09 ~ 2019.03',
+          role: 'Digital Contents Team / Team Leader',
+          projects: 'Socical Marketing<br/>(LF / adidas / Reebok)'
         },
         {
           name: 'e-tribe',
-          date: '2019.09',
+          date: '2011.03 ~ 2016.09',
+          role: 'UX Group / Front-end Developer',
+          projects: 'Socical Marketing<br/>(LF / adidas / Reebok)'
         },
         {
           name: 'Solutionwide Pty Ltd',
@@ -57,6 +63,7 @@ export default {
 
   mounted(){
     $('.career-item-desc').slideUp(0);
+    $('.career-text').eq(0).trigger("click");
   },
 
   methods: {

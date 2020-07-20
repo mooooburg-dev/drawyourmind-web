@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrapper mt-5">
     <div class="content-label">
-      <span class="oxtail content-title">COMMENTS</span>
+      <span class="oxtail content-title text-uppercase">{{$route.name}}</span>
     </div>
     <div class="content-container career-list w-100">
       <div class="comment-form mr-2">
@@ -16,9 +16,9 @@
       <div class="comment-container ml-4 mt-4">
         <div v-for="(item, item_idx) in data" :key="item_idx" class="comment-item mb-2">
           <div class="comment-name">
-            <span class="comment-name">{{ item.name }}</span>
+            <span class="comment-name comment-text">{{ item.name }}</span>
           </div>
-          <span>{{ item.comment }}</span>
+          <span class="comment-text">{{ item.comment }}</span>
         </div>
       </div>
     </div>
@@ -58,13 +58,20 @@ export default {
     },
 
     register(){
+      if(this.name == '' || this.comment == ''){
+
+        return;
+      }
       axios.get('http://localhost:9000/register', {
         params: {
           name: this.name,
           comment: this.comment
         }
       }).then(response => {
-        this.getList();
+        if(response.data == "OK"){
+          this.name = this.comment ='';
+          this.getList();
+        }
       }).catch(err => {
         console.log(err)
       })

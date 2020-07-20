@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrapper mt-5">
     <div class="content-label">
-      <span class="oxtail content-title">WORKS</span>
+      <span class="oxtail content-title text-uppercase">{{$route.name}}</span>
     </div>
     <div class="content-container">
       <div>
