@@ -1,17 +1,4 @@
-
-/* 
-Oxtail OT Bold
-
-font-family: oxtail, serif;
-font-weight: 700;
-font-style: normal;
-
-Oxtail OT BoldItalic
-
-font-family: oxtail, serif;
-font-weight: 700;
-font-style: italic;
- */
+@font-face { font-family: 'UhBeeMiMi'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeMiMi.woff') format('woff'); font-weight: normal; font-style: normal; }
 
  a:link {
   color: #3ab67f !important;
@@ -41,6 +28,13 @@ body {
   font-style: 12pt;
   color: #212121 !important;
 }
+
+.UhBeeMiMi {
+  font-family: 'UhBeeMiMi';
+  font-size: 16pt;
+  font-style: normal;
+}
+
 .oxtail {
   font-family: oxtail, serif;
   font-weight: 700;
@@ -146,9 +140,6 @@ body {
 .comment-name {
   width: 200px;
   float: left;
-}
-.comment-text {
-  /* font-size: 14pt; */
 }
 
 .wirte-button {

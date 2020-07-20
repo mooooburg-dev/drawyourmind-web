@@ -2,7 +2,9 @@
   <div id="app">
     <profile-menu></profile-menu>
     <div class="router-container">
-      <router-view></router-view>
+      <transition name="fade" mode="out-in">
+        <router-view></router-view>
+      </transition>
     </div>
   </div>
 </template>
@@ -20,4 +22,11 @@ export default {
 
 <style>
 @import url('/static/css/common.css');
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>

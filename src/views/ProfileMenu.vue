@@ -19,7 +19,7 @@
       </div>
       <div class="menus mt-5">
         <div v-for="(item, item_idx) in menus" :key="item_idx" @click="menuClickHandler(item)">
-          <span :class="`oxtail menu-text menu-item ${item.active ? 'active' : 'unActive'}`">{{ item.name }}</span>
+          <span :class="`oxtail menu-text menu-item ${item.name.toLowerCase() == $route.name.toLowerCase() ? 'active' : 'unActive'}`">{{ item.name }}</span>
         </div>
       </div>
     </div>
@@ -35,27 +35,22 @@ export default {
         {
           name: 'Career',
           path: '/career',
-          active: false,
         },
         {
           name: 'Works',
           path: '/works',
-          active: false,
         },
         {
           name: 'Ordinary',
           path: '/ordinary',
-          active: false,
         },
         {
           name: 'Blog',
-          path: '/blog',
-          active: false,
+          path: 'http://mooooburg-dev.github.io',
         },
         {
           name: 'Comments',
           path: '/comments',
-          active: false,
         },
       ],
     }
@@ -73,13 +68,15 @@ export default {
   methods: {
     homeClickHandler(){
       this.$router.push({path:'/'}).catch(err => err);
-      this.menus.forEach(menu => menu.active = false);
     },
 
     menuClickHandler(menu){
-      this.menus.forEach(menu => menu.active = false);
-      menu.active = true;
-      this.$router.push({path:menu.path}).catch(err => err);
+      if(menu.path.includes("http://")){
+        window.open(menu.path);
+      } else {
+        this.$router.push({path:menu.path}).catch(err => err);
+      }
+      
     }
   }
 }
