@@ -31,6 +31,8 @@ import axios from 'axios';
 export default {
   data(){
     return {
+      baseUrl: '',
+
       data: [],
       name: '',
       comment: '',
@@ -38,6 +40,7 @@ export default {
   },
 
   mounted(){
+    this.baseUrl = process.env.VUE_APP_BASE_URL;
     this.getList();
   },
 
@@ -47,7 +50,7 @@ export default {
     },
 
     getList(){
-      axios.get('http://localhost:9000/list')
+      axios.get(this.baseUrl + '/list')
       .then(response => {
         console.log(response);
         this.data = response.data;
@@ -62,7 +65,7 @@ export default {
 
         return;
       }
-      axios.get('http://localhost:9000/register', {
+      axios.get(this.baseUrl + '/register', {
         params: {
           name: this.name,
           comment: this.comment

@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve --mode local --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "yarn build && aws s3 sync ./dist s3://drawyourmind.com"
+    "deploy": "vue-cli-service build --mode dev && aws s3 sync ./dist s3://drawyourmind.com"
   },
   "dependencies": {
     "axios": "^0.19.2",
