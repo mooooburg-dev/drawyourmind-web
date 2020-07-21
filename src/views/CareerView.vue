@@ -28,7 +28,7 @@ export default {
           projects: '<b>Projects_</b><br/>*Partner Portal System / HR System'
         },
         {
-          name: 'Mediabling',
+          name: 'mediabling',
           date: '2016.09 ~ 2019.03',
           role: 'Digital Contents Team / Team Leader',
           projects: 'Socical Marketing<br/>(LF / adidas / Reebok)'

@@ -51,6 +51,10 @@ body {
   width: 400px;
 }
 
+.avatar {
+  cursor: pointer;
+}
+
 #job {
   font-size: 18pt;
 }
