@@ -52,6 +52,7 @@ body {
 }
 
 .avatar {
+  width: 102px;
   cursor: pointer;
 }
 
