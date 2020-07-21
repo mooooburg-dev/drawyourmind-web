@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+// var webpack = require('webpack');
 
 module.exports = {
   lintOnSave: false,
@@ -10,12 +10,12 @@ module.exports = {
   //     enableInSFC: false
   //   }
   // },
-  configureWebpack: {
-    plugins: [
-      new webpack.ProvidePlugin({
-        'window.Quill': 'quill/dist/quill.js',
-        'Quill': 'quill/dist/quill.js'
-      }),
-    ]
-  }
+  // configureWebpack: {
+  //   plugins: [
+  //     new webpack.ProvidePlugin({
+  //       'window.Quill': 'quill/dist/quill.js',
+  //       'Quill': 'quill/dist/quill.js'
+  //     }),
+  //   ]
+  // }
 };
