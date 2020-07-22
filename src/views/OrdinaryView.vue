@@ -20,13 +20,22 @@
 export default {
   data(){
     return {
-      careers: [
-        {
-          name: 'MEDIT'
-        },
-
-      ]
+      baseUrl: '',
+      data: [],
     }
+  },
+
+  mounted(){
+    this.baseUrl = process.env.VUE_APP_BASE_URL;
+    this.getList();
+  },
+
+  getList(){
+
+  },
+
+  register(){
+
   }
 }
 </script>
