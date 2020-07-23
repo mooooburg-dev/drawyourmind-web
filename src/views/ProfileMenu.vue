@@ -8,8 +8,8 @@
         <span id="job" class="oxtail">Web Developer</span><br/>
         <span id="name" class="oxtail">Jeongmu Park</span><br/>
       </div>
-      <div class="profile-text-2 mt-3">
-        <span>MEDIT corp.</span><br/>
+      <div class="profile-text-2 mt-4">
+        <span>MEDIT corp. / Seoul, South Korea</span><br/>
         <span>jeongmupark@gmail.com</span><br/>
         <span>+82 10 3806 7021</span><br/><br/>
         <span><a href="http://github.com/mooooburg-dev" target="_blank">@Github</a></span><br/>
