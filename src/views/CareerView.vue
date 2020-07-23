@@ -25,7 +25,7 @@ export default {
           name: 'Medit',
           date: '2019.09 ~ ',
           role: '<b>Role_</b><br/>Informatation Startegy Team / Web Developer',
-          projects: '<b>Projects_</b><br/>*Partner Portal System / HR System'
+          projects: '<b>Projects_</b><br/><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">Partner Portal System</a> / HR System'
         },
         {
           name: 'mediabling',
