@@ -11,8 +11,9 @@
       <div class="profile-text-2 mt-3">
         <span>MEDIT corp.</span><br/>
         <span>jeongmupark@gmail.com</span><br/>
-        <span><a href="http://github.com/mooooburg-dev" target="_blank">github.com/mooooburg-dev</a></span><br/>
-        <span>+82 10 3806 7021</span><br/>
+        <span>+82 10 3806 7021</span><br/><br/>
+        <span><a href="http://github.com/mooooburg-dev" target="_blank">@Github</a></span><br/>
+        <span><a href="https://www.linkedin.com/in/jeongmu-park-7b064b27/" target="_blank">@Linkedin</a></span><br/>
       </div>
       <div class="mt-5">
         <img src="/static/img/web_icons.png">
