@@ -30,30 +30,38 @@ export default {
         {
           name: 'mediabling',
           date: '2016.09 ~ 2019.03',
-          role: 'Digital Contents Team / Team Leader',
-          projects: 'Socical Marketing<br/>(LF / adidas / Reebok)'
+          role: '<b>Role_</b><br/>Digital Contents Team / Team Leader',
+          projects: '<b>Projects_</b><br/>Digital Marketing<br/>(LF / adidas / Reebok)'
         },
         {
           name: 'e-tribe',
           date: '2011.03 ~ 2016.09',
-          role: 'UX Group / Front-end Developer',
-          projects: 'Socical Marketing<br/>(LF / adidas / Reebok)'
+          role: '<b>Role_</b><br/>UX Group / Front-end Developer',
+          projects: '<b>Projects_</b><br/>Meritz / NEXON / LG / VUAL / Lotte / Hanhwa'
         },
         {
           name: 'Solutionwide Pty Ltd',
-          date: '2019.09',
+          date: '2009.12 ~ 2010.12',
+          role: '<b>Role_</b><br/>Flash Developer',
+          projects: '<b>Projects_</b><br/>Hankook tire / Hyundai Motors / LG'
         },
         {
           name: 'Pixdine',
-          date: '2019.09',
+          date: '2008.08 ~ 2009.08',
+          role: '<b>Role_</b><br/>Flash Developer',
+          projects: '<b>Projects_</b><br/>Coca-cola / SK Telecom / LG'
         },
         {
           name: 'xPrime',
-          date: '2019.09',
+          date: '2007.08 ~ 2008.07',
+          role: '<b>Role_</b><br/>Flash Developer',
+          projects: '<b>Projects_</b><br/>Samsung Anycall / NewYork Life / WooriBank / Nonghyup X-BANK'
         },
         {
           name: 'DesignArt',
-          date: '2019.09',
+          date: '2006.11 ~ 2007.04',
+          role: '<b>Role_</b><br/>Designer',
+          projects: '<b>Projects_</b><br/>Makeshop ShoppingMall Design'
         },
       ],
 
