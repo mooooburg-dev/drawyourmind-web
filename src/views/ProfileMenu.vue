@@ -15,7 +15,7 @@
         <span><a href="http://github.com/mooooburg-dev" target="_blank">@Github</a></span><br/>
         <span><a href="https://www.linkedin.com/in/jeongmu-park-7b064b27/" target="_blank">@Linkedin</a></span><br/>
       </div>
-      <div class="mt-5">
+      <div class="mt-4">
         <img src="/static/img/web_icons.png">
       </div>
       <div class="menus mt-5">
