@@ -1,5 +1,7 @@
 # drawyourmind-web
 
+![image](https://user-images.githubusercontent.com/18201794/88411483-fbf39800-ce12-11ea-81f0-0146703ba54d.png)
+
 ## Project setup
 ```
 npm install
