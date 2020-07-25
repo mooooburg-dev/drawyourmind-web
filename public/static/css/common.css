@@ -38,7 +38,7 @@ a:active {
 
 body {
   font-style: 12pt;
-  color: #212121 !important;
+  color: #666666 !important;
 }
 
 img {
@@ -81,7 +81,7 @@ img {
 }
 
 .menu-item.unActive {
-  color: #212121;
+  /* color: #212121; */
 }
 
 .content-wrapper {
@@ -126,6 +126,11 @@ img {
 
 .career-item .career-item-desc{
   line-height: 20pt;
+}
+
+.career-img {
+  -webkit-filter: grayscale(100%);
+  filter: gray;
 }
 
 /* ------------------------------------

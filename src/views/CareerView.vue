@@ -9,7 +9,10 @@
         <div class="career-item-desc ml-3">
           <span>{{ item.date }}</span><br/><br/>
           <span v-if="item.role" v-html="item.role"></span><br/><br/>
-          <span v-if="item.projects" v-html="item.projects"></span><br/><br/><br/>
+          <span v-if="item.projects" v-html="item.projects"></span><br/><br/>
+          <div class="career-img">
+            <img v-if="item.image" :src="item.image">
+          </div><br/><br/>
         </div>
       </div>
     </div>
@@ -25,7 +28,9 @@ export default {
           name: 'Medit',
           date: '2019.09 ~ ',
           role: '<b>Role_</b><br/>Informatation Startegy Team / Web Developer',
-          projects: '<b>Projects_</b><br/><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">Partner Portal System</a> / <a href="https://github.com/mooooburg-dev/Medit-HR" target="_blank">HR System</a>'
+          projects: '<b>Projects_</b><br/><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">Partner Portal System</a> / <a href="https://github.com/mooooburg-dev/Medit-HR" target="_blank">HR System</a>',
+          image: '/static/img/career_medit.png'
+          
         },
         {
           name: 'mediabling',
@@ -37,25 +42,29 @@ export default {
           name: 'e-tribe',
           date: '2011.03 ~ 2016.09',
           role: '<b>Role_</b><br/>UX Group / Front-end Developer',
-          projects: '<b>Projects_</b><br/>Meritz / NEXON / LG / VUAL / Lotte / Hanhwa'
+          projects: '<b>Projects_</b><br/>Meritz / NEXON / LG / VUAL / Lotte / Hanhwa',
+          image: '/static/img/career_etribe.png'
         },
         {
           name: 'Solutionwide Pty Ltd',
-          date: '2009.12 ~ 2010.12',
+          date: '2009.12 ~ 2010.12 (Sydney, Australia)',
           role: '<b>Role_</b><br/>Flash Developer',
-          projects: '<b>Projects_</b><br/>Hankook tire / Hyundai Motors / LG'
+          projects: '<b>Projects_</b><br/>Hankook tire / Hyundai Motors / LG',
+          image: '/static/img/career_solutionwide.png'
         },
         {
           name: 'Pixdine',
           date: '2008.08 ~ 2009.08',
           role: '<b>Role_</b><br/>Flash Developer',
-          projects: '<b>Projects_</b><br/>Coca-cola / SK Telecom / LG'
+          projects: '<b>Projects_</b><br/>Coca-cola / SK Telecom / LG',
+          image: '/static/img/career_pixdine.png'
         },
         {
           name: 'xPrime',
           date: '2007.08 ~ 2008.07',
           role: '<b>Role_</b><br/>Flash Developer',
-          projects: '<b>Projects_</b><br/>Samsung Anycall / NewYork Life / WooriBank / Nonghyup X-BANK'
+          projects: '<b>Projects_</b><br/>Samsung Anycall / NewYork Life / WooriBank / Nonghyup X-BANK',
+          image: '/static/img/career_xprime.png'
         },
         {
           name: 'DesignArt',
