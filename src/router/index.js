@@ -7,6 +7,9 @@ import OrdinaryView from "../views/OrdinaryView.vue";
 import BlogView from "../views/BlogView.vue";
 import CommentsView from "../views/CommentsView.vue";
 
+import MeditPartnerPortal from "../views/works/MeditPartnerPortal.vue";
+// import { component } from "vue/types/umd";
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -24,6 +27,13 @@ const routes = [
     path: "/works",
     name: "works",
     component: WorksView,
+    children: [
+      {
+        path: 'mpp',
+        name: 'mpp',
+        component: MeditPartnerPortal,
+      }
+    ]
   },
   {
     path: "/ordinary",

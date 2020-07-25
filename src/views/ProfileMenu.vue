@@ -20,7 +20,7 @@
       </div>
       <div class="menus mt-5">
         <div v-for="(item, item_idx) in menus" :key="item_idx" @click="menuClickHandler(item)">
-          <span :class="`oxtail menu-text menu-item ${item.name.toLowerCase() == $route.name.toLowerCase() ? 'active' : 'unActive'}`">{{ item.name }}</span>
+          <span :class="`oxtail menu-text menu-item ${ item.name && $route.name && item.name.toLowerCase() == $route.name.toLowerCase() ? 'active' : 'unActive'}`">{{ item.name }}</span>
         </div>
       </div>
     </div>
