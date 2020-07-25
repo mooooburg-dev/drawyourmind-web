@@ -33,7 +33,7 @@ export default {
 
   mounted(){
     // console.log(this.$route.name);
-    if(this.$route.name == 'works') this.$router.push(this.$route.path + '/' + this.arrPathName[0])
+    if(this.$route.path.toLowerCase() == '/works') this.$router.push(this.$route.path + '/' + this.arrPathName[0])
   }
 }
 </script>

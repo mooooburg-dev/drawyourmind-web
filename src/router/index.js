@@ -30,8 +30,8 @@ const routes = [
     children: [
       {
         path: 'mpp',
-        name: 'mpp',
-        component: MeditPartnerPortal,
+        name: 'works',
+        component: MeditPartnerPortal
       }
     ]
   },
