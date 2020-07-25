@@ -19,9 +19,21 @@ export default {
     }
   },
 
+  watch: {
+    '$route.path': {
+      handler(){
+        console.log('????');
+        if(this.$route.path == '/works'){
+          console.log('11');
+          this.$router.push(this.$route.path + '/' + this.arrPathName[0])
+        }
+      }
+    }
+  },
+
   mounted(){
     // console.log(this.$route.name);
-    this.$router.push(this.$route.path + '/' + this.arrPathName[0])
+    if(this.$route.name == 'works') this.$router.push(this.$route.path + '/' + this.arrPathName[0])
   }
 }
 </script>

@@ -23,6 +23,10 @@ export default {
 <style>
 @import url('/static/css/common.css');
 
+#app {
+  min-width: 1280px;
+}
+
 .fade-enter-active, .fade-leave-active {
   transition: opacity .3s;
 }
