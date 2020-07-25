@@ -36,7 +36,7 @@ export default {
           name: 'mediabling',
           date: '2016.09 ~ 2019.03',
           role: '<b>Role_</b><br/>Digital Contents Team / Team Leader',
-          projects: '<b>Projects_</b><br/>Digital Marketing<br/>(LF / adidas / Reebok)',
+          projects: '<b>Projects_</b><br/>Digital Marketing / LookBook Shooting<br/>(LF / adidas / Reebok)',
           image: '/static/img/career_mediabling.png'
         },
         {
