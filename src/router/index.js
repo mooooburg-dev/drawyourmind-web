@@ -25,7 +25,7 @@ const routes = [
   },
   {
     path: "/works",
-    name: "works",
+    // name: "works",
     component: WorksView,
     children: [
       {

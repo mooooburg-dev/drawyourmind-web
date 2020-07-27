@@ -49,6 +49,7 @@ img {
 .router-container {
   float: left;
   width: 880px;
+  min-height: calc(100vh - 160px);
 }
 
 .profile-menu-continer {

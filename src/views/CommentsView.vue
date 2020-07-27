@@ -5,10 +5,10 @@
     </div>
     <div class="content-container career-list w-100">
       <div class="comment-form mr-2">
-        <b-form-input id="input-name" class="UhBeeMiMi" v-model="name" placeholder="Enter your name"></b-form-input>
+        <b-form-input id="input-name" class="" v-model="name" placeholder="Enter your name"></b-form-input>
       </div>
       <div class="comment-form mr-2" style="width:60%">
-        <b-form-input id="input-commet" class="UhBeeMiMi" v-model="comment" placeholder="Enter your comment"></b-form-input>
+        <b-form-input id="input-commet" class="" v-model="comment" placeholder="Enter your comment"></b-form-input>
       </div>
       <div>
         <b-button variant="success" @click.prevent="submitClick">Submit</b-button>
@@ -17,9 +17,9 @@
       <div class="comment-container ml-4 mt-4">
         <div v-for="(item, item_idx) in data" :key="item_idx" class="comment-item mb-1">
           <div class="comment-name">
-            <span class="UhBeeMiMi comment-name comment-text">{{ item.name }}</span>
+            <span class="comment-name comment-text">{{ item.name }}</span>
           </div>
-          <span class="UhBeeMiMi comment-text">{{ item.comment }}</span>
+          <span class="comment-text">{{ item.comment }}</span>
         </div>
       </div>
     </div>

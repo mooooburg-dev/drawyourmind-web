@@ -6,16 +6,21 @@
         <router-view></router-view>
       </transition>
     </div>
+    <footer-area></footer-area>
+    
   </div>
 </template>
 
 <script>
 import ProfileMenu from "./views/ProfileMenu.vue"
+import FooterArea from "./views/FooterArea.vue"
 
 export default {
   name: "App",
+
   components: {
     ProfileMenu,
+    FooterArea,
   },
 }
 </script>
