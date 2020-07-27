@@ -46,9 +46,15 @@ img {
   max-height: 100%;
 }
 
+.footer-area {
+  /* width: 100%; */
+  bottom: 0px;
+}
+
 .router-container {
   float: left;
   width: 880px;
+  /* width: 100%; */
   min-height: calc(100vh - 160px);
 }
 
