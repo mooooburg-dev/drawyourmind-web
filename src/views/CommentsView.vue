@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrapper mt-5">
     <div class="content-label">
-      <span class="oxtail content-title text-uppercase">{{$route.name}}</span>
+      <span class="oxtail content-title text-uppercase">{{ $route.name }}</span>
     </div>
     <div class="content-container career-list w-100">
       <div class="comment-form mr-2">
@@ -12,7 +12,8 @@
       </div>
       <div>
         <b-button variant="success" @click.prevent="submitClick">Submit</b-button>
-      </div><br/>
+      </div>
+      <br />
       <div class="comment-container ml-4 mt-4">
         <div v-for="(item, item_idx) in data" :key="item_idx" class="comment-item mb-1">
           <div class="comment-name">
@@ -26,64 +27,64 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios"
 
 export default {
-  data(){
+  data() {
     return {
-      baseUrl: '',
+      baseUrl: "",
 
       data: [],
-      name: '',
-      comment: '',
+      name: "",
+      comment: "",
     }
   },
 
-  mounted(){
-    this.baseUrl = process.env.VUE_APP_BASE_URL;
-    this.getList();
+  mounted() {
+    this.baseUrl = process.env.VUE_APP_BASE_URL
+    this.getList()
   },
 
   methods: {
-    submitClick(){
-      this.register();
+    submitClick() {
+      this.register()
     },
 
-    getList(){
-      axios.get(this.baseUrl + '/list')
-      .then(response => {
-        console.log(response);
-        this.data = response.data;
-      })
-      .catch(err => {
-        console.log(err)
-      })
+    getList() {
+      axios
+        .get(this.baseUrl + "/list")
+        .then((response) => {
+          console.log(response)
+          this.data = response.data
+        })
+        .catch((err) => {
+          console.log(err)
+        })
     },
 
-    register(){
-      if(this.name == '' || this.comment == ''){
-
-        return;
+    register() {
+      if (this.name == "" || this.comment == "") {
+        return
       }
-      axios.get(this.baseUrl + '/register', {
-        params: {
-          name: this.name,
-          comment: this.comment
-        }
-      }).then(response => {
-        if(response.data == "OK"){
-          this.name = this.comment ='';
-          this.getList();
-        }
-      }).catch(err => {
-        console.log(err)
-      })
-    }
-  }
+      axios
+        .get(this.baseUrl + "/register", {
+          params: {
+            name: this.name,
+            comment: this.comment,
+          },
+        })
+        .then((response) => {
+          if (response.data == "OK") {
+            this.name = this.comment = ""
+            this.getList()
+          }
+        })
+        .catch((err) => {
+          console.log(err)
+        })
+    },
+  },
 }
 </script>
 
-<style>
-
- 
-</style>
+<style></style>

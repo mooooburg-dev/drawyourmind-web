@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrapper mt-5">
     <div class="content-label">
-      <span class="oxtail content-title text-uppercase">{{$route.name}}</span>
+      <span class="oxtail content-title text-uppercase">{{ $route.name }}</span>
     </div>
     <div class="content-container career-list" style="width:100%;">
       <iframe src="http://mooooburg-dev.github.io" width="100%" height="800px" frameborder="none"></iframe>
@@ -11,19 +11,16 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
       careers: [
         {
-          name: 'MEDIT'
+          name: "MEDIT",
         },
-
-      ]
+      ],
     }
-  }
+  },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

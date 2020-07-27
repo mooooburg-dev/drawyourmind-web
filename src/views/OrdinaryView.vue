@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrapper mt-5">
     <div class="content-label">
-      <span class="oxtail content-title text-uppercase">{{$route.name}}</span>
+      <span class="oxtail content-title text-uppercase">{{ $route.name }}</span>
     </div>
     <div class="content-container career-list">
       <div v-for="(item, item_idx) in careers" :key="item_idx" class="career-item">
@@ -18,28 +18,22 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-      baseUrl: '',
+      baseUrl: "",
       data: [],
     }
   },
 
-  mounted(){
-    this.baseUrl = process.env.VUE_APP_BASE_URL;
-    this.getList();
+  mounted() {
+    this.baseUrl = process.env.VUE_APP_BASE_URL
+    this.getList()
   },
 
-  getList(){
+  getList() {},
 
-  },
-
-  register(){
-
-  }
+  register() {},
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

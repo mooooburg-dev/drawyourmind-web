@@ -13,22 +13,23 @@
 import ProfileMenu from "./views/ProfileMenu.vue"
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     ProfileMenu,
-  }
+  },
 }
 </script>
 
 <style>
-@import url('/static/css/common.css');
+@import url("/static/css/common.css");
 
 #app {
   min-width: 1280px;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .3s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
