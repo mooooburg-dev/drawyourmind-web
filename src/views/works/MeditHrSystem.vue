@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span>HR</span>
+    <span>HR System</span>
   </div>
 </template>
 
