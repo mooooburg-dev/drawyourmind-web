@@ -17,8 +17,8 @@
         <img src="/static/img/web_icons.png" />
       </div>
       <div class="menus mt-5">
-        <div v-for="(item, item_idx) in menus" :key="item_idx" @click="menuClickHandler(item)">
-          <span :class="`oxtail menu-text menu-item ${item.name && $route.name && $route.path.includes(item.name.toLowerCase()) ? 'active' : 'unActive'}`">{{ item.name }}</span>
+        <div v-for="(item, item_idx) in menus" :key="item_idx">
+          <span :class="`oxtail menu-text menu-item ${item.name && $route.name && $route.path.includes(item.name.toLowerCase()) ? 'active' : 'unActive'}`" @click="menuClickHandler(item)">{{ item.name }}</span>
         </div>
       </div>
     </div>
