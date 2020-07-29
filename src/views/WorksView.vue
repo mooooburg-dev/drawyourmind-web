@@ -14,9 +14,9 @@ export default {
   data() {
     return {
       // works 데이터
-      arrPathName: ["mpp", "hr"],
+      arrPathName: ["mpp", "hr", "adidasGolf"],
 
-      workIdx: 1,
+      workIdx: 2,
     }
   },
 

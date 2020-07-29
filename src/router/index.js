@@ -9,6 +9,7 @@ import CommentsView from "../views/CommentsView.vue";
 
 import MeditPartnerPortal from "../views/works/MeditPartnerPortal.vue";
 import MeditHrSystem from "../views/works/MeditHrSystem.vue";
+import AdidasGolf from "../views/works/AdidasGolf.vue";
 // import { component } from "vue/types/umd";
 
 Vue.use(VueRouter);
@@ -38,6 +39,11 @@ const routes = [
         path: "hr",
         name: "works",
         component: MeditHrSystem,
+      },
+      {
+        path: "adidasGolf",
+        name: "works",
+        component: AdidasGolf,
       },
     ],
   },
