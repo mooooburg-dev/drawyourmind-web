@@ -18,7 +18,7 @@ export default {
 
       setTimeout(() => {
         this.$emit('goMenu');
-      }, 800)
+      }, 1000)
     }
   }
 }
