@@ -8,6 +8,7 @@
         </transition>
       </div>
     </div>
+    <wall-container v-if="$route.path == '/'"></wall-container>
     <footer-area></footer-area>
     
   </div>
@@ -16,6 +17,7 @@
 <script>
 import ProfileMenu from "./views/ProfileMenu.vue"
 import FooterArea from "./views/FooterArea.vue"
+import WallContainer from "./views/WallContainer.vue"
 
 export default {
   name: "App",
@@ -23,6 +25,7 @@ export default {
   components: {
     ProfileMenu,
     FooterArea,
+    WallContainer,
   },
 }
 </script>

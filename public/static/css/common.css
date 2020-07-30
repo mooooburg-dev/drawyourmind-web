@@ -71,11 +71,14 @@ img {
   float: left;
   width: 880px;
   height: 100%;
+  margin-left: 400px;
 }
 
 .profile-menu-continer {
   float: left;
   width: 400px;
+  position: absolute;
+  z-index: 100;
 }
 
 .avatar {
@@ -128,6 +131,18 @@ img {
 
 .content-container {
   margin-top: 72px;
+}
+
+/* ------------------------------------
+  WALL
+------------------------------------ */
+
+.wall-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 /* ------------------------------------
