@@ -1,5 +1,6 @@
 <template>
   <div class="wall-wrapper">
+    <div id="wall-cover"></div>
     <temp-wall></temp-wall>
   </div>
 </template>

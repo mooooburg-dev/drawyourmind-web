@@ -24,6 +24,7 @@ export default {
 }
 
 #myVideo {
+  opacity: .1;
   position: fixed;
   right: 0;
   bottom: 0;

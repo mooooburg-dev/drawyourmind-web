@@ -8,7 +8,9 @@
         </transition>
       </div>
     </div>
-    <wall-container v-if="$route.path == '/'"></wall-container>
+    <transition name="fade">
+      <wall-container v-if="$route.path == '/'"></wall-container>
+    </transition>
     <footer-area></footer-area>
     
   </div>
