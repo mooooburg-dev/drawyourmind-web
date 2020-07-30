@@ -11,7 +11,7 @@
         <span>jeongmupark@gmail.com</span><br />
         <span>+82 10 3806 7021</span><br /><br />
         <span><a href="http://github.com/mooooburg-dev" target="_blank">@Github</a></span><br />
-        <span><a href="https://www.linkedin.com/in/jeongmu-park-7b064b27/" target="_blank">@Linkedin</a></span><br />
+        <span><a href="https://www.linkedin.com/in/jeongmupark" target="_blank">@Linkedin</a></span><br />
       </div>
       <div class="mt-4">
         <img src="/static/img/web_icons.png" />
