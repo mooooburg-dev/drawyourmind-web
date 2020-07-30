@@ -14,9 +14,17 @@
         <span><a href="https://www.linkedin.com/in/jeongmupark" target="_blank">@Linkedin</a></span><br />
       </div>
       <div class="mt-4">
-        <img src="/static/img/web_icons.png" />
+        <ul class="logos">
+          <li class="logo"><img src="/static/img/logo_0.png"></li>
+          <li class="logo"><img src="/static/img/logo_1.png"></li>
+          <li class="logo"><img src="/static/img/logo_2.png"></li>
+          <li class="logo"><img src="/static/img/logo_3.png"></li>
+          <li class="logo"><img src="/static/img/logo_4.png"></li>
+          <li class="logo"><img src="/static/img/logo_5.png"></li>
+        </ul>
+        <!-- <img src="/static/img/web_icons.png" /> -->
       </div>
-      <div class="menus mt-5">
+      <div class="menus mt-4">
         <div v-for="(item, item_idx) in menus" :key="item_idx">
           <span :class="`oxtail menu-text menu-item ${item.name && $route.name && $route.path.includes(item.name.toLowerCase()) ? 'active' : 'unActive'}`" @click="menuClickHandler(item)">{{ item.name }}</span>
         </div>

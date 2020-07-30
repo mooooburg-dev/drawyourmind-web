@@ -78,13 +78,26 @@ img {
 .profile-menu-continer {
   float: left;
   width: 400px;
-  position: absolute;
+  position: fixed;
   z-index: 100;
 }
 
 .avatar {
   width: 102px;
   cursor: pointer;
+}
+
+.logos {
+  list-style: none;
+  height: 30px;
+  padding-left: 0px;
+}
+
+.logo {
+  margin-right: 8px;
+  width: 30px;
+
+  float: left;
 }
 
 #job {
