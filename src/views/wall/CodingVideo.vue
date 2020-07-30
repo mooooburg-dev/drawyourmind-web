@@ -23,7 +23,7 @@ export default {
 }
 
 #myVideo {
-  opacity: .3;
+  opacity: .4;
   position: fixed;
   right: 0;
   bottom: 0;

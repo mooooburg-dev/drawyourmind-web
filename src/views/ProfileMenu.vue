@@ -18,6 +18,7 @@
           <li class="logo"><img src="/static/img/logo_0.png"></li>
           <li class="logo"><img src="/static/img/logo_1.png"></li>
           <li class="logo"><img src="/static/img/logo_2.png"></li>
+          <li class="logo"><img src="/static/img/logo_6.png"></li>
           <li class="logo"><img src="/static/img/logo_3.png"></li>
           <li class="logo"><img src="/static/img/logo_4.png"></li>
           <li class="logo"><img src="/static/img/logo_5.png"></li>
