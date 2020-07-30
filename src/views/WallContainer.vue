@@ -1,15 +1,15 @@
 <template>
   <div class="wall-wrapper">
     <div id="wall-cover"></div>
-    <temp-wall></temp-wall>
+    <coding-video></coding-video>
   </div>
 </template>
 
 <script>
-import TempWall from "./wall/TempWall.vue"
+import CodingVideo from "./wall/CodingVideo.vue"
 export default {
   components: {
-    TempWall,
+    CodingVideo,
   }
 }
 </script>
