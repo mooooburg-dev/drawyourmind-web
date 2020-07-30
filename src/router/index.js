@@ -34,16 +34,25 @@ const routes = [
         path: "mpp",
         name: "works",
         component: MeditPartnerPortal,
+        mata: {
+          name: "mpp",
+        },
       },
       {
         path: "hr",
         name: "works",
         component: MeditHrSystem,
+        meta: {
+          name: "hr",
+        },
       },
       {
         path: "adidasGolf",
         name: "works",
         component: AdidasGolf,
+        meta: {
+          name: "adidasGolf",
+        },
       },
     ],
   },

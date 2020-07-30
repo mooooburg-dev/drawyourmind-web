@@ -8,12 +8,16 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 // import "vue-material/dist/vue-material.min.css";
 // import "vue-material/dist/theme/default.css";
 
+import Paginate from "vuejs-paginate"
+
 Vue.use(router)
 // Vue.use(axios)
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+
+Vue.component('paginate', Paginate)
 
 // Vue.use(Bootstrap)
 Vue.config.productionTip = false
