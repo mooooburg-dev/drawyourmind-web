@@ -1,6 +1,6 @@
 <template>
   <div class="wall-wrapper">
-    <div id="wall-cover"></div>
+    <div class="wall-cover"></div>
     <coding-video></coding-video>
   </div>
 </template>
@@ -10,6 +10,16 @@ import CodingVideo from "./wall/CodingVideo.vue"
 export default {
   components: {
     CodingVideo,
+  },
+
+  methods: {
+    showCover(){
+      $('.wall-cover').addClass('active');
+
+      setTimeout(() => {
+        this.$emit('goMenu');
+      }, 800)
+    }
   }
 }
 </script>

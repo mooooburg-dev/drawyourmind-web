@@ -51,6 +51,8 @@ export default {
         //   path: "/comments",
         // },
       ],
+
+      tempPath: '',
     }
   },
 
@@ -76,14 +78,27 @@ export default {
     },
 
     menuClickHandler(menu) {
-      if (this.$route.name !== menu.name.toLowerCase()) {
-        if (menu.path.includes("http://")) {
-          window.open(menu.path)
-        } else {
-          this.$router.push({ path: menu.path }).catch((err) => err)
+      if(this.$route.path == '/' && menu.path.includes("http://") == false){
+        this.$emit('showCover');
+        this.tempPath = menu.path;
+      } else if(menu.path.includes("http://")) {
+        window.open(menu.path);
+      } else {
+        if (this.$route.name !== menu.name.toLowerCase()) {
+          if (menu.path.includes("http://")) {
+            window.open(menu.path)
+          } else {
+            this.$router.push({ path: menu.path }).catch((err) => err)
+          }
         }
       }
     },
+
+    goMenu(){
+      if (this.$route.name !== this.tempPath.toLowerCase()) {
+        this.$router.push({ path: this.tempPath }).catch((err) => err)
+      }
+    }
   },
 }
 </script>

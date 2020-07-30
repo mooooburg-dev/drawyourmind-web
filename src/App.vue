@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <profile-menu></profile-menu>
+    <profile-menu ref="profileMenu" @showCover="showCover" @goMenu="goMenu"></profile-menu>
     <div class="bodywrap">
       <div class="router-container">
         <transition name="fade" mode="out-in">
@@ -9,7 +9,7 @@
       </div>
     </div>
     <transition name="fade">
-      <wall-container v-if="$route.path == '/'"></wall-container>
+      <wall-container ref="wall" v-if="$route.path == '/'" @goMenu="goMenu"></wall-container>
     </transition>
     <footer-area></footer-area>
     
@@ -29,6 +29,16 @@ export default {
     FooterArea,
     WallContainer,
   },
+
+  methods: {
+    showCover(){
+      this.$refs.wall.showCover();
+    },
+
+    goMenu(){
+      this.$refs.profileMenu.goMenu();
+    }
+  }
 }
 </script>
 
