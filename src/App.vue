@@ -1,10 +1,12 @@
 <template>
   <div id="app">
     <profile-menu></profile-menu>
-    <div class="router-container">
-      <transition name="fade" mode="out-in">
-        <router-view></router-view>
-      </transition>
+    <div class="bodywrap">
+      <div class="router-container">
+        <transition name="fade" mode="out-in">
+          <router-view></router-view>
+        </transition>
+      </div>
     </div>
     <footer-area></footer-area>
     
@@ -30,6 +32,9 @@ export default {
 
 #app {
   min-width: 1280px;
+  width: 100%;
+  height: 100%;
+
 }
 
 .fade-enter-active,

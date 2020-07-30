@@ -1,7 +1,9 @@
 <template>
-  <div class="footer-area">
-    <span>Copyrights by drawyourmind.com, Allrights reserved.</span>
-  </div>
+  <footer class="footer-area">
+    <div class="footer-container">
+      <span>Copyrights by drawyourmind.com, Allrights reserved.</span>
+    </div>
+  </footer>
 </template>
 
 <script>
