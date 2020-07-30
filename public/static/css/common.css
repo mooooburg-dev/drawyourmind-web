@@ -47,15 +47,30 @@ img {
 }
 
 .footer-area {
-  /* width: 100%; */
-  bottom: 0px;
+  float: left;
+  width: 100%;
+}
+.footer-container {
+  min-height: 160px;
+  width: 100%;
+  vertical-align: middle;
+  padding: 20px 0px 12px 420px;
+  display: table;
+}
+.footer-container span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bodywrap {
+  width: 100%;
+  min-height: calc(100vh - 160px);
 }
 
 .router-container {
   float: left;
   width: 880px;
-  /* width: 100%; */
-  min-height: calc(100vh - 160px);
+  height: 100%;
 }
 
 .profile-menu-continer {
@@ -135,13 +150,13 @@ img {
   line-height: 20pt;
 }
 
-.career-img {
+.career-img-gray {
   -webkit-filter: grayscale(100%);
   filter: gray;
 }
 
 /* ------------------------------------
-  CARRER
+  WORKS
 ------------------------------------ */
 .work-item {
   width: 840px;
