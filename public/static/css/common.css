@@ -98,8 +98,13 @@ img {
 
 .menu-item {
   font-size: 24pt;
-  transition: color .5s;
+  /* transition: color .5s; */
   cursor: pointer;
+}
+.menu-item.over {
+  color: white !important;
+  background-color: #3ab67f !important;
+  text-decoration: none !important
 }
 
 .menu-item.active {

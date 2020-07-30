@@ -58,7 +58,17 @@ export default {
     sIdx: function() {},
   },
 
-  mounted() {},
+  mounted() {
+    $('.menu-item').on('mouseover', function(e){
+      e.preventDefault();
+      $(this).addClass('over');
+    })
+
+    $('.menu-item').on('mouseleave', function(e){
+      e.preventDefault();
+      $(this).removeClass('over');
+    })
+  },
 
   methods: {
     homeClickHandler() {
