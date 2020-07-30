@@ -10,7 +10,7 @@
           <span>{{ item.date }}</span><br /><br />
           <span v-if="item.role" v-html="item.role"></span><br /><br />
           <span v-if="item.projects" v-html="item.projects"></span><br /><br />
-          <div class="career-img">
+          <div :class="`${item_idx != 0 ? 'career-img-gray' : ''}`">
             <img v-if="item.image" :src="item.image" />
           </div>
           <br /><br />
