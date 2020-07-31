@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/18201794/88411483-fbf39800-ce12-11ea-81f0-0146703ba54d.png)
+![image](https://user-images.githubusercontent.com/18201794/89018454-e02e4b80-d356-11ea-8fab-c34434f014b5.png)
 
 # drawyourmind.com 2020
 
