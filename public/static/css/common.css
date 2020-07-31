@@ -238,8 +238,6 @@ img {
   color: #3ab67f;
   font-size: 36pt;
 }
-
-
 .comment-form {
   float: left;
 }
@@ -256,4 +254,12 @@ img {
   position: absolute;
   right: 50px;
   bottom: 50px;
+}
+
+.works-arrow {
+  color: #3ab67f;
+}
+
+.works-arrow-btn {
+  cursor: pointer;
 }

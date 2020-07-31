@@ -3,7 +3,12 @@
     <div class="content-label">
       <span class="oxtail content-title text-uppercase">{{ $route.name }}</span>
     </div>
+    
     <div class="content-container">
+      <div class="mb-3" style="width: 100%">
+        <span @click="arrowClick('prev')" class="works-arrow-btn"><b-icon-arrow-left-circle-fill class="works-arrow"></b-icon-arrow-left-circle-fill> Prev</span>
+        <span @click="arrowClick('next')" class="works-arrow-btn" style="float: right;">Next <b-icon-arrow-right-circle-fill class="works-arrow"></b-icon-arrow-right-circle-fill></span>
+      </div>
       <transition name="fade">
         <router-view></router-view>
       </transition>
@@ -37,30 +42,43 @@ export default {
       // works 데이터
       arrPathName: ["mpp", "hr", "adidasGolf"],
 
-      pageNum: 0,
+      pageNum: 1,
     }
   },
 
+
   mounted() {
     if (this.$route.path.toLowerCase() == "/works"){
-      this.$router.push(this.$route.path + "/" + this.arrPathName[this.pageNum])
+      this.$router.push(this.$route.path + "/" + this.arrPathName[this.pageNum-1])
     } else {
       for(const idx in this.arrPathName){
         if(this.arrPathName[idx] == this.$route.meta.name){
           this.pageNum = Number(idx)+1;
         }
-      }
-
-      console.log(this.pageNum);
+      } 
     }
+
+    console.log(this.pageNum);
   },
 
   methods: {
     clickCallback: function(pageNum) {
-      // if(this.pageNum == pageNum) return;
-      
       this.pageNum = pageNum;
       this.$router.push(`/works/${this.arrPathName[this.pageNum-1]}`)
+    },
+
+    arrowClick(arrow){
+      if(arrow == 'prev'){
+        if(this.pageNum > 1) {
+          this.pageNum--;
+          this.clickCallback(this.pageNum);
+        }
+      } else {
+        if(this.arrPathName.length > this.pageNum){
+          this.pageNum++;
+          this.clickCallback(this.pageNum);
+        }
+      }
     }
   }
 }
