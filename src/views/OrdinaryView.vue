@@ -8,11 +8,13 @@
         <span class="career-text oxtail">{{ item.name }}</span>
       </div>
     </div>
+    <!-- 
     <div class="wirte-button">
       <b-button size="lg" variant="primary" class="mb-2">
         <b-icon icon="pencil" aria-label="Help"></b-icon>
       </b-button>
     </div>
+     -->
   </div>
 </template>
 
