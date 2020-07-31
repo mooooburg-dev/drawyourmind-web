@@ -263,3 +263,12 @@ img {
 .works-arrow-btn {
   cursor: pointer;
 }
+
+.img-container ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.img-container ul li {
+  margin-bottom: 50px;
+}
