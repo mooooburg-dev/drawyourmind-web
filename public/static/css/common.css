@@ -129,7 +129,7 @@ img {
 }
 
 .content-wrapper {
-  /* width: 840px; */
+  width: 840px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -231,6 +231,10 @@ img {
 /* ------------------------------------
   WORKS
 ------------------------------------ */
+.work-item-img {
+  width: 840px;
+}
+
 .work-item {
   width: 840px;
 }
