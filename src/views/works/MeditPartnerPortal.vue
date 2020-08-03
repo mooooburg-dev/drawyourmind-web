@@ -13,12 +13,10 @@
       <div class="mt-5">
         <h3>archive</h3>
         <ul>
-          <li>
-            <span><a href="https://github.com/mooooburg-dev/medit-partner-portal/issues" target="_blank">github 프로젝트 이슈 노트</a></span>
-          </li>
-          <li>
-            <span><a href="https://mooooburg-dev.github.io/posts/ios-ipad-detect-issue/" target="_blank">iPad 분기 처리 이슈 정리</a></span>
-          </li>
+          <li><a href="https://github.com/mooooburg-dev/medit-partner-portal/issues" target="_blank">github 프로젝트 이슈 노트</a></li>
+          <li><a href="https://mooooburg-dev.github.io/posts/ios-ipad-detect-issue/" target="_blank">iPad 분기 처리 이슈 정리</a></li>
+          <li>요소에 접근해야 하는 시점이 애매할 때 nextTick() 사용하기</li>
+          <li>vue 값이 바뀌었는데 화면에 표시가 되지 않을 때 forceUpdate() 사용히기</li>
         </ul>
       </div>
       <div class="img-container text-center mt-5">
