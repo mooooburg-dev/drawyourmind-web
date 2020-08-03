@@ -9,7 +9,7 @@
         <span @click="arrowClick('prev')" class="works-arrow-btn"><b-icon-arrow-left-circle-fill class="works-arrow"></b-icon-arrow-left-circle-fill> Prev</span>
         <span @click="arrowClick('next')" class="works-arrow-btn" style="float: right;">Next <b-icon-arrow-right-circle-fill class="works-arrow"></b-icon-arrow-right-circle-fill></span>
       </div>
-      <transition name="fade">
+      <transition name="fade" mode="out-in">
         <router-view></router-view>
       </transition>
     </div>
