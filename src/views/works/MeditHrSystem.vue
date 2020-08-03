@@ -9,7 +9,7 @@
       <span>Duration : 2019.09 ~ 2012.12</span><br />
       <span>Member : MEDIT IST</span><br />
       <span>Role : Front-end (Vue.js)</span><br />
-      <span><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">https://github.com/mooooburg-dev/medit-partner-portal</a></span><br /><br />
+      <span><a href="https://github.com/mooooburg-dev/Medit-HR" target="_blank">https://github.com/mooooburg-dev/Medit-HR</a></span><br /><br />
       <div>
         MPP(Medit Partner Portal)시스템은 메디트의 제품을 사용하는 파트너들을 위한 포털 서비스로써 메디트의 제품 구매 및 관리부터 파트너들을 위한 서포트 서비스를 제공한다.
 
