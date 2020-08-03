@@ -31,6 +31,7 @@
           </li>
           <li><img src="/static/img/works/ehr_3.png" /></li>
           <li><img src="/static/img/works/ehr_4.png" /></li>
+          <li><img src="/static/img/works/ehr_5.png" /></li>
           <li>
             <p class="text-left">
               위 글에 대한 저작권은 본 사이트에 있으며 무단으로 복제 및 배포하실 수 없습니다.

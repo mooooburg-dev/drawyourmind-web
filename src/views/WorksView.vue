@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       // works 데이터
-      arrPathName: ["mpp", "hr", "adidasGolf"],
+      arrPathName: ["mpp", "hr", "adidasGolf", "diorGallery"],
 
       pageNum: 1,
     }

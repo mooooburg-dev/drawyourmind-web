@@ -10,6 +10,7 @@ import CommentsView from "../views/CommentsView.vue";
 import MeditPartnerPortal from "../views/works/MeditPartnerPortal.vue";
 import MeditHrSystem from "../views/works/MeditHrSystem.vue";
 import AdidasGolf from "../views/works/AdidasGolf.vue";
+import DiorGallery from "../views/works/DiorGallery.vue";
 // import { component } from "vue/types/umd";
 
 Vue.use(VueRouter);
@@ -52,6 +53,14 @@ const routes = [
         component: AdidasGolf,
         meta: {
           name: "adidasGolf",
+        },
+      },
+      {
+        path: "diorGallery",
+        name: "works",
+        component: DiorGallery,
+        meta: {
+          name: "diorGallery",
         },
       },
     ],
