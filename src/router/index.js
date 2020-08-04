@@ -11,6 +11,12 @@ import MeditPartnerPortal from "../views/works/MeditPartnerPortal.vue";
 import MeditHrSystem from "../views/works/MeditHrSystem.vue";
 import AdidasGolf from "../views/works/AdidasGolf.vue";
 import DiorGallery from "../views/works/DiorGallery.vue";
+import YbmDigitalBook from "../views/works/YbmDigitalBook.vue";
+import SnsMarketing from "../views/works/SnsMarketing.vue";
+import Vual from "../views/works/Vual.vue";
+import MeritzDirect from "../views/works/MeritzDirect.vue";
+import GooutStore from "../views/works/GooutStore.vue";
+import LotteHowmuch from "../views/works/LotteHowmuch.vue";
 // import { component } from "vue/types/umd";
 
 Vue.use(VueRouter);
@@ -61,6 +67,54 @@ const routes = [
         component: DiorGallery,
         meta: {
           name: "diorGallery",
+        },
+      },
+      {
+        path: "ybmDigitalBook",
+        name: "works",
+        component: YbmDigitalBook,
+        meta: {
+          name: "ybmDigitalBook",
+        },
+      },
+      {
+        path: "snsMarketing",
+        name: "works",
+        component: SnsMarketing,
+        meta: {
+          name: "snsMarketing",
+        },
+      },
+      {
+        path: "vual",
+        name: "works",
+        component: Vual,
+        meta: {
+          name: "vual",
+        },
+      },
+      {
+        path: "meritzDirect",
+        name: "works",
+        component: MeritzDirect,
+        meta: {
+          name: "meritzDirect",
+        },
+      },
+      {
+        path: "gooutStore",
+        name: "works",
+        component: GooutStore,
+        meta: {
+          name: "gooutStore",
+        },
+      },
+      {
+        path: "lotte-howmuch",
+        name: "works",
+        component: LotteHowmuch,
+        meta: {
+          name: "lotte-howmuch",
         },
       },
     ],

@@ -8,7 +8,7 @@
       <span class="work-text oxtail">Medit Partner Portal System</span><br /><br />
       <span>duration : 2020.03 ~ 2020.08</span><br />
       <span>member : MEDIT IST</span><br />
-      <span>role : front-end (Vue.js framework)</span><br />
+      <span>role : front-end (Vue.js)</span><br />
       <span>github : <a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span><br />
       <div class="mt-5">
         <h3>archive</h3>

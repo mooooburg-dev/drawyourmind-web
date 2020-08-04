@@ -41,7 +41,18 @@ export default {
   data() {
     return {
       // works 데이터
-      arrPathName: ["mpp", "hr", "adidasGolf", "diorGallery"],
+      arrPathName: [
+        "mpp", 
+        "hr", 
+        "vual", 
+        "meritzDirect", 
+        "adidasGolf", 
+        "gooutStore", 
+        "diorGallery", 
+        "ybmDigitalBook", 
+        "snsMarketing", 
+        "lotte-howmuch"
+      ],
 
       pageNum: 1,
     }

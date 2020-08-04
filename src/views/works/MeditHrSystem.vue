@@ -8,7 +8,7 @@
       <span class="work-text oxtail">Medit e-HR System</span><br /><br />
       <span>Duration : 2019.09 ~ 2019.12</span><br />
       <span>Member : MEDIT IST</span><br />
-      <span>Role : Front-end (Vue.js)</span><br />
+      <span>Role : front-end (Vue.js)</span><br />
       <span><a href="https://github.com/mooooburg-dev/Medit-HR" target="_blank">https://github.com/mooooburg-dev/Medit-HR</a></span>
       <div class="mt-5">
         <h3>archive</h3>
