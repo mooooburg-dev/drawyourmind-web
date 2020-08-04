@@ -261,11 +261,20 @@ img {
 
 .works-arrow {
   color: #3ab67f;
+  margin-top: -6px;
   vertical-align: middle !important;
 }
 
 .works-arrow-btn {
   cursor: pointer;
+}
+
+.works-page-text {
+  width: 840px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  pointer-events: none;
 }
 
 .img-container ul {

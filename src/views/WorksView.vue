@@ -6,6 +6,7 @@
     
     <div class="content-container">
       <div class="mb-3" style="width: 100%">
+        <div class="works-page-text">work <span style="font-weight:bold; color:#3ab67f;">{{ pageNum }}</span> of {{ arrPathName.length }}</div>
         <span @click="arrowClick('prev')" class="works-arrow-btn"><b-icon icon="arrow-left-circle-fill" font-scale="2" class="works-arrow"></b-icon> Prev</span>
         <span @click="arrowClick('next')" class="works-arrow-btn" style="float: right;">Next <b-icon icon="arrow-right-circle-fill" font-scale="2" class="works-arrow"></b-icon></span>
       </div>
