@@ -3,9 +3,10 @@
     <div class="content-label">
       <span class="oxtail content-title text-uppercase">{{ $route.name }}</span>
     </div>
-    <div class="content-container career-list">
-      <div v-for="(item, item_idx) in careers" :key="item_idx" class="career-item">
-        <span class="career-text oxtail">{{ item.name }}</span>
+    <div class="content-container ordinary-list">
+      <div v-for="(item, item_idx) in data" :key="item_idx" class="ordinary-item">
+        <span class="ordinary-text oxtail"><a :href="item.url" target="_blank">{{ item.title }}</a></span>
+        <span class="ordinary-sm-text oxtail"> at {{ $moment(item.date).format('MMMM YYYY') }}</span>
       </div>
     </div>
     <!-- 
@@ -19,6 +20,8 @@
 </template>
 
 <script>
+import axios from "axios"
+
 export default {
   data() {
     return {
@@ -32,9 +35,21 @@ export default {
     this.getList()
   },
 
-  getList() {},
+  methods: {
+    getList() {
+      axios
+          .get(this.baseUrl + "/ordinary/list")
+          .then((response) => {
+            console.log(response)
+            this.data = response.data
+          })
+          .catch((err) => {
+            console.log(err)
+          })
+    },
 
-  register() {},
+    register() {},
+  }
 }
 </script>
 
