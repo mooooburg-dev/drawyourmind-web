@@ -6,8 +6,8 @@
     
     <div class="content-container">
       <div class="mb-3" style="width: 100%">
-        <span @click="arrowClick('prev')" class="works-arrow-btn"><b-icon-arrow-left-circle-fill class="works-arrow"></b-icon-arrow-left-circle-fill> Prev</span>
-        <span @click="arrowClick('next')" class="works-arrow-btn" style="float: right;">Next <b-icon-arrow-right-circle-fill class="works-arrow"></b-icon-arrow-right-circle-fill></span>
+        <span @click="arrowClick('prev')" class="works-arrow-btn"><b-icon icon="arrow-left-circle-fill" font-scale="2" class="works-arrow"></b-icon> Prev</span>
+        <span @click="arrowClick('next')" class="works-arrow-btn" style="float: right;">Next <b-icon icon="arrow-right-circle-fill" font-scale="2" class="works-arrow"></b-icon></span>
       </div>
       <transition name="fade" mode="out-in">
         <router-view></router-view>
