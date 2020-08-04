@@ -58,8 +58,6 @@ export default {
         }
       } 
     }
-
-    console.log(this.pageNum);
   },
 
   methods: {
