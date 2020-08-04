@@ -29,7 +29,7 @@ export default {
           name: "Medit",
           date: "2019.09 ~ ",
           role: "<b>Position_</b><br/>Informatation Startegy Team / Web Developer",
-          projects: '<b>Projects_</b><br/><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">Partner Portal System</a> / <a href="https://github.com/mooooburg-dev/Medit-HR" target="_blank">HR System</a>',
+          projects: '<b>Projects_</b><br/><a href="/works/mpp" target="_self">Partner Portal System</a> / <a href="/works/hr" target="_self">HR System</a>',
           image: "/static/img/career_medit.png",
         },
         {
