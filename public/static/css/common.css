@@ -210,7 +210,7 @@ img {
   line-height: 42pt;
 }
 .career-item .career-text {
-  font-size: 42pt;
+  font-size: 36pt;
   /* line-height: 50pt; */
   transition: color 0.5s;
   cursor: pointer;
@@ -247,7 +247,6 @@ img {
 }
 .comment-item div {
   position: relative;
-  /* float: left; */
 }
 .comment-name {
   width: 200px;
@@ -262,6 +261,7 @@ img {
 
 .works-arrow {
   color: #3ab67f;
+  vertical-align: middle !important;
 }
 
 .works-arrow-btn {
@@ -279,4 +279,33 @@ img {
 
 .work-item-container img {
   border: 1px solid #eeeeee;
+}
+
+/* ------------------------------------
+  ORDINARY
+------------------------------------ */
+.ordinary-item {
+  height: auto;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.ordinary-text a:link {
+  color: #666666 !important;
+}
+.ordinary-text a:visited {
+  color: #666666 !important;
+}
+.ordinary-text a:active {
+  color: #666666 !important;
+}
+.ordinary-text a:hover {
+  color: white !important;
+  background-color: #3ab67f !important;
+  text-decoration: none !important
+}
+.ordinary-text {
+  font-size: 28pt;
+}
+.ordinary-sm-text {
+  font-size: 12pt;
 }
