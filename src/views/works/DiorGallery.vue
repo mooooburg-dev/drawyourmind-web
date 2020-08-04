@@ -6,9 +6,9 @@
     <div class="work-item mt-4">
       <span class="work-text oxtail">Dior VIP Customer Mobile Gallery</span><br /><br />
       <span>duration : 2017.12 ~ 2018.12</span><br />
-      <span>Advertiser : 아디다스 코리아</span><br />
+      <span>Advertiser : Dior</span><br />
       <span>Member : MediaBling Crossmedia Team</span><br />
-      <span>Role : 아디다스골프 온라인 마케팅 운영 대행</span><br />
+      <span>Role : 모바일 갤러리 서비스 구축 및 운영</span><br />
       <div class="img-container text-center mt-5">
         <ul>
           <li>
