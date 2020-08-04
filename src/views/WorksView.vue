@@ -15,20 +15,20 @@
     </div>
 
     <nav aria-label="Page navigation example">
-    <paginate
-      v-model="pageNum"
-      :page-count=arrPathName.length
-      :page-range="3"
-      :margin-pages="2"
-      :click-handler="clickCallback"
-      :container-class="'pagination justify-content-center'"
-      :prev-class="'page-item'" 
-      :page-class="'page-item'" 
-      :next-class="'page-item'"
-      :prev-link-class="'page-link'" 
-      :page-link-class="'page-link'" 
-      :next-link-class="'page-link'" >
-    </paginate>
+      <paginate
+        v-model="pageNum"
+        :page-count=arrPathName.length
+        :page-range="3"
+        :margin-pages="2"
+        :click-handler="clickCallback"
+        :container-class="'pagination justify-content-center'"
+        :prev-class="'page-item'" 
+        :page-class="'page-item'" 
+        :next-class="'page-item'"
+        :prev-link-class="'page-link'" 
+        :page-link-class="'page-link'" 
+        :next-link-class="'page-link'" >
+      </paginate>
     </nav>
   </div>
 </template>
