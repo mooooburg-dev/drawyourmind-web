@@ -5,32 +5,50 @@
       <!-- <img src="http://placehold.it/840x480" /> -->
     </div>
     <div class="work-item mt-4">
-      <span class="work-text oxtail">Medit HR System</span><br /><br />
+      <span class="work-text oxtail">Medit e-HR System</span><br /><br />
       <span>Duration : 2019.09 ~ 2019.12</span><br />
       <span>Member : MEDIT IST</span><br />
       <span>Role : Front-end (Vue.js)</span><br />
-      <span><a href="https://github.com/mooooburg-dev/Medit-HR" target="_blank">https://github.com/mooooburg-dev/Medit-HR</a></span><br /><br />
+      <span><a href="https://github.com/mooooburg-dev/Medit-HR" target="_blank">https://github.com/mooooburg-dev/Medit-HR</a></span>
+      <div class="mt-5">
+        <h3>archive</h3>
+        <ul>
+          <li><a href="https://kazupon.github.io/vue-i18n/introduction.html" target="_blank">국제화 다국어 처리 i18n</a></li>
+          <li><a href="https://element.eleme.io/#/en-US" target="_blank">Element 라이브러리</a></li>
+        </ul>
+      </div>
       <div class="img-container text-center mt-5">
         <ul>
           <li>
             <p class="text-left">
-              MPP(Medit Partner Portal)시스템은 메디트의 제품을 사용하는 파트너들을 위한 포털 서비스로써 메디트의 제품 구매 및 관리부터 파트너들을 위한 서포트 서비스를 제공한다. 사이트는 메디트의 담당자들이 파트너의 주문을 처리하는 메디트 담당자 화면과 파트너가 로그인하여 제품을 구매하고 파트너의 주문과정을 처리하는 파트너 화면을 동시에 가지고 있다.
+              Medit e-HR 시스템은 메디트의 직원 성과 관리 시스템으로써 메디트 직원의 직무와 성과를 엑셀로 작성하던 방식에서 온라인으로 이관함으로써 관리의 편의성을 도모하였다.<br/>
+              프론트 개발은 Vue.js 프레임워크와 Element 라이브러리를 사용했고 백엔드는 Spring Gradle 방식으로 빌드하였다.
             </p>
           </li>
           <li><img src="/static/img/works/ehr_1.png" /></li>
           <li>
             <p class="text-left">
-              주요 기능은 제품 구매기능으로써 MPP를 통해 파트너가 제푸을 구매하는 시점부터 주문 요청 및 확정, 출고 및 생산 단계를 거쳐 최종 제품발송 상태까지 파트너는 세부 주문 프로세스를 조회 및 확인할 수 있다. 또한 파트너가 현재까지 주문한 전체 히스토리 목록을 확인할 수 있는 파트너 주문 목록화면과 메디트 담당자가 조회할 수 있는 전체 주문 목록화면을 가지고 있으며 주문상세 페이지에서는 주문 사항의 세부 내용 조회가 가능하다.
+              시스템의 사용자는 크게 일반 사용자와 멘토 관리자로 구분하며, 평가 프로세스는 연단위로 진행된다. 일반 사용자 기준 평가 프로세스는 직원의 본인의 직무와 성과목표를 분기 단위로 작성한다. 
             </p>
           </li>
           <li><img src="/static/img/works/ehr_2.png" /></li>
           <li>
             <p class="text-left">
-              또한 국내와 해외 주문으로 구분값을 가지고 있으며 국내주문일 경우 세금계산서 발행요청과 같은 국내 전용 기능 등을 지원하며, 해외주문일 경우 인보이스 발행을 위한 전용 PDF인보이스와 국외 배송을 위한 서비스를 제공한다. 그외 파트너가 알아야 할 공지사항과 뉴스레터를 제공하고 기본적인 파트너 관리 서비스와 메디트의 제품 관리하는 페이지, 그리고 파트너의 구매예상 폼을 작성하여 제품 공급이 원활할 수 있도록 서비스를 구축하였다. 지원 디바이스는 PC와 iPad, 갤럭시탭을 지원하며 Chrome, Edge, Safari 브라우저에 최적화 하였다.
+              멘토 관리자는 이를 승인 및 반려할 수 있으며 평가 기간이 되면, 본인의 역량을 평가할 동료 평가자를 지정할 수 있다. 본인 또한 마찬가지로 동료에게 선정될 수 있으며 이를 통해 직원들은 최고 5명의 평가자를 선택해 서로를 평가할 수 있고 멘토 관리자를 이를 승인 및 반려할 수 있다.
             </p>
           </li>
           <li><img src="/static/img/works/ehr_3.png" /></li>
+          <li>
+            <p class="text-left">
+              위 과정을 통해 관리자는 직원의 성과를 관리할 수 있으며 최대한 객관적인 평가 시스템을 유지할 수 있도록 평가기간 및 평가항목을 조정할 수 있다. 민감할 수 있는 내용이라 관리자를 제외한 일반 사용자에게는 본인의 직무 작성과 동료를 평가할 수 있는 권한 외에는 어떠한 권한도 부여되지 않으며 평가기간을 제외하고 시스템 접속도 되지 않는다.
+            </p>
+          </li>
           <li><img src="/static/img/works/ehr_4.png" /></li>
+          <li>
+            <p class="text-left">
+              전체 직원의 평가 상태 및 진행 상태를 모니터링 할 수 있고 누락되는 사항이 없도록 거의 모든 데이터를 관리자 화면을 통해서만 제공하도록 개발했다.
+            </p>
+          </li>
           <li><img src="/static/img/works/ehr_5.png" /></li>
           <li>
             <p class="text-left">
