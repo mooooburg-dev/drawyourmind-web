@@ -12,6 +12,15 @@
   font-style: normal;
 }
 
+::-moz-selection {
+	background: #3ab67f;
+	color: #fff;
+}
+::selection {
+	background: #3ab67f;
+	color: #fff;
+}
+
  a:link {
   color: #3ab67f !important;
   background-color: transparent !important;
