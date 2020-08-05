@@ -212,6 +212,28 @@ img {
   /* transition: all 2s; */
 }
 
+.issues-container {
+  position: absolute;
+  margin-left: 460px;
+  margin-top: 190px;
+  z-index:5;
+  background-color: white;
+  padding: 20px;
+  transition: all 0.5;
+}
+
+.issue-item {
+  line-height: 32px;
+}
+
+.issue-item a:visited {
+  color: #666666;
+}
+
+#myVideo {
+  pointer-events: none;
+}
+
 /* ------------------------------------
   CARRER
 ------------------------------------ */
