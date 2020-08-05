@@ -15,12 +15,7 @@ export default {
   },
 
   mounted(){
-    const github = require('octonode')
-    
-    const 
   },
-
-
 
   methods: {
     showCover(){
