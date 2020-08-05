@@ -218,6 +218,7 @@ img {
   margin-top: 190px;
   z-index:5;
   background-color: white;
+  opacity: .9;
   padding: 20px;
   transition: all 0.5;
 }
