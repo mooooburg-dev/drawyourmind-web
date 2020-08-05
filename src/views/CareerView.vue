@@ -29,7 +29,7 @@ export default {
           name: "Medit",
           date: "2019.09 ~ ",
           role: "<b>Position_</b><br/>Informatation Startegy Team / Web Developer",
-          projects: '<b>Projects_</b><br/><a href="/works/mpp" target="_self">Partner Portal System</a> / <a href="/works/hr" target="_self">HR System</a>',
+          projects: "<b>Projects_</b><br/><a href='/works/mpp' target='_self'>Partner Portal System</a> / <a href='/works/hr' target='_self'>HR System</a>",
           image: "/static/img/career_medit.png",
         },
         {
@@ -43,7 +43,7 @@ export default {
           name: "e-tribe",
           date: "2011.03 ~ 2016.09",
           role: "<b>Position_</b><br/>UX Group / Front-end Developer",
-          projects: "<b>Projects_</b><br/>Meritz / NEXON / LG / <a href='https://www.facebook.com/vual.fuelband' target='_blank'>VUAL</a> / Lotte / Hanhwa",
+          projects: "<b>Projects_</b><br/>Meritz / NEXON / LG / <a href='/works/vual' target='_self'>VUAL</a> / Lotte / Hanhwa",
           image: "/static/img/career_etribe.png",
         },
         {

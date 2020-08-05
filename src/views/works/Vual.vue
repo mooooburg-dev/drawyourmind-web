@@ -6,11 +6,15 @@
     <div class="work-item mt-4">
       <span class="work-text oxtail">VUAL Transparent Display Kiosk</span><br /><br />
       <span>duration : 2012.06 ~ 2015.05</span><br />
-      <span>Advertiser : eTRIBE VUAL</span><br />
+      <span>Advertiser : eTRIBE</span><br />
       <span>Member : eTRIBE VUAL TF</span><br />
-      <span>Role : TF 파트장 수행 / Flash AIR, GEOF, SOCKET, SHOWROOM 개발 담당</span><br/><br/>
+      <span>Role : TF 파트장 수행 / Flash AIR, GEOF, SOCKET, SHOWROOM 개발 담당</span><br/>
+      <br/>
       <span><a href="https://web.archive.org/web/20181231004705/http://vual.co.kr/" target="_blank">VUAL 공식 홈페이지</a></span><br/>
-      <span><a href="https://www.facebook.com/vual.fuelband" target="_blank">VUAL 페이스북 페이지</a></span>
+      <span><a href="https://www.facebook.com/vual.fuelband" target="_blank">VUAL 페이스북 페이지</a></span><br/>
+      <span><img src="/static/img/logo_7.png" class="works-photo-icon"><a href="https://photos.app.goo.gl/xLQxnqq4p5yppRUPA" target="_blank">프로젝트 스케치</a></span>
+
+      
       <div class="mt-5">
         <h3>archive link</h3>
         <ul>

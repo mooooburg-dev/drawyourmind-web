@@ -15,8 +15,12 @@ export default {
   },
 
   mounted(){
-    this.getTweet();
+    const github = require('octonode')
+    
+    const 
   },
+
+
 
   methods: {
     showCover(){
@@ -25,16 +29,6 @@ export default {
       setTimeout(() => {
         this.$emit('goMenu');
       }, 1000)
-    },
-
-    getTweet(){
-      // axios.get('https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=2').
-      // then(response => {
-      //   console.log(response);
-      // }).
-      // catch(err => {
-      //   console.log(err);
-      // })
     },
   }
 }

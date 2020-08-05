@@ -10,7 +10,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import Paginate from "vuejs-paginate"
 
-
 Vue.use(require('vue-moment')); // Vus.use 한줄 더 심플하게~
 
 Vue.use(router)

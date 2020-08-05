@@ -11,7 +11,7 @@
       <span>role : front-end (Vue.js)</span><br />
       <span>github : <a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span><br />
       <div class="mt-5">
-        <h3>archive</h3>
+        <h3>archive link</h3>
         <ul>
           <li><a href="https://github.com/mooooburg-dev/medit-partner-portal/issues" target="_blank">github 프로젝트 이슈 노트</a></li>
           <li><a href="https://mooooburg-dev.github.io/posts/ios-ipad-detect-issue/" target="_blank">iPad 분기 처리 이슈 정리</a></li>
