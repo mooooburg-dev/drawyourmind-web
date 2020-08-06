@@ -66,7 +66,7 @@ export default {
       axios
           .get(this.baseUrl + "/ordinary/list")
           .then((response) => {
-            console.log(response)
+            // console.log(response)
             this.data = response.data
           })
           .catch((err) => {
