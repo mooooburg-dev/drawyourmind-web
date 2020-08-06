@@ -12,8 +12,8 @@
       <div class="mt-5">
         <h3>archive link</h3>
         <ul>
-          <li><a href="http://news.heraldcorp.com/view.php?ud=20151229000471" target="_blank">[기사] 메리츠화재, 스마트폰으로 자동차보험 가입</a></li>
           <li><a href="https://cnews.fntimes.com/html/view.php?ud=144421" target="_blank">[기사] 메리츠화재, 다이렉트 자동차보험 모바일 서비스 오픈…16.2% 저렴</a></li>
+          <li><a href="http://news.heraldcorp.com/view.php?ud=20151229000471" target="_blank">[기사] 메리츠화재, 스마트폰으로 자동차보험 가입</a></li>
         </ul>
       </div>
       <div class="img-container text-center mt-5">
