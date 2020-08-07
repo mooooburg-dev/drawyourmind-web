@@ -36,14 +36,14 @@ export default {
           name: "mediabling",
           date: "2016.09 ~ 2019.03",
           role: "<b>Position_</b><br/>Digital Contents Team / Team Leader",
-          projects: "<b>Projects_</b><br/>Digital Marketing / LookBook Shooting / GOOUT Store operate<br/>(LF / adidas / Reebok)",
+          projects: "<b>Projects_</b><br/>Fashion Digital Marketing / <a href='/works/adidasGolf' target='_self'>adidas golf operation</a> / LookBook Shooting / GOOUT Store operate",
           image: "/static/img/career_mediabling.png",
         },
         {
           name: "e-tribe",
           date: "2011.03 ~ 2016.09",
           role: "<b>Position_</b><br/>UX Group / Front-end Developer",
-          projects: "<b>Projects_</b><br/>Meritz / NEXON / LG / <a href='/works/vual' target='_self'>VUAL</a> / Lotte / Hanhwa",
+          projects: "<b>Projects_</b><br/><a href='/works/meritzDirect' target='_self'>Meritz</a> / NEXON / LG / <a href='/works/vual' target='_self'>VUAL</a> / Lotte / Hanhwa",
           image: "/static/img/career_etribe.png",
         },
         {
