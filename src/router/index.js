@@ -7,6 +7,7 @@ import OrdinaryView from "../views/OrdinaryView.vue";
 import BlogView from "../views/BlogView.vue";
 import CommentsView from "../views/CommentsView.vue";
 
+import AllWorksList from "../views/works/AllWorksList.vue";
 import MeditPartnerPortal from "../views/works/MeditPartnerPortal.vue";
 import MeditHrSystem from "../views/works/MeditHrSystem.vue";
 import AdidasGolf from "../views/works/AdidasGolf.vue";
@@ -38,10 +39,18 @@ const routes = [
     component: WorksView,
     children: [
       {
+        path: "all",
+        name: "works",
+        component: AllWorksList,
+        meta: {
+          name: "all",
+        },
+      },
+      {
         path: "mpp",
         name: "works",
         component: MeditPartnerPortal,
-        mata: {
+        meta: {
           name: "mpp",
         },
       },

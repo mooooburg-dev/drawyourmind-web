@@ -309,11 +309,13 @@ img {
 }
 
 .works-page-text {
-  width: 840px;
+  width: 500px;
   line-height: 30px;
   position: absolute;
   text-align: center;
-  pointer-events: none;
+  left: 50%;
+  transform: translateX(-50%);
+  /* pointer-events: none; */
 }
 
 .img-container ul {
