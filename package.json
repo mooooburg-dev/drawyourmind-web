@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --mode local --open",
     "build": "vue-cli-service build",
+    "dev-build": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint",
     "deploy": "vue-cli-service build --mode development && aws s3 sync ./dist s3://drawyourmind.com"
   },
