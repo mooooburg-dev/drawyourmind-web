@@ -9,7 +9,7 @@
       <div class="profile-text-2 mt-4">
         <span>MEDIT corp. / Seoul, South Korea</span><br />
         <span>jeongmupark@gmail.com</span><br />
-        <span>+82 10 3806 7021</span><br /><br />
+        <span>+82 10 3806 7021222</span><br /><br />
         <span><a href="http://github.com/mooooburg-dev" target="_blank">@Github</a></span><br />
         <span><a href="https://twitter.com/jeongmu" target="_blank">@Twitter</a></span><br />
         <span><a href="https://www.linkedin.com/in/jeongmupark" target="_blank">@Linkedin</a></span><br />
