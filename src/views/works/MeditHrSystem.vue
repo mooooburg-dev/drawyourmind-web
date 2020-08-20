@@ -13,6 +13,7 @@
       <div class="mt-5">
         <h3>archive</h3>
         <ul>
+          <li><a href="https://github.com/mooooburg-dev/Medit-HR/issues?q=" target="_blank">github 프로젝트 이슈 노트</a></li>
           <li><a href="https://kazupon.github.io/vue-i18n/introduction.html" target="_blank">국제화 다국어 처리 i18n</a></li>
           <li><a href="https://element.eleme.io/#/en-US" target="_blank">Element 라이브러리</a></li>
         </ul>
