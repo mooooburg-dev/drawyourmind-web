@@ -88,6 +88,8 @@ export default {
 
   methods: {
     careerItemClick(item, item_idx) {
+      if(this.sIdx == item_idx) return;
+      
       this.sIdx = item_idx
 
       $(".career-text").removeClass("active")
