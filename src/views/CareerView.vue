@@ -36,7 +36,7 @@ export default {
           name: "mediabling",
           date: "2016.09 ~ 2019.03",
           role: "<b>Position_</b><br/>Digital Contents Team / Team Leader",
-          projects: "<b>Projects_</b><br/>Fashion Digital Marketing / <a href='/works/adidasGolf' target='_self'>adidas golf operation</a> / LookBook Shooting / GOOUT Store operate",
+          projects: "<b>Projects_</b><br/>Fashion Digital Marketing / <a href='/works/adidasGolf' target='_self'>adidas golf operation</a> / LookBook Shooting / <a href='/works/gooutStore' target='_self'>GOOUT Store operate</a>",
           image: "/static/img/career_mediabling.png",
         },
         {
