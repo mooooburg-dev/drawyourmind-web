@@ -6,7 +6,7 @@
     </div>
     <div class="work-item mt-5">
       <span class="work-text oxtail">Medit Partner Portal System</span><br /><br />
-      <span>duration : 2020.03 ~ 2020.08</span><br />
+      <span>duration : 2020.03 ~</span><br />
       <span>member : MEDIT IST</span><br />
       <span>role : front-end (Vue.js)</span><br />
       <span><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span><br />
