@@ -55,7 +55,8 @@ export default {
         },
         {
           name: "Blog",
-          path: "http://mooooburg-dev.github.io",
+          path: "https://velog.io/@drawyourmind",
+          // path: "http://mooooburg-dev.github.io",
         },
         // {
         //   name: "Comments",
