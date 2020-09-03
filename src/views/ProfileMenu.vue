@@ -90,7 +90,7 @@ export default {
     },
 
     menuClickHandler(menu) {
-      if(this.$route.path == '/' && menu.path.includes("http://") == false){
+      if(this.$route.path == '/' && menu.path.includes("http") == false){
         this.$emit('showCover');
         this.tempPath = menu.path;
       } else if(menu.path.includes("http://")) {
