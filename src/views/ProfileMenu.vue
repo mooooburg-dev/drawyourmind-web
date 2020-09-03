@@ -93,11 +93,11 @@ export default {
       if(this.$route.path == '/' && menu.path.includes("http") == false){
         this.$emit('showCover');
         this.tempPath = menu.path;
-      } else if(menu.path.includes("http://")) {
+      } else if(menu.path.includes("http")) {
         window.open(menu.path);
       } else {
         if (this.$route.name !== menu.name.toLowerCase()) {
-          if (menu.path.includes("http://")) {
+          if (menu.path.includes("http")) {
             window.open(menu.path)
           } else {
             this.$router.push({ path: menu.path }).catch((err) => err)
