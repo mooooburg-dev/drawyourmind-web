@@ -6,9 +6,9 @@
     </div>
     <div class="work-item mt-5">
       <span class="work-text oxtail">Medit Partner Portal System</span><br /><br />
-      <span>duration : 2020.03 ~</span><br />
-      <span>member : MEDIT IST</span><br />
-      <span>role : 프론트엔드 개발(Vue.js) / 프론트 구조 설계</span><br />
+      <span>2020.03 ~</span><br />
+      <span>MEDIT IST</span><br />
+      <span>Role : 프런트엔드 개발(Vue.js) / 프런트 구조 설계</span><br />
       <span><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span><br />
       <div class="mt-5">
         <h3>archive link</h3>

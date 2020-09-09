@@ -5,12 +5,23 @@
       2020
       <ul>
         <li><a href="#" @click.prevent="$router.push('/works/mpp')">Medit Partner Portal System</a></li>
+        <ul>
+          <li>Vue.js</li>
+          <li>Spring Boot & Gradle</li>
+          <li>AWS Elastic Beanstalk & S3</li>
+          <li>Jira</li>
+        </ul>
       </ul>
     </div>
     <div>
       2019
       <ul>
         <li><a href="#" @click.prevent="$router.push('/works/hr')">Medit e-HR System</a></li>
+        <ul>
+          <li>Vue.js</li>
+          <li>Element</li>
+          <li>Jira</li>
+        </ul>
       </ul>
     </div>
     <div>
