@@ -9,7 +9,7 @@
           <li>Vue.js</li>
           <li>Spring Boot & Gradle</li>
           <li>AWS Elastic Beanstalk & S3</li>
-          <li>Jira</li>
+          <li>Jira / Confluence</li>
         </ul>
       </ul>
     </div>
@@ -20,7 +20,7 @@
         <ul>
           <li>Vue.js</li>
           <li>Element</li>
-          <li>Jira</li>
+          <li>Jira / Confluence</li>
         </ul>
       </ul>
     </div>
