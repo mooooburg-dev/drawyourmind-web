@@ -60,7 +60,7 @@ export default {
   watch: {
     $route: {
       handler(){
-        if (this.$route.path.toLowerCase() == "/works"){
+        if (this.$route.path.toLowerCase() == "/works" || this.$route.path.toLowerCase() == "/works/"){
           this.$router.push(this.$route.path + "/" + this.arrPathName[this.pageNum-1])
         } else {
           for(const idx in this.arrPathName){
