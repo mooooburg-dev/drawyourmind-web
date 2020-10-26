@@ -8,8 +8,9 @@
       <span class="work-text oxtail">Medit Partner Portal System</span><br /><br />
       <span>2020.03 ~</span><br />
       <span>MEDIT IST</span><br />
-      <span>Role : 프런트엔드 개발(Vue.js) / 프런트 구조 설계</span><br />
-      <span><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span><br />
+      <span>Role : 프런트엔드 개발(Vue.js) / 프런트 구조 설계 / AWS 인프라 관리</span><br />
+      <span><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span
+      ><br />
       <div class="mt-5">
         <h3>archive link</h3>
         <ul>
@@ -54,14 +55,10 @@
 
 <script>
 export default {
-  data(){
-    return {
-      
-    }
-  }
+  data() {
+    return {}
+  },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
