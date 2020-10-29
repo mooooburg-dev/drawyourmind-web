@@ -69,14 +69,14 @@ export default {
             },
             {
               label: 'adidas golf operation',
-              path: '/works/adidasGolf',
+              path: '/works/adidas-golf',
             },
             {
               label: 'LookBook Shooting',
             },
             {
               label: 'GOOUT Store operate',
-              path: '/works/gooutStore',
+              path: '/works/gooutstore',
             },
           ],
           image: '/static/img/career_mediabling.png',
@@ -88,7 +88,7 @@ export default {
           projects: [
             {
               label: 'Meritz',
-              path: '/works/meritzDirect',
+              path: '/works/meritz-direct',
             },
             {
               label: 'NEXON',

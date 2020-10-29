@@ -27,15 +27,15 @@
     <div>
       2018
       <ul>
-        <li>[아디다스 골프] 통합 마케팅 운영 대행</li>
-        <li>[Dior] VVIP 컨슈머 모바일 갤러리 서비스 운영</li>
+        <li><a href="#" @click.prevent="$router.push('/works/adidas-golf')">[아디다스 골프] 통합 마케팅 운영 대행</a></li>
+        <li><a href="#" @click.prevent="$router.push('/works/dior-gallery')">[Dior] VVIP 컨슈머 모바일 갤러리 서비스 운영</a></li>
       </ul>
     </div>
     <div>
       2017
       <ul>
         <li>[YBM] 2018 YBM 중학교 영어 디지털 교과서 제작</li>
-        <li>온라인 마케팅 운영(아디다스, 노스페이스, 만다리나덕, 하그로프스 등)</li>
+        <li><a href="#" @click.prevent="$router.push('/works/sns-marketing')">온라인 마케팅 운영(아디다스, 노스페이스, 만다리나덕, 하그로프스 등)</a></li>
       </ul>
     </div>
     <div>
@@ -165,11 +165,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style>
-
-</style>
+<style></style>
