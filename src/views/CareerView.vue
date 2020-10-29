@@ -7,14 +7,31 @@
       <div v-for="(item, item_idx) in careers" :key="item_idx" class="career-item">
         <span class="career-text oxtail" @click.prevent="careerItemClick(item, item_idx)">{{ item.name }}</span>
         <div class="career-item-desc ml-3">
-          <span>{{ item.date }}</span
-          ><br /><br />
-          <span v-if="item.role" v-html="item.role"></span><br /><br />
-          <span v-if="item.projects" v-html="item.projects"></span><br /><br />
+          <span>{{ item.date }}</span>
+          <br />
+          <br />
+          <span v-if="item.role" v-html="item.role"></span>
+          <br />
+          <br />
+          <template v-if="item.projects && item.projects.length > 0">
+            <span><b>Projects_</b></span>
+            <br />
+            <span v-for="(project, project_idx) in item.projects" :key="project_idx">
+              <template v-if="project.path">
+                <a href="" @click.prevent="$router.push(project.path)">{{ project.label }}</a>
+                {{ `${project_idx < item.projects.length - 1 ? ' / ' : ''}` }}
+              </template>
+              <template v-else>{{ project.label }}{{ `${project_idx < item.projects.length - 1 ? ' / ' : ''}` }}</template>
+            </span>
+            <br />
+            <br />
+          </template>
+
           <div :class="`${item_idx != 0 ? 'career-img-gray' : ''}`">
             <img v-if="item.image" :src="item.image" />
           </div>
-          <br /><br />
+          <br />
+          <br />
         </div>
       </div>
     </div>
@@ -27,52 +44,134 @@ export default {
     return {
       careers: [
         {
-          name: 'MEDIT',
+          name: 'Medit',
           date: '2019.09 ~ ',
           role: '<b>Position_</b><br/>Informatation Startegy Team / Web Developer',
-          projects: "<b>Projects_</b><br/><a href='/works/mpp' target='_self'>Partner Portal System</a> / <a href='/works/hr' target='_self'>HR System</a>",
+          projects: [
+            {
+              label: 'Partner Portal System',
+              path: '/works/mpp',
+            },
+            {
+              label: 'HR System',
+              path: '/works/hr',
+            },
+          ],
           image: '/static/img/career_medit.png',
         },
         {
           name: 'mediabling',
           date: '2016.09 ~ 2019.03',
           role: '<b>Position_</b><br/>Digital Contents Team / Team Leader',
-          projects: "<b>Projects_</b><br/>Fashion Digital Marketing / <a href='/works/adidasGolf' target='_self'>adidas golf operation</a> / LookBook Shooting / <a href='/works/gooutStore' target='_self'>GOOUT Store operate</a>",
+          projects: [
+            {
+              label: 'Fashion Digital Marketing',
+            },
+            {
+              label: 'adidas golf operation',
+              path: '/works/adidasGolf',
+            },
+            {
+              label: 'LookBook Shooting',
+            },
+            {
+              label: 'GOOUT Store operate',
+              path: '/works/gooutStore',
+            },
+          ],
           image: '/static/img/career_mediabling.png',
         },
         {
           name: 'e-tribe',
           date: '2011.03 ~ 2016.09',
           role: '<b>Position_</b><br/>UX Group / Front-end Developer',
-          projects: "<b>Projects_</b><br/><a href='/works/meritzDirect' target='_self'>Meritz</a> / NEXON / LG / <a href='/works/vual' target='_self'>VUAL</a> / Lotte / Hanhwa",
+          projects: [
+            {
+              label: 'Meritz',
+              path: '/works/meritzDirect',
+            },
+            {
+              label: 'NEXON',
+            },
+            {
+              label: 'LG',
+            },
+            {
+              label: 'VUAL',
+              path: '/works/vual',
+            },
+            {
+              label: 'Lotte',
+            },
+            {
+              label: 'Hanhwa',
+            },
+          ],
           image: '/static/img/career_etribe.png',
         },
         {
           name: 'Solutionwide Pty Ltd',
           date: '2009.12 ~ 2010.12 (Sydney, Australia)',
           role: '<b>Position_</b><br/>Flash Developer',
-          projects: '<b>Projects_</b><br/>Hankook tire / Hyundai Motors / LG',
+          projects: [
+            {
+              label: 'Hankook tire',
+            },
+            {
+              label: 'Hyundai MotorsLotte',
+            },
+            {
+              label: 'LG',
+            },
+          ],
           image: '/static/img/career_solutionwide.png',
         },
         {
           name: 'Pixdine',
           date: '2008.08 ~ 2009.08',
           role: '<b>Position_</b><br/>Flash Developer',
-          projects: '<b>Projects_</b><br/>Coca-cola / SK Telecom / LG',
+          projects: [
+            {
+              label: 'Coca-cola',
+            },
+            {
+              label: 'SK Telecom',
+            },
+            {
+              label: 'LG',
+            },
+          ],
           image: '/static/img/career_pixdine.png',
         },
         {
           name: 'xPrime',
           date: '2007.08 ~ 2008.07',
           role: '<b>Position_</b><br/>Flash Developer',
-          projects: '<b>Projects_</b><br/>Samsung Anycall / NewYork Life / WooriBank / Nonghyup X-BANK',
+          projects: [
+            {
+              label: 'Samsung Anycall',
+            },
+            {
+              label: 'NewYork Life',
+            },
+            {
+              label: 'WooriBank',
+            },
+            {
+              label: 'Nonghyup X-BANK',
+            },
+          ],
           image: '/static/img/career_xprime.png',
         },
         {
           name: 'DesignArt',
           date: '2006.11 ~ 2007.04',
           role: '<b>Position</b><br/>Web Designer',
-          projects: '<b>Projects_</b><br/>Makeshop Platform Design',
+          projects: [
+            {
+              label: 'Makeshop Platform Shoppinmall',
+            },
+          ],
         },
       ],
 
