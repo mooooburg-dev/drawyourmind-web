@@ -79,7 +79,7 @@
     <div>
       2012
       <ul>
-        <li>멀티 뉴미디어 브랜드 VUAL 런칭</li>
+        <li><a href="#" @click.prevent="$router.push('/works/vual')">멀티 뉴미디어 브랜드 VUAL 런칭</a></li>
         <li>한화손해보험 플래시 컨텐츠 제작</li>
         <li>삼성화재 설계체험 플래시 컨텐츠 제작</li>
         <li>롯데 인재개발원 웹사이트 구축</li>
