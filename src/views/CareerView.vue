@@ -44,7 +44,7 @@ export default {
     return {
       careers: [
         {
-          name: 'Medit',
+          name: 'MEDIT',
           date: '2019.09 ~ ',
           role: '<b>Position_</b><br/>Informatation Startegy Team / Web Developer',
           projects: [
