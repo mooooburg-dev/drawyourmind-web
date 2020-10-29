@@ -7,10 +7,19 @@
     <div class="content-container">
       <div class="mb-3" style="width: 840px; position:relative;">
         <div class="works-page-text">
-          work <span style="font-weight:bold; color:#3ab67f;">{{ pageNum }}</span> of {{ arrPathName.length }} / <a href="#" @click.prevent="clickCallback(arrPathName.length)">view all project</a>
+          work
+          <span style="font-weight:bold; color:#3ab67f;">{{ pageNum }}</span>
+          of {{ arrPathName.length }} /
+          <a href="#" @click.prevent="clickCallback(arrPathName.length)">view all project</a>
         </div>
-        <span @click="arrowClick('prev')" class="works-arrow-btn"><b-icon icon="arrow-left-circle-fill" font-scale="2" class="works-arrow"></b-icon> Prev</span>
-        <span @click="arrowClick('next')" class="works-arrow-btn" style="float: right;">Next <b-icon icon="arrow-right-circle-fill" font-scale="2" class="works-arrow"></b-icon></span>
+        <span @click="arrowClick('prev')" class="works-arrow-btn">
+          <b-icon icon="arrow-left-circle-fill" font-scale="2" class="works-arrow"></b-icon>
+          Prev
+        </span>
+        <span @click="arrowClick('next')" class="works-arrow-btn" style="float: right;">
+          Next
+          <b-icon icon="arrow-right-circle-fill" font-scale="2" class="works-arrow"></b-icon>
+        </span>
       </div>
       <transition name="fade" mode="out-in">
         <router-view></router-view>
@@ -18,7 +27,7 @@
     </div>
 
     <nav aria-label="Page navigation example">
-      <paginate v-model="pageNum" :page-count="arrPathName.length" :page-range="3" :margin-pages="2" :click-handler="clickCallback" :container-class="'pagination justify-content-center'" :prev-class="'page-item'" :page-class="'page-item'" :next-class="'page-item'" :prev-link-class="'page-link'" :page-link-class="'page-link'" :next-link-class="'page-link'"> </paginate>
+      <paginate v-model="pageNum" :page-count="arrPathName.length" :page-range="3" :margin-pages="2" :click-handler="clickCallback" :container-class="'pagination justify-content-center'" :prev-class="'page-item'" :page-class="'page-item'" :next-class="'page-item'" :prev-link-class="'page-link'" :page-link-class="'page-link'" :next-link-class="'page-link'"></paginate>
     </nav>
   </div>
 </template>
@@ -28,7 +37,7 @@ export default {
   data() {
     return {
       // works 데이터
-      arrPathName: ['mpp', 'hr', 'vual', 'meritzDirect', 'adidasGolf', 'gooutStore', 'diorGallery', 'ybmDigitalBook', 'snsMarketing', 'lotte-howmuch', 'all'],
+      arrPathName: ['mpp', 'hr', 'vual', 'meritz-direct', 'adidas-golf', 'goout-store', 'dior-gallery', 'ybm-digital-book', 'sns-marketing', 'lotte-howmuch', 'all'],
 
       pageNum: 1,
     }
