@@ -67,7 +67,7 @@ const routes = [
         name: 'works',
         component: AdidasGolf,
         meta: {
-          name: 'adidasGolf',
+          name: 'adidas-golf',
         },
       },
       {
@@ -75,7 +75,7 @@ const routes = [
         name: 'works',
         component: DiorGallery,
         meta: {
-          name: 'diorGallery',
+          name: 'dior-gallery',
         },
       },
       {
@@ -83,7 +83,7 @@ const routes = [
         name: 'works',
         component: YbmDigitalBook,
         meta: {
-          name: 'ybmDigitalBook',
+          name: 'ybm-digital-book',
         },
       },
       {
@@ -91,7 +91,7 @@ const routes = [
         name: 'works',
         component: SnsMarketing,
         meta: {
-          name: 'snsMarketing',
+          name: 'sns-marketing',
         },
       },
       {
@@ -107,7 +107,7 @@ const routes = [
         name: 'works',
         component: MeritzDirect,
         meta: {
-          name: 'meritzDirect',
+          name: 'meritz-direct',
         },
       },
       {
@@ -115,7 +115,7 @@ const routes = [
         name: 'works',
         component: GooutStore,
         meta: {
-          name: 'gooutStore',
+          name: 'gooutstore',
         },
       },
       {
