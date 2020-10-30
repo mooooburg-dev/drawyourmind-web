@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "dev-build": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint",
-    "deploy": "vue-cli-service build --mode development && aws s3 sync ./dist s3://drawyourmind.com"
+    "deploy": "vue-cli-service build --mode development && aws s3 sync ./dist s3://drawyourmind.com --delete && aws cloudfront create-invalidation --distribution-id E3JG3XF1CQRTLS --paths '/*'"
   },
   "dependencies": {
     "axios": "^0.19.2",
