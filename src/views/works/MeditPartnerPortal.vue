@@ -5,12 +5,17 @@
       <!-- <img src="http://placehold.it/840x480" /> -->
     </div>
     <div class="work-item mt-5">
-      <span class="work-text oxtail">Medit Partner Portal System</span><br /><br />
-      <span>2020.03 ~</span><br />
-      <span>MEDIT IST</span><br />
-      <span>Role : Front-end 개발(Vue.js) / Front 환경 설계 / AWS 인프라 관리</span><br />
-      <span><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span
-      ><br />
+      <span class="work-text oxtail">Medit Partner Portal System</span>
+      <br />
+      <br />
+      <span>2020.03 ~</span>
+      <br />
+      <span>MEDIT IST</span>
+      <br />
+      <span>Role : Front-end 개발(Vue.js) / Front 환경 설계 / AWS 인프라 구축</span>
+      <br />
+      <span><a href="https://github.com/mooooburg-dev/medit-partner-portal" target="_blank">github.com/mooooburg-dev/medit-partner-portal</a></span>
+      <br />
       <div class="mt-5">
         <h3>archive link</h3>
         <ul>
