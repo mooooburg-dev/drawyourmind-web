@@ -66,7 +66,7 @@ export default {
           path: '/ordinary',
         },
         {
-          name: 'Blog',
+          name: 'Dev.note',
           path: 'http://mooooburg-dev.github.io',
           // path: "https://velog.io/@drawyourmind",  //velog
         },
