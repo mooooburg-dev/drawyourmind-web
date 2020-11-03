@@ -67,7 +67,7 @@ export default {
         },
         {
           name: 'Dev.note',
-          path: 'http://mooooburg-dev.github.io',
+          path: 'https://dev.drawyourmind.com/',
           // path: "https://velog.io/@drawyourmind",  //velog
         },
         // {
