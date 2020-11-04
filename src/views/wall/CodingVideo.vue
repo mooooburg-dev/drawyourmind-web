@@ -19,7 +19,6 @@ export default {
     getRandomVideoUrl() {
       const randomIdx = Math.ceil(Math.random() * this.videoNum - 1)
       const videoPath = `${this.videoPath}video_${randomIdx}.mp4`
-      console.log(videoPath)
       return videoPath
     },
   },
