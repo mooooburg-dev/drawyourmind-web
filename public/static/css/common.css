@@ -1,4 +1,9 @@
-@font-face { font-family: 'UhBeeMiMi'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeMiMi.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face {
+  font-family: 'UhBeeMiMi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeMiMi.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .UhBeeMiMi {
   font-family: 'UhBeeMiMi';
@@ -13,15 +18,15 @@
 }
 
 ::-moz-selection {
-	background: #3ab67f;
-	color: #fff;
+  background: #3ab67f;
+  color: #fff;
 }
 ::selection {
-	background: #3ab67f;
-	color: #fff;
+  background: #3ab67f;
+  color: #fff;
 }
 
- a:link {
+a:link {
   color: #3ab67f !important;
   background-color: transparent !important;
   text-decoration: none !important;
@@ -36,7 +41,7 @@ a:visited {
 a:hover {
   color: white !important;
   background-color: #3ab67f !important;
-  text-decoration: none !important
+  text-decoration: none !important;
 }
 
 a:active {
@@ -126,7 +131,7 @@ img {
 .menu-item.over {
   color: white !important;
   background-color: #3ab67f !important;
-  text-decoration: none !important
+  text-decoration: none !important;
 }
 
 .menu-item.active {
@@ -158,6 +163,19 @@ img {
 }
 
 /* ------------------------------------
+  FOOTER
+------------------------------------ */
+.footer-area .url-block {
+  color: white !important;
+  background-color: #3ab67f !important;
+  text-decoration: none !important;
+}
+
+.footer-area span {
+  /* float: left; */
+}
+
+/* ------------------------------------
   PAGINATE
 ------------------------------------ */
 
@@ -168,10 +186,10 @@ img {
   justify-content: center!important; */
 }
 
-.page-item a:hover{
+.page-item a:hover {
   color: white !important;
-  background-color:none !important;
-  text-decoration: none !important
+  background-color: none !important;
+  text-decoration: none !important;
 }
 
 .page-item.active .page-link {
@@ -180,7 +198,6 @@ img {
   background-color: #3ab67f !important;
   border-color: #3ab67f !important;
 }
-    
 
 /* ------------------------------------
   WALL
@@ -200,11 +217,11 @@ img {
   width: 0%;
   height: 100%;
   background-color: white;
-  transition: width .6s ease-in-out;
+  transition: width 0.6s ease-in-out;
 }
 
 .wall-cover.active {
-  width:100%;
+  width: 100%;
   /* transition: all 2s; */
 }
 
@@ -212,9 +229,9 @@ img {
   position: absolute;
   margin-left: 420px;
   margin-top: 190px;
-  z-index:5;
+  z-index: 5;
   background-color: white;
-  opacity: .9;
+  opacity: 0.9;
   padding: 20px;
   transition: all 0.5;
 }
@@ -247,7 +264,7 @@ img {
   color: #3ab67f;
 }
 
-.career-item .career-item-desc{
+.career-item .career-item-desc {
   line-height: 20pt;
 }
 
@@ -285,7 +302,6 @@ img {
   width: 22px;
   margin-right: 4px;
   vertical-align: bottom;
-  
 }
 
 .wirte-button {
@@ -347,7 +363,7 @@ img {
 .ordinary-text a:hover {
   color: white !important;
   background-color: #3ab67f !important;
-  text-decoration: none !important
+  text-decoration: none !important;
 }
 .ordinary-text {
   font-size: 28pt;

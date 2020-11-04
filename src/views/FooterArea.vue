@@ -1,16 +1,17 @@
 <template>
   <footer class="footer-area">
     <div class="footer-container">
-      <span>Copyrights by drawyourmind.com, Allrights reserved.</span>
+      <span>
+        <span>Copyrights by</span>
+        <span class="url-block">&nbsp; drawyourmind.com</span>
+        <span>, Allrights reserved.</span>
+      </span>
     </div>
   </footer>
 </template>
 
 <script>
-export default {
-}
+export default {}
 </script>
 
-<style>
-
-</style>
+<style></style>
