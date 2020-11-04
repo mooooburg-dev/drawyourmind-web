@@ -70,6 +70,7 @@ img {
   width: 880px;
   height: 100%;
   margin-left: 400px;
+  margin-bottom: 60px;
 }
 
 .profile-menu-continer {
@@ -152,6 +153,9 @@ img {
 .footer-area {
   float: left;
   width: 100%;
+  position: relative;
+  z-index: 100;
+  /* padding-top: 70px; */
 }
 .footer-container {
   min-height: 160px;
@@ -209,7 +213,7 @@ img {
 ------------------------------------ */
 
 .wall-wrapper {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
