@@ -60,23 +60,6 @@ img {
   max-height: 100%;
 }
 
-.footer-area {
-  float: left;
-  width: 100%;
-}
-.footer-container {
-  min-height: 160px;
-  width: 100%;
-  vertical-align: middle;
-  padding: 20px 0px 12px 420px;
-  display: table;
-  position: absolute;
-}
-.footer-container span {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .bodywrap {
   width: 100%;
   min-height: calc(100vh - 160px);
@@ -165,14 +148,36 @@ img {
 /* ------------------------------------
   FOOTER
 ------------------------------------ */
+
+.footer-area {
+  float: left;
+  width: 100%;
+}
+.footer-container {
+  min-height: 160px;
+  width: 100%;
+  vertical-align: middle;
+  padding: 20px 0px 12px 420px;
+  display: table;
+  position: absolute;
+}
+.footer-container span {
+  display: block;
+  vertical-align: middle;
+  height: 28px;
+}
+
 .footer-area .url-block {
   color: white !important;
   background-color: #3ab67f !important;
   text-decoration: none !important;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .footer-area span {
-  /* float: left; */
+  float: left;
+  margin-right: 4px;
 }
 
 /* ------------------------------------
