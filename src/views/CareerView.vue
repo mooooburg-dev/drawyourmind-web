@@ -82,7 +82,7 @@ export default {
           image: '/static/img/career_mediabling.png',
         },
         {
-          name: 'e-tribe',
+          name: 'eTRIBE',
           date: '2011.03 ~ 2016.09',
           role: '<b>Position_</b><br/>UX Group / Front-end Developer',
           projects: [
