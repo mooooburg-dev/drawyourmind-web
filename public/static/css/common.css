@@ -379,4 +379,6 @@ img {
 }
 .ordinary-sm-text {
   font-size: 12pt;
+  font-style: italic;
+  color: lightblue;
 }

@@ -8,7 +8,7 @@
         <span class="ordinary-text oxtail">
           <a :href="item.url" target="_blank">{{ item.title }}</a>
         </span>
-        <span class="ordinary-sm-text oxtail">at {{ $moment(item.date).format('MMMM YYYY') }}</span>
+        <span class="ordinary-sm-text oxtail">&nbsp; at {{ $moment(item.date).format('MMMM YYYY') }}</span>
       </div>
     </div>
 
