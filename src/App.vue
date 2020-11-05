@@ -12,17 +12,16 @@
       <wall-container ref="wall" v-if="$route.path == '/'" @goMenu="goMenu"></wall-container>
     </transition>
     <footer-area></footer-area>
-    
   </div>
 </template>
 
 <script>
-import ProfileMenu from "./views/ProfileMenu.vue"
-import FooterArea from "./views/FooterArea.vue"
-import WallContainer from "./views/WallContainer.vue"
+import ProfileMenu from './views/ProfileMenu.vue'
+import FooterArea from './views/FooterArea.vue'
+import WallContainer from './views/WallContainer.vue'
 
 export default {
-  name: "App",
+  name: 'App',
 
   components: {
     ProfileMenu,
@@ -31,25 +30,24 @@ export default {
   },
 
   methods: {
-    showCover(){
-      this.$refs.wall.showCover();
+    showCover() {
+      this.$refs.wall.showCover()
     },
 
-    goMenu(){
-      this.$refs.profileMenu.goMenu();
-    }
-  }
+    goMenu() {
+      this.$refs.profileMenu.goMenu()
+    },
+  },
 }
 </script>
 
 <style>
-@import url("/static/css/common.css");
+@import url('/static/css/common.css');
 
 #app {
   min-width: 1280px;
   width: 100%;
   height: 100%;
-
 }
 
 .fade-enter-active,
