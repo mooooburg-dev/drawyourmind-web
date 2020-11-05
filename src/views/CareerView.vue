@@ -8,6 +8,13 @@
         <span class="career-text oxtail" @click.prevent="careerItemClick(item, item_idx)">{{ item.name }}</span>
         <div class="career-item-desc ml-3">
           <span>{{ item.date }}</span>
+          <template v-if="item.photo">
+            <br />
+            <span>
+              <img src="/static/img/logo_7.png" class="works-photo-icon" />
+              <a :href="item.photo" target="_blank">Season Photos</a>
+            </span>
+          </template>
           <br />
           <br />
           <span v-if="item.role" v-html="item.role"></span>
@@ -47,6 +54,7 @@ export default {
           name: 'MEDIT',
           date: '2019.09 ~ ',
           role: '<b>Position_</b><br/>Informatation Startegy Team / Web Developer',
+          photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
           projects: [
             {
               label: 'Partner Portal System',
@@ -113,6 +121,7 @@ export default {
           name: 'Solutionwide Pty Ltd',
           date: '2009.12 ~ 2010.12 (Sydney, Australia)',
           role: '<b>Position_</b><br/>Flash Developer',
+          photo: 'https://photos.app.goo.gl/1XrU3z3c5skqXN6s7',
           projects: [
             {
               label: 'Hankook tire',
@@ -130,6 +139,7 @@ export default {
           name: 'Pixdine',
           date: '2008.08 ~ 2009.08',
           role: '<b>Position_</b><br/>Flash Developer',
+          photo: 'https://photos.app.goo.gl/1GvVjXEPF1jzU4t66',
           projects: [
             {
               label: 'Coca-cola',
@@ -147,6 +157,7 @@ export default {
           name: 'xPrime',
           date: '2007.08 ~ 2008.07',
           role: '<b>Position_</b><br/>Flash Developer',
+          photo: 'https://photos.app.goo.gl/7NwEp4RVmWXD4rqF7',
           projects: [
             {
               label: 'Samsung Anycall',
