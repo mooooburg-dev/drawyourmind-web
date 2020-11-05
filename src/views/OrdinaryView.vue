@@ -5,10 +5,14 @@
     </div>
     <div class="content-container ordinary-list">
       <div v-for="(item, item_idx) in paginatedData()" :key="item_idx" class="ordinary-item">
-        <span class="ordinary-text oxtail"><a :href="item.url" target="_blank">{{ item.title }}</a></span>
-        <span class="ordinary-sm-text oxtail"> at {{ $moment(item.date).format('MMMM YYYY') }}</span>
+        <span class="ordinary-text oxtail">
+          <a :href="item.url" target="_blank">{{ item.title }}</a>
+        </span>
+        <span class="ordinary-sm-text oxtail">at {{ $moment(item.date).format('MMMM YYYY') }}</span>
       </div>
     </div>
+
+    <!-- 등록(글쓰기) 버튼 -->
     <!-- 
     <div class="wirte-button">
       <b-button size="lg" variant="primary" class="mb-2">
@@ -16,19 +20,10 @@
       </b-button>
     </div>
      -->
-    <nav aria-label="Page navigation example">
-      <paginate
-        v-model="pageNum"
-        :page-count="pageCount()"
-        :page-range="5"
-        :margin-pages="1"
-        :container-class="'pagination justify-content-center'"
-        :prev-class="'page-item'" 
-        :page-class="'page-item'" 
-        :next-class="'page-item'"
-        :prev-link-class="'page-link'" 
-        :page-link-class="'page-link'" 
-        :next-link-class="'page-link'" >
+
+    <!-- paginate(전체 페이지가 1 이상일때만 보이기) -->
+    <nav v-if="pageCount() > 1" aria-label="Page navigation example">
+      <paginate v-model="pageNum" :page-count="pageCount()" :page-range="5" :margin-pages="1" :container-class="'pagination justify-content-center'" :prev-class="'page-item'" :page-class="'page-item'" :next-class="'page-item'" :prev-link-class="'page-link'" :page-link-class="'page-link'" :next-link-class="'page-link'">
         :click-handler="clickCallback"
       </paginate>
     </nav>
@@ -36,12 +31,12 @@
 </template>
 
 <script>
-import axios from "axios"
+import axios from 'axios'
 
 export default {
   data() {
     return {
-      baseUrl: "",
+      baseUrl: '',
       data: [],
 
       pageNum: 1,
@@ -53,7 +48,7 @@ export default {
       type: Number,
       required: false,
       default: 10,
-    }
+    },
   },
 
   mounted() {
@@ -64,38 +59,36 @@ export default {
   methods: {
     getList() {
       axios
-          .get(this.baseUrl + "/ordinary/list")
-          .then((response) => {
-            // console.log(response)
-            this.data = response.data
-          })
-          .catch((err) => {
-            console.log(err)
-          })
+        .get(this.baseUrl + '/ordinary/list')
+        .then((response) => {
+          // console.log(response)
+          this.data = response.data
+        })
+        .catch((err) => {
+          console.log(err)
+        })
     },
 
     register() {},
 
-    pageCount(){
+    pageCount() {
       let listLength = this.data.length,
         listSize = this.pageSize,
-        page = Math.floor(listLength / listSize);
-      if (listLength % listSize > 0) page += 1;
+        page = Math.floor(listLength / listSize)
+      if (listLength % listSize > 0) page += 1
 
-      return page;
+      return page
     },
 
-    paginatedData(){
+    paginatedData() {
       const start = (this.pageNum - 1) * this.pageSize,
-        end = start + this.pageSize;
+        end = start + this.pageSize
 
-      return this.data.slice(start, end);
+      return this.data.slice(start, end)
     },
 
-    clickCallback(){
-      
-    },
-  }
+    clickCallback() {},
+  },
 }
 </script>
 
