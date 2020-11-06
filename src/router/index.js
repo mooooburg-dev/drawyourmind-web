@@ -6,6 +6,7 @@ import WorksView from '../views/WorksView.vue'
 import OrdinaryView from '../views/OrdinaryView.vue'
 import BlogView from '../views/BlogView.vue'
 import CommentsView from '../views/CommentsView.vue'
+import TestView from '../views/TestView.vue'
 
 import AllWorksList from '../views/works/AllWorksList.vue'
 import MeditPartnerPortal from '../views/works/MeditPartnerPortal.vue'
@@ -18,6 +19,7 @@ import Vual from '../views/works/Vual.vue'
 import MeritzDirect from '../views/works/MeritzDirect.vue'
 import GooutStore from '../views/works/GooutStore.vue'
 import LotteHowmuch from '../views/works/LotteHowmuch.vue'
+
 // import { component } from "vue/types/umd";
 
 Vue.use(VueRouter)
@@ -142,6 +144,11 @@ const routes = [
     path: '/comments',
     name: 'comments',
     component: CommentsView,
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: TestView,
   },
 ]
 

@@ -40,9 +40,11 @@
         <!-- <img src="/static/img/web_icons.png" /> -->
       </div>
       <div class="menus mt-4">
-        <div v-for="(item, item_idx) in menus" :key="item_idx">
-          <span :class="`oxtail menu-text menu-item ${item.name && $route.name && $route.path.includes(item.name.toLowerCase()) ? 'active' : 'unActive'}`" @click="menuClickHandler(item)">{{ item.name }}</span>
-        </div>
+        <template v-for="(item, item_idx) in menus">
+          <div v-if="item.visible == true" :key="item_idx">
+            <span :class="`oxtail menu-text menu-item ${item.name && $route.name && $route.path.includes(item.name.toLowerCase()) ? 'active' : 'unActive'}`" @click="menuClickHandler(item)">{{ item.name }}</span>
+          </div>
+        </template>
       </div>
     </div>
   </div>
@@ -56,19 +58,28 @@ export default {
         {
           name: 'Career',
           path: '/career',
+          visible: true,
         },
         {
           name: 'Works',
           path: '/works',
+          visible: true,
         },
         {
           name: 'Ordinary',
           path: '/ordinary',
+          visible: true,
         },
         {
           name: 'Dev.note',
           path: 'https://dev.drawyourmind.com/',
           // path: "https://velog.io/@drawyourmind",  //velog
+          visible: true,
+        },
+        {
+          name: 'Test',
+          path: '/test',
+          visible: false,
         },
         // {
         //   name: "Comments",
