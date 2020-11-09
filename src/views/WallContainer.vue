@@ -46,7 +46,7 @@ export default {
           html_url: 'https://www.notion.so/drawyourmind/AWS-CLI-f3df05a850b64dad81e8d7c5195cb98b',
           repository_url: 'notion',
           update_at: '20201106',
-          visible: true,
+          visible: false,
         },
       ],
       issues: {},
