@@ -35,7 +35,7 @@
           <li class="logo"><img src="/static/img/logo_4.png" /></li>
           <li class="logo"><img src="/static/img/logo_5.png" /></li>
           <li class="logo"><img src="/static/img/logo_6.png" /></li>
-          <li class="logo"><img src="/static/img/logo_7.png" /></li>
+          <!-- <li class="logo"><img src="/static/img/logo_7.png" /></li> -->
         </ul>
         <!-- <img src="/static/img/web_icons.png" /> -->
       </div>
