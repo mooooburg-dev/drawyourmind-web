@@ -42,11 +42,11 @@ export default {
     return {
       fixedIssues: [
         {
-          title: '⚡️ AWS CLI 활용',
-          html_url: 'https://www.notion.so/drawyourmind/AWS-CLI-f3df05a850b64dad81e8d7c5195cb98b',
-          repository_url: 'notion',
-          update_at: '20201106',
-          visible: false,
+          title: '📘 리액트를 다루는 기술',
+          html_url: 'https://www.notion.so/drawyourmind/81dbc01da55e44ce9cda8db9054e7aab',
+          repository_url: 'notion-BOOKS',
+          update_at: '20201116',
+          visible: true,
         },
       ],
       issues: {},
