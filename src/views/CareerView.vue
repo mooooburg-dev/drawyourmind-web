@@ -8,13 +8,6 @@
         <span class="career-text oxtail" @click.prevent="careerItemClick(item, item_idx)">{{ item.name }}</span>
         <div class="career-item-desc ml-3">
           <span>{{ item.date }}</span>
-          <template v-if="item.photo">
-            <br />
-            <span>
-              <img src="/static/img/logo_7.png" class="works-photo-icon" />
-              <a :href="item.photo" target="_blank">Season Photos</a>
-            </span>
-          </template>
           <br />
           <br />
           <span v-if="item.role" v-html="item.role"></span>
@@ -29,6 +22,15 @@
                 {{ `${project_idx < item.projects.length - 1 ? ' / ' : ''}` }}
               </template>
               <template v-else>{{ project.label }}{{ `${project_idx < item.projects.length - 1 ? ' / ' : ''}` }}</template>
+            </span>
+            <br />
+            <br />
+          </template>
+          <template v-if="item.photo">
+            <!-- <br /> -->
+            <span>
+              <img src="/static/img/logo_7.png" class="works-photo-icon" />
+              <a :href="item.photo" target="_blank">Season Memory</a>
             </span>
             <br />
             <br />
