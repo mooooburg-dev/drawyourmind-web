@@ -72,7 +72,7 @@ export default {
         },
         {
           name: 'Dev.note',
-          path: 'https://dev.drawyourmind.com/',
+          path: 'http://dev.drawyourmind.com/',
           // path: "https://velog.io/@drawyourmind",  //velog
           visible: true,
         },
