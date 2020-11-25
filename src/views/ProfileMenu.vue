@@ -37,7 +37,6 @@
           <li class="logo"><img src="/static/img/logo_6.png" /></li>
           <!-- <li class="logo"><img src="/static/img/logo_7.png" /></li> -->
         </ul>
-        <!-- <img src="/static/img/web_icons.png" /> -->
       </div>
       <div class="menus mt-4">
         <template v-for="(item, item_idx) in menus">
@@ -89,10 +88,6 @@ export default {
 
       tempPath: '',
     }
-  },
-
-  watch: {
-    sIdx: function() {},
   },
 
   mounted() {

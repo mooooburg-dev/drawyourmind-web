@@ -74,7 +74,6 @@ export default {
       axios
         .get('https://api.github.com/search/issues?q=user:mooooburg-dev&sort=updated')
         .then((response) => {
-          // console.log(response)
           this.issues = response.data
           // this.issues.sort()
         })
