@@ -45,7 +45,7 @@ export default {
           title: '📘 리액트를 다루는 기술(업데이트 중)',
           html_url: 'https://www.notion.so/drawyourmind/81dbc01da55e44ce9cda8db9054e7aab',
           repository_url: 'notion-BOOKS',
-          update_at: '20201116',
+          updated_at: '20201116',
           visible: true,
         },
       ],
