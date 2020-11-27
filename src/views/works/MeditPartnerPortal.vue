@@ -23,7 +23,7 @@
           <li><a href="https://mooooburg-dev.github.io/posts/aws-cloudfront-basic/" target="_blank">AWS CloudFront 적용</a></li>
           <li><a href="https://www.notion.so/MPP-AWS-4eaa729275f849f698424e0b55a4a685/" target="_blank">MPP AWS 환경 구성하기</a></li>
           <li><a href="https://mooooburg-dev.github.io/posts/ios-ipad-detect-issue/" target="_blank">iPad 분기 처리 이슈 정리</a></li>
-          <li><a href="https://mooooburg-dev.github.io/posts/vue-nextTick/" target="_blank">DOM에 접근해야 하는 시점이 애매할 때 $nextTick 사용하기</a></li>
+          <li><a href="https://www.notion.so/drawyourmind/nextTick-df9e903ebe6443cf84cf7a952bca7166" target="_blank">DOM에 접근해야 하는 시점이 애매할 때 $nextTick 사용하기</a></li>
           <li>vue 값이 바뀌었는데 화면에 표시가 되지 않을 때 $forceUpdate 사용히기</li>
         </ul>
       </div>
