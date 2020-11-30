@@ -4,7 +4,7 @@
       <span>
         <span>Copyrights by &nbsp;</span>
         <span class="url-block">👨🏻‍💻 drawyourmind.com</span>
-        <span>allrights reserved</span>
+        <span>allrights reserved.</span>
       </span>
     </div>
   </footer>
