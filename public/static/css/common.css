@@ -358,7 +358,6 @@ img {
 .ordinary-item {
   height: auto;
   transition: color 0.5s;
-  cursor: pointer;
 }
 .ordinary-text a:link {
   color: #666666 !important;
@@ -376,6 +375,7 @@ img {
 }
 .ordinary-text {
   font-size: 28pt;
+  cursor: pointer;
 }
 .ordinary-sm-text {
   font-size: 12pt;
