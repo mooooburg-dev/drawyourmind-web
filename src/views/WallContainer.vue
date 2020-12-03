@@ -63,7 +63,7 @@ export default {
 
       setTimeout(() => {
         this.$emit('goMenu')
-      }, 1000)
+      }, 500)
     },
 
     issueLogoClick() {
