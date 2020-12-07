@@ -7,7 +7,7 @@
     <div class="content-container">
       <div class="mb-3" style="width: 840px; position:relative;">
         <div class="works-page-text">
-          work
+          work no
           <span style="font-weight:bold; color:#3ab67f;">{{ pageNum }}</span>
           of {{ arrPathName.length }} /
           <a href="#" @click.prevent="clickCallback(arrPathName.length)">view all project</a>
