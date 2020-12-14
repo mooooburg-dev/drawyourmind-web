@@ -8,7 +8,7 @@
           Now Issues
         </div>
         <template v-for="(item, item_idx) in fixedIssues">
-          <div v-if="item.visible" class="issue-item" :key="item_idx">
+          <div v-if="item.visible" class="issue-item" :key="'fixed' + item_idx">
             <a :href="item.html_url" target="_blank">
               > {{ item.title }}
               <span style="font-size:11px;">[{{ item.repository_url }}] {{ $moment(item.updated_at).format('YYYY/MM/DD') }}</span>
