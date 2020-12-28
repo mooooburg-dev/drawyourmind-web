@@ -46,7 +46,7 @@ export default {
           html_url: 'https://www.notion.so/drawyourmind/81dbc01da55e44ce9cda8db9054e7aab',
           repository_url: 'notion-BOOKS',
           updated_at: '20201116',
-          visible: true,
+          visible: false,
         },
       ],
       issues: {},
