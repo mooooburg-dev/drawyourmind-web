@@ -3,7 +3,7 @@
     <div class="footer-container">
       <span>
         <span>Copyrights by &nbsp;</span>
-        <span class="url-block">👨🏻‍💻 drawyourmind.com</span>
+        <span class="url-block">👨🏻‍💻 drawyourmind.com 2020</span>
         <span>allrights reserved.</span>
       </span>
     </div>
