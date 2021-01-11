@@ -63,7 +63,7 @@ export default {
               path: '/works/mpp',
             },
             {
-              label: 'HR System',
+              label: 'e-HR System',
               path: '/works/hr',
             },
           ],
