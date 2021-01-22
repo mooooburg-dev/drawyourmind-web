@@ -55,7 +55,7 @@ export default {
         {
           name: 'MEDIT',
           date: '2019.09 ~ Present',
-          role: '<b>Position_</b><br/>Informatation Startegy Team / Web Developer',
+          role: '<b>Position_</b><br/>R&D Group / Front-end Developer<br/>Informatation Startegy Team / Web Developer',
           photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
           projects: [
             {
