@@ -12,7 +12,7 @@
         <br />
       </div>
       <div class="profile-text-2 mt-4">
-        <span>MEDIT corp. / Seoul, South Korea</span>
+        <span>MEDIT corp / Seoul, South Korea</span>
         <br />
         <span>jeongmupark@gmail.com</span>
         <br />
