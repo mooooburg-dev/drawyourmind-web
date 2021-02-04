@@ -4,7 +4,7 @@
       <img src="/static/img/works/lotte_howmuch_0.jpg" />
     </div>
     <div class="work-item mt-4">
-      <span class="work-text oxtail">Lotte Howmuch Direct Insurance</span>
+      <span class="work-text oxtail">Lotte Howmuch Direct Insurance Project</span>
       <br />
       <br />
       <span>duration : 2011.07 ~ 2012.01</span>
