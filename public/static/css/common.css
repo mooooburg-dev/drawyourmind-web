@@ -80,6 +80,11 @@ img {
   z-index: 100;
 }
 
+.profile-menu-continer .current-company {
+  font-weight: bold;
+  color: #0076ce;
+}
+
 .avatar {
   width: 102px;
   cursor: pointer;
