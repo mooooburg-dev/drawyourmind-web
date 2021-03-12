@@ -3,7 +3,7 @@
 		<div class="profile mt-5 ml-5">
 			<div>
 				<div
-					v-if="isTweet && $route.path === '/'"
+					v-if="isTweet && isTweet !== '' && $route.path === '/'"
 					class="tweet-wrapper"
 					@click.prevent="tweetClickHandler(tweet.id)"
 				>
