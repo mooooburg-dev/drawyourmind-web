@@ -1,6 +1,6 @@
 <template>
-	<div class="profile-menu-continer">
-		<div class="profile mt-5 ml-5">
+	<div class="profile-menu-container">
+		<div class="profile">
 			<div class="avatar-container">
 				<div
 					v-if="isTweet && isTweet !== '' && $route.path === '/'"
@@ -112,7 +112,7 @@ export default {
 				{
 					name: 'Test',
 					path: '/test',
-					visible: false,
+					visible: true,
 				},
 				// {
 				//   name: "Comments",

@@ -74,29 +74,33 @@ img {
 	margin-bottom: 60px;
 }
 
-.profile-menu-continer {
+.profile-menu-container {
 	float: left;
 	width: 400px;
 	position: fixed;
 	z-index: 100;
 }
 
-.profile-menu-continer .current-company {
+.profile-menu-container .profile {
+	margin: 50px 50px;
+}
+
+.profile-menu-container .current-company {
 	font-weight: bold;
 	color: #0076ce;
 }
 
-.profile-menu-continer .avatar-container {
+.profile-menu-container .avatar-container {
 	display: flex;
 	align-items: center;
 }
 
-.profile-menu-continer .avatar {
+.profile-menu-container .avatar {
 	width: 102px;
 	cursor: pointer;
 }
 
-.profile-menu-continer .tweet-wrapper {
+.profile-menu-container .tweet-wrapper {
 	position: absolute;
 	width: 300px;
 	left: 9rem;
@@ -112,7 +116,7 @@ img {
 	align-items: center;
 }
 
-.profile-menu-continer .tweet-wrapper::before {
+.profile-menu-container .tweet-wrapper::before {
 	content: '';
 	width: 10px;
 	height: 10px;
