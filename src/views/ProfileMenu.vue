@@ -112,7 +112,7 @@ export default {
 				{
 					name: 'Test',
 					path: '/test',
-					visible: true,
+					visible: false,
 				},
 				// {
 				//   name: "Comments",
