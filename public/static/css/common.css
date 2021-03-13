@@ -86,6 +86,11 @@ img {
 	color: #0076ce;
 }
 
+.profile-menu-continer .avatar-container {
+	display: flex;
+	align-items: center;
+}
+
 .profile-menu-continer .avatar {
 	width: 102px;
 	cursor: pointer;
@@ -95,8 +100,6 @@ img {
 	position: absolute;
 	width: 300px;
 	left: 9rem;
-	top: 15%;
-	transform: translate(0px, -50%);
 	padding: 0.8rem;
 	font-size: 0.7rem;
 	background-color: white;
