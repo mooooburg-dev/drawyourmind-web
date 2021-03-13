@@ -94,7 +94,7 @@ img {
 .profile-menu-continer .tweet-wrapper {
 	position: absolute;
 	width: 300px;
-	left: 9.5rem;
+	left: 9rem;
 	top: 15%;
 	transform: translate(0px, -50%);
 	padding: 0.8rem;
@@ -105,6 +105,18 @@ img {
 	transition: all 0.5s;
 	word-break: keep-all;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+
+.profile-menu-continer .tweet-wrapper::before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: white;
+	transform: rotate(45deg);
+	left: -5px;
 }
 
 .logos {
