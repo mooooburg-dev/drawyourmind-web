@@ -102,7 +102,7 @@ img {
 
 .profile-menu-container .tweet-wrapper {
 	position: absolute;
-	width: 300px;
+	max-width: 300px;
 	left: 9rem;
 	padding: 0.8rem;
 	font-size: 0.7rem;
