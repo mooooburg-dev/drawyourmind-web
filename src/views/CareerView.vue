@@ -54,7 +54,7 @@ export default {
       careers: [
         {
           name: 'MEDIT',
-          date: '2019.09 ~ Present',
+          date: '2019.09 ~ 2021.03',
           role: '<b>Position_</b><br/>R&D Group / Front-end Developer<br/>Informatation Startegy Team / Web Developer',
           photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
           projects: [
