@@ -22,7 +22,7 @@
 			</div>
 			<div class="profile-text-2 mt-4">
 				<span>
-					<span class="current-company">MEDIT</span>
+					<span class="current-company">BUZZNI</span>
 					/ Seoul, South Korea
 				</span>
 				<br />
