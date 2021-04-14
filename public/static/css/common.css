@@ -87,7 +87,8 @@ img {
 
 .profile-menu-container .current-company {
 	font-weight: bold;
-	color: yellow;
+	/* color: #ffffff; */
+	background-color: #FFDC31;
 }
 
 .profile-menu-container .avatar-container {
