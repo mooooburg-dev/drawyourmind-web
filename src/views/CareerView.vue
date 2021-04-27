@@ -4,8 +4,16 @@
       <span class="oxtail content-title text-uppercase">{{ $route.name }}</span>
     </div>
     <div class="content-container career-list">
-      <div v-for="(item, item_idx) in careers" :key="item_idx" class="career-item">
-        <span class="career-text oxtail" @click.prevent="careerItemClick(item, item_idx)">{{ item.name }}</span>
+      <div
+        v-for="(item, item_idx) in careers"
+        :key="item_idx"
+        class="career-item"
+      >
+        <span
+          class="career-text oxtail"
+          @click.prevent="careerItemClick(item, item_idx)"
+          >{{ item.name }}</span
+        >
         <div class="career-item-desc ml-3">
           <span>{{ item.date }}</span>
           <br />
@@ -16,12 +24,22 @@
           <template v-if="item.projects && item.projects.length > 0">
             <span><b>Projects_</b></span>
             <br />
-            <span v-for="(project, project_idx) in item.projects" :key="project_idx">
+            <span
+              v-for="(project, project_idx) in item.projects"
+              :key="project_idx"
+            >
               <template v-if="project.path">
-                <a href="" @click.prevent="$router.push(project.path)">{{ project.label }}</a>
+                <a href="" @click.prevent="$router.push(project.path)">{{
+                  project.label
+                }}</a>
                 {{ `${project_idx < item.projects.length - 1 ? ' / ' : ''}` }}
               </template>
-              <template v-else>{{ project.label }}{{ `${project_idx < item.projects.length - 1 ? ' / ' : ''}` }}</template>
+              <template v-else
+                >{{ project.label
+                }}{{
+                  `${project_idx < item.projects.length - 1 ? ' / ' : ''}`
+                }}</template
+              >
             </span>
             <br />
             <br />
@@ -55,7 +73,8 @@ export default {
         {
           name: 'MEDIT',
           date: '2019.09 ~ 2021.03',
-          role: '<b>Position_</b><br/>R&D Group / Front-end Developer<br/>Informatation Startegy Team / Web Developer',
+          role:
+            '<b>Position_</b><br/>R&D Group / Front-end Developer<br/>Informatation Startegy Team / Web Developer',
           photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
           projects: [
             {
