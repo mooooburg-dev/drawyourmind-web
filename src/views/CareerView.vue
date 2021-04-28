@@ -71,7 +71,7 @@ export default {
     return {
       careers: [
         {
-          name: 'MEDIT Corp',
+          name: 'MEDIT',
           date: '2019.09 ~ 2021.03',
           role:
             '<b>Position_</b><br/>R&D Group / Front-end Developer<br/>Informatation Startegy Team / Web Developer',
