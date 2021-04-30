@@ -8,7 +8,7 @@
       <span class="work-text oxtail">Medit Partner Portal System</span>
       <br />
       <br />
-      <span>2020.03 ~</span>
+      <span>2020.03 ~ 2020.12</span>
       <br />
       <span>MEDIT IST</span>
       <br />
