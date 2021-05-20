@@ -106,7 +106,7 @@ export default {
     getGitHubIssues() {
       axios
         .get(
-          'https://api.github.com/search/issues?q=user:mooooburg-dev&sort=updated'
+          'https://api.github.com/search/issues?q=author:mooooburg-dev&sort=updated'
         )
         .then((response) => {
           this.issues = response.data
