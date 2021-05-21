@@ -71,6 +71,20 @@ export default {
     return {
       careers: [
         {
+          name: 'BUZZNI',
+          date: '2021.04 ~ Present',
+          role:
+            '<b>Position_</b><br/>Commerce Front-end Chapter / Front-end Engineer',
+          // photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
+          projects: [
+            {
+              label: 'HSMOA Commerce Service',
+              path: '',
+            },
+          ],
+          // image: '/static/img/career_medit.png',
+        },
+        {
           name: 'MEDIT',
           date: '2019.09 ~ 2021.03',
           role:
