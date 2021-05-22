@@ -28,8 +28,10 @@
         <br />
         <span>jeongmupark@gmail.com</span>
         <br />
+        <!-- 
         <span>+82 10 3806 7021</span>
         <br />
+         -->
         <br />
         <span>
           <a href="http://github.com/mooooburg-dev" target="_blank">@Github</a>
