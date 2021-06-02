@@ -2,9 +2,27 @@
   <div>
     <div class="work-text oxtail mt-5 mb-5">All Project List</div>
     <div>
+      2021
+      <ul>
+        <li>
+          HSMOA Commerce System 구축중
+        </li>
+        <ul>
+          <li>React / Hooks</li>
+          <li>Typescript</li>
+          <li>Ant design</li>
+          <li>yup</li>
+        </ul>
+      </ul>
+    </div>
+    <div>
       2020
       <ul>
-        <li><a href="#" @click.prevent="$router.push('/works/mpp')">Medit Partner Portal System</a></li>
+        <li>
+          <a href="#" @click.prevent="$router.push('/works/mpp')"
+            >Medit Partner Portal System</a
+          >
+        </li>
         <ul>
           <li>Vue.js</li>
           <li>Spring Boot & Gradle</li>
@@ -16,7 +34,11 @@
     <div>
       2019
       <ul>
-        <li><a href="#" @click.prevent="$router.push('/works/hr')">Medit e-HR System</a></li>
+        <li>
+          <a href="#" @click.prevent="$router.push('/works/hr')"
+            >Medit e-HR System</a
+          >
+        </li>
         <ul>
           <li>Vue.js</li>
           <li>Element</li>
@@ -27,15 +49,28 @@
     <div>
       2018
       <ul>
-        <li><a href="#" @click.prevent="$router.push('/works/adidas-golf')">[아디다스 골프] 통합 마케팅 운영 대행</a></li>
-        <li><a href="#" @click.prevent="$router.push('/works/dior-gallery')">[Dior] VVIP 컨슈머 모바일 갤러리 서비스 운영</a></li>
+        <li>
+          <a href="#" @click.prevent="$router.push('/works/adidas-golf')"
+            >[아디다스 골프] 통합 마케팅 운영 대행</a
+          >
+        </li>
+        <li>
+          <a href="#" @click.prevent="$router.push('/works/dior-gallery')"
+            >[Dior] VVIP 컨슈머 모바일 갤러리 서비스 운영</a
+          >
+        </li>
       </ul>
     </div>
     <div>
       2017
       <ul>
         <li>[YBM] 2018 YBM 중학교 영어 디지털 교과서 제작</li>
-        <li><a href="#" @click.prevent="$router.push('/works/sns-marketing')">온라인 마케팅 운영(아디다스, 노스페이스, 만다리나덕, 하그로프스 등)</a></li>
+        <li>
+          <a href="#" @click.prevent="$router.push('/works/sns-marketing')"
+            >온라인 마케팅 운영(아디다스, 노스페이스, 만다리나덕, 하그로프스
+            등)</a
+          >
+        </li>
       </ul>
     </div>
     <div>
@@ -79,7 +114,11 @@
     <div>
       2012
       <ul>
-        <li><a href="#" @click.prevent="$router.push('/works/vual')">멀티 뉴미디어 브랜드 VUAL 런칭</a></li>
+        <li>
+          <a href="#" @click.prevent="$router.push('/works/vual')"
+            >멀티 뉴미디어 브랜드 VUAL 런칭</a
+          >
+        </li>
         <li>한화손해보험 플래시 컨텐츠 제작</li>
         <li>삼성화재 설계체험 플래시 컨텐츠 제작</li>
         <li>롯데 인재개발원 웹사이트 구축</li>
