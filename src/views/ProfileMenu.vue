@@ -112,9 +112,9 @@ export default {
           visible: true,
         },
         {
-          name: 'Test',
-          path: '/test',
-          visible: false,
+          name: 'Blog',
+          path: 'https://blog.drawyourmind.com/',
+          visible: true,
         },
         // {
         //   name: "Comments",
