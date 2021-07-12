@@ -106,7 +106,7 @@ export default {
           visible: true,
         },
         {
-          name: 'Dev.note',
+          name: 'Dev.Note',
           path: 'http://dev.drawyourmind.com/',
           // path: "https://velog.io/@drawyourmind",  //velog
           visible: true,
