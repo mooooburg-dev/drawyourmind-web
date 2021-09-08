@@ -71,7 +71,7 @@ export default {
     return {
       careers: [
         {
-          name: 'BUZZNI',
+          name: 'Buzzni',
           date: '2021.04 ~ Present',
           role:
             '<b>Position_</b><br/>Commerce Front-end Chapter / Front-end Engineer',
