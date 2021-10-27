@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="profile-text-1 mt-4">
-        <span id="job" class="oxtail">Web Developer</span>
+        <span id="job" class="oxtail">Front-end Engineer</span>
         <br />
         <span id="name" class="oxtail">Jeongmu Park</span>
         <br />
