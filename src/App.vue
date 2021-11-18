@@ -4,11 +4,11 @@
 			ref="profileMenu"
 			@showCover="showCover"
 			@goMenu="goMenu"
-		></profile-menu>
+		/>
 		<div class="bodywrap">
 			<div class="router-container">
 				<transition name="fade" mode="out-in">
-					<router-view></router-view>
+					<router-view/>
 				</transition>
 			</div>
 		</div>
@@ -17,9 +17,9 @@
 				ref="wall"
 				v-if="$route.path == '/'"
 				@goMenu="goMenu"
-			></wall-container>
+			/>
 		</transition>
-		<footer-area></footer-area>
+		<footer-area/>
 	</div>
 </template>
 
