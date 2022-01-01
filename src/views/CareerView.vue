@@ -75,6 +75,7 @@ export default {
           date: '2021.04 ~ Present',
           role:
             '<b>Position_</b><br/>Commerce Front-end Chapter / Front-end Engineer',
+          // TODO: 이미지 추가하기
           // photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
           projects: [
             {
