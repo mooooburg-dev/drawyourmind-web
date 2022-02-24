@@ -9,6 +9,7 @@ import CommentsView from '../views/CommentsView.vue'
 import TestView from '../views/TestView.vue'
 
 import AllWorksList from '../views/works/AllWorksList.vue'
+import HsMoaBO from '../views/works/HsMoaBO.vue'
 import MeditPartnerPortal from '../views/works/MeditPartnerPortal.vue'
 import MeditHrSystem from '../views/works/MeditHrSystem.vue'
 import AdidasGolf from '../views/works/AdidasGolf.vue'
@@ -46,6 +47,14 @@ const routes = [
         component: AllWorksList,
         meta: {
           name: 'all',
+        },
+      },
+      {
+        path: 'hsmoabo',
+        name: 'works',
+        component: HsMoaBO,
+        meta: {
+          name: 'hsmoabo',
         },
       },
       {

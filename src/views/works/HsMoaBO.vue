@@ -1,19 +1,19 @@
 <template>
   <div class="work-item-container">
     <div class="work-item-img">
-      <img src="/static/img/works/mpp_0.png" />
+      <img src="/static/img/works/hsmoabo_0.png" />
     </div>
     <div class="work-item mt-5">
-      <span class="work-text oxtail">Home Shopping MOA Seller Center / Commerce Admin</span>
+      <span class="work-text oxtail">HomeShoppingMOA Back-Office</span>
       <br />
       <br />
-      <span>2021.04 ~ 2021.08</span>
+      <span>2021.04 ~ Present</span>
       <br />
-      <span>Buzzni Commerce Squard / Frontend Chapter</span>
+      <span>Buzzni Commerce Squad / Frontend Chapter</span>
       <br />
-      <span
-        >Role : 홈쇼핑모아 판매자센터 / 커머스 어드민 Frontend 개발(React, TS)</span
-      >
+      <span>Role: 홈쇼핑모아 판매자센터 / 커머스 어드민 Frontend 개발</span>
+      <br />
+      <span>Skill: React / TypeScript / AndDesign / RamdaJS</span>
       <br />
       <span
         ><a
@@ -120,11 +120,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style>
-
-</style>
+<style></style>

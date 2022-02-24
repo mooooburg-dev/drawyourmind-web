@@ -80,7 +80,7 @@ export default {
           projects: [
             {
               label: 'HSMOA Commerce Service',
-              path: '',
+              path: '/works/hsmoabo',
             },
           ],
           // image: '/static/img/career_medit.png',
