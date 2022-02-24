@@ -10,11 +10,11 @@
     "deploy": "vue-cli-service build --mode development && aws s3 sync ./dist s3://drawyourmind.com --acl public-read --delete && aws cloudfront create-invalidation --distribution-id E3JG3XF1CQRTLS --paths '/*'"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.2",
     "axios": "^0.21.4",
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.20.1",
     "core-js": "^3.8.1",
-    "popper.js": "^1.16.1",
     "vue": "^2.6.12",
     "vue-material": "^1.0.0-beta-15",
     "vue-moment": "^4.1.0",
