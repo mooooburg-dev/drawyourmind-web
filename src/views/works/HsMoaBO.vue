@@ -4,7 +4,7 @@
       <img src="/static/img/works/hsmoabo_0.png" />
     </div>
     <div class="work-item mt-5">
-      <span class="work-text oxtail">Hsmoa Back Office~</span>
+      <span class="work-text oxtail">Hsmoa Back Office!~</span>
       <br />
       <br />
       <span>2021.04 ~ Present</span>
