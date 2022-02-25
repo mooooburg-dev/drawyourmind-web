@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
-        uses: actions/checkout@release
+      - uses: actions/checkout@release
 
       - name: Install Dependencies
         run: npm install
