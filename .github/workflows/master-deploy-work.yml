@@ -1,10 +1,10 @@
 # master-deploy-work.yml
-name: master
+name: release deploy
 
 on:
   push:
     branches:
-      - master # master 브랜치에서 push 이벤트가 일어났을 때 실행
+      - release # master 브랜치에서 push 이벤트가 일어났을 때 실행
 
 jobs:
   build:
