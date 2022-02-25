@@ -4,15 +4,14 @@ name: release deploy
 on:
   push:
     branches:
-      - masterd # master 브랜치에서 push 이벤트가 일어났을 때 실행
+      - release # master 브랜치에서 push 이벤트가 일어났을 때 실행
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
-      - uses: actions/checkout@release
+      - uses: actions/checkout@master
 
       - name: Install Dependencies
         run: npm install
