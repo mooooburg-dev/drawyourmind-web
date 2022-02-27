@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --mode local --open",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --mode development",
     "dev-build": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint",
     "deploy": "vue-cli-service build --mode development && aws s3 sync ./dist s3://drawyourmind.com --acl public-read --delete && aws cloudfront create-invalidation --distribution-id E3JG3XF1CQRTLS --paths '/*'"
