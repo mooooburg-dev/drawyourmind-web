@@ -73,13 +73,12 @@ export default {
         {
           name: 'Buzzni',
           date: '2021.04 ~ Present',
-          role:
-            '<b>Position_</b><br/>Commerce Front-end Chapter / Front-end Engineer',
+          role: '<b>Position_</b><br/>Commerce Squad / Front-end Engineer',
           // TODO: 이미지 추가하기
           // photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
           projects: [
             {
-              label: 'HSMOA Commerce Service',
+              label: 'HSMOA Commerce Backoffice',
               path: '/works/hsmoabo',
             },
           ],
