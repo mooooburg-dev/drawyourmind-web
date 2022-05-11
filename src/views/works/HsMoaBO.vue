@@ -13,100 +13,54 @@
       <br />
       <span>Role: 홈쇼핑모아 판매자센터 / 커머스 어드민 Frontend 개발</span>
       <br />
-      <span>Skill: React / TypeScript / AndDesign / RamdaJS</span>
-      <br />
       <span
-        ><a
-          href="https://github.com/mooooburg-dev/medit-partner-portal"
-          target="_blank"
-          >github.com/mooooburg-dev/medit-partner-portal</a
-        ></span
+        >Skill: React / TypeScript / AndDesign / styled-component /
+        RamdaJS</span
       >
       <br />
-      <div class="mt-5">
-        <h3>archive link</h3>
-        <ul>
-          <li>
-            <a
-              href="https://github.com/mooooburg-dev/medit-partner-portal/issues?q="
-              target="_blank"
-              >github 프로젝트 이슈 노트</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://mooooburg-dev.github.io/posts/aws-cloudfront-basic/"
-              target="_blank"
-              >AWS CloudFront 적용</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.notion.so/MPP-AWS-4eaa729275f849f698424e0b55a4a685/"
-              target="_blank"
-              >MPP AWS 환경 구성하기</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://mooooburg-dev.github.io/posts/ios-ipad-detect-issue/"
-              target="_blank"
-              >iPad 분기 처리 이슈 정리</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.notion.so/drawyourmind/nextTick-df9e903ebe6443cf84cf7a952bca7166"
-              target="_blank"
-              >DOM에 접근해야 하는 시점이 애매할 때 $nextTick 사용하기</a
-            >
-          </li>
-          <li>
-            Vue의 데이터가 변경 되었지만 화면상에 렌더링이 되지 않을 때
-            $forceUpdate 사용히기
-          </li>
-        </ul>
-      </div>
       <div class="img-container text-center mt-5">
         <ul>
+          <li><img src="/static/img/works/hsmoabo_1.png" /></li>
           <li>
             <p class="text-left">
-              MPP(Medit Partner Portal)시스템은 메디트의 제품을 사용하는
-              파트너들을 위한 포털 서비스로써 메디트의 제품 구매 및 관리부터
-              파트너들을 위한 서포트 서비스를 제공한다. 사이트는 메디트의
-              담당자들이 파트너의 주문을 처리하는 메디트 담당자 화면과 파트너가
-              로그인하여 제품을 구매하고 파트너의 주문과정을 처리하는 파트너
-              화면을 동시에 가지고 있다.
+              홈쇼핑모아 서비스는 버즈니의 주력 서비스로 18개 홈쇼핑사의 상품
+              데이터를 모아 하나의 서비스에서 이용할 수 있는 모바일 홈쇼핑
+              플랫폼 서비스이다.
             </p>
           </li>
-          <li><img src="/static/img/works/mpp_1.png" /></li>
+          <li><img src="/static/img/works/hsmoabo_2.png" /></li>
           <li>
             <p class="text-left">
-              주요 기능은 제품 구매기능으로써 MPP를 통해 파트너가 제품을
-              구매하는 시점부터 주문 요청 및 확정, 출고 및 생산 단계를 거쳐 최종
-              제품발송 상태까지 파트너는 세부 주문 프로세스를 조회 및 확인할 수
-              있다. 또한 파트너가 현재까지 주문한 전체 히스토리 목록을 확인할 수
-              있는 파트너 주문 목록화면과 메디트 담당자가 조회할 수 있는 전체
-              주문 목록화면을 가지고 있으며 주문상세 페이지에서는 주문 사항의
-              세부 내용 조회가 가능하다.
+              홈쇼핑 상품에 관심이 높은 4050 여성을 주 유저층으로 보유하고 있고
+              높은 구매력으로 홈쇼핑 상품을 비교하고 방송을 시청한 귀 구매하는
+              스마트 컨슈머들이 모여있다.
             </p>
           </li>
-          <li><img src="/static/img/works/mpp_2.png" /></li>
+          <li><img src="/static/img/works/hsmoabo_3.png" /></li>
           <li>
             <p class="text-left">
-              또한 국내와 해외 주문으로 구분값을 가지고 있으며 국내주문일 경우
-              세금계산서 발행요청과 같은 국내 전용 기능 등을 지원하며,
-              해외주문일 경우 인보이스 발행을 위한 전용 PDF인보이스와 국외
-              배송을 위한 서비스를 제공한다. 그외 파트너가 알아야 할 공지사항과
-              뉴스레터를 제공하고 기본적인 파트너 관리 서비스와 메디트의 제품
-              관리하는 페이지, 그리고 파트너의 구매예상 폼을 작성하여 제품
-              공급이 원활할 수 있도록 서비스를 구축하였다. 지원 디바이스는 PC와
-              iPad, 갤럭시탭을 지원하며 Chrome, Edge, Safari 브라우저에 최적화
-              하였다.
+              하지만 자사에서 상품을 직접 판매하고 있는 시스템이 아니라서
+              구매시점에는 홈쇼핑사 서비스로 아웃 링크로 연결되는 리스크를 안고
+              있었다. 이번 프로젝트는 버즈니의 숙원 사업이었던 자사몰을 구축하고
+              홈쇼핑모아 서비스 내에서 직접 결제를 도입하는 실제 커머스 시스템을
+              구축하는 대형 프로젝트로였고 프로젝트 초반 투입해 백오피스
+              프론트엔드 개발에 참여하였다. 실제 서비스에서는 ‘알뜰쇼핑'이라는
+              이름으로 자사에서 관리하는 상품들을 전시하였고, 직접 결제까지
+              프로세스가 진행된다.
             </p>
           </li>
-          <li><img src="/static/img/works/mpp_3.png" /></li>
-          <li><img src="/static/img/works/mpp_4.png" /></li>
+          <li><img src="/static/img/works/hsmoabo_4.png" /></li>
+          <li>
+            <p class="text-left">
+              백오피스는 크게 기업에서 운영하는 커머스어드민 페이지와 홈쇼핑모아
+              판매자로 가입한 셀러들이 운영하는 판매자센터로 구분 되었다. 메뉴는
+              상품, 판매, 정산, 리뷰/문의, 판매자정보, 회원, 공지, 전시, 포인트,
+              쿠폰으로 구분되어 있다. 2021년 8월 서비스 1차 오픈 이후 지속적인
+              업데이트를 진행중이고 더 품질 좋은 서비스를 제공하기 위해 달리는
+              중이다.
+            </p>
+          </li>
+          <li><img src="/static/img/works/hsmoabo_5.png" /></li>
           <li>
             <p class="text-left">
               위 글에 대한 저작권은 본 사이트에 있으며 무단으로 복제 및 배포하실
