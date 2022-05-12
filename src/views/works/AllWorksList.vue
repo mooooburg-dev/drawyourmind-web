@@ -5,30 +5,37 @@
       2021
       <ul>
         <li>
-          HSMOA Commerce System 구축중
+          <a href="#" @click.prevent="$router.push('/works/hsmoabo')">
+            HSMOA Commerce Backoffice System 개발
+          </a>
+          <ul>
+            <li>React</li>
+            <li>Typescript</li>
+            <li>AntDesign</li>
+            <li>monorepo / react-hook-form / yup / ramda.js</li>
+          </ul>
         </li>
-        <ul>
-          <li>React / Hooks</li>
-          <li>Typescript</li>
-          <li>Ant design</li>
-          <li>yup</li>
-        </ul>
       </ul>
     </div>
     <div>
       2020
       <ul>
         <li>
-          <a href="#" @click.prevent="$router.push('/works/mpp')"
-            >Medit Partner Portal System</a
-          >
+          Medit Link 운영
+          <ul>
+            <li>React / Hooks / Redux</li>
+          </ul>
         </li>
-        <ul>
-          <li>Vue.js</li>
-          <li>Spring Boot & Gradle</li>
-          <li>AWS Elastic Beanstalk & S3</li>
-          <li>Jira / Confluence</li>
-        </ul>
+        <li>
+          <a href="#" @click.prevent="$router.push('/works/mpp')"
+            >Medit Partner Portal System 개발</a
+          >
+          <ul>
+            <li>Vue.js / El-element</li>
+            <li>Spring Boot & Gradle</li>
+            <li>AWS Elastic Beanstalk & S3</li>
+          </ul>
+        </li>
       </ul>
     </div>
     <div>
@@ -36,14 +43,13 @@
       <ul>
         <li>
           <a href="#" @click.prevent="$router.push('/works/hr')"
-            >Medit e-HR System</a
+            >Medit e-HR System 인사시스템 개발</a
           >
+          <ul>
+            <li>Vue.js / El-element</li>
+            <li>Jira / Confluence</li>
+          </ul>
         </li>
-        <ul>
-          <li>Vue.js</li>
-          <li>Element</li>
-          <li>Jira / Confluence</li>
-        </ul>
       </ul>
     </div>
     <div>
