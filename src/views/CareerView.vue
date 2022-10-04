@@ -32,12 +32,12 @@
                 <a href="" @click.prevent="$router.push(project.path)">{{
                   project.label
                 }}</a>
-                {{ `${project_idx < item.projects.length - 1 ? ' / ' : ''}` }}
+                {{ `${project_idx &lt; item.projects.length - 1 ? ' / ' : ''}` }}
               </template>
               <template v-else
                 >{{ project.label
                 }}{{
-                  `${project_idx < item.projects.length - 1 ? ' / ' : ''}`
+                  `${project_idx &lt; item.projects.length - 1 ? ' / ' : ''}`
                 }}</template
               >
             </span>
