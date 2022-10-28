@@ -48,7 +48,7 @@
 
 <script>
 import axios from 'axios'
-import CodingVideo from './wall/CodingVideo.vue'
+import CodingVideo from './wall/CodingVideo'
 import fixedIssues from '../spread/issues'
 
 export default {
