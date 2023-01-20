@@ -15,5 +15,13 @@ module.exports = {
     //     'Quill': 'quill/dist/quill.js'
     //   }),
     // ]
+    module: {
+      rules: [
+        {
+          test: /\.md$/i,
+          loader: 'raw-loader',
+        },
+      ],
+    },
   },
 }
