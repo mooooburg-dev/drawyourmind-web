@@ -4,7 +4,8 @@
       <img src="/static/img/works/sns_marketing_0.jpg" />
     </div>
     <div class="work-item mt-4">
-      <span class="work-text oxtail">Brand Social Marekting Operation</span><br /><br />
+      <span class="work-text oxtail">Brand Social Marekting Operation</span
+      ><br /><br />
       <span>duration : 2016.09 ~ 2017.08</span><br />
       <span>Advertiser : Dior</span><br />
       <span>Member : MediaBling Crossmedia Team</span><br />
@@ -12,7 +13,14 @@
       <div class="img-container text-center mt-5">
         <ul>
           <li>
-            <iframe width="840" height="473" src="https://www.youtube.com/embed/4KtF5YOUyUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              width="840"
+              height="473"
+              src="https://www.youtube.com/embed/4KtF5YOUyUA"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </li>
           <li><img src="/static/img/works/sns_marketing_1.jpg" /></li>
           <li><img src="/static/img/works/sns_marketing_2.jpg" /></li>

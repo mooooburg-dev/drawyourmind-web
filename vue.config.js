@@ -1,7 +1,5 @@
-// var webpack = require('webpack');
-
 module.exports = {
-  lintOnSave: false,
+  lintOnSave: true,
   // pluginOptions: {
   //   i18n: {
   //     locale: "ko",
@@ -10,12 +8,12 @@ module.exports = {
   //     enableInSFC: false
   //   }
   // },
-  // configureWebpack: {
-  //   plugins: [
-  //     new webpack.ProvidePlugin({
-  //       'window.Quill': 'quill/dist/quill.js',
-  //       'Quill': 'quill/dist/quill.js'
-  //     }),
-  //   ]
-  // }
+  configureWebpack: {
+    // plugins: [
+    //   new webpack.ProvidePlugin({
+    //     'window.Quill': 'quill/dist/quill.js',
+    //     'Quill': 'quill/dist/quill.js'
+    //   }),
+    // ]
+  },
 }

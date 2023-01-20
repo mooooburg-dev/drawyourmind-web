@@ -21,8 +21,6 @@ import MeritzDirect from '../views/works/MeritzDirect.vue'
 import GooutStore from '../views/works/GooutStore.vue'
 import LotteHowmuch from '../views/works/LotteHowmuch.vue'
 
-// import { component } from "vue/types/umd";
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -165,9 +163,6 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
-  scrollBehavior(to, from, savedPosition) {
-    return { x: 0, y: 0 }
-  },
 })
 
 export default router

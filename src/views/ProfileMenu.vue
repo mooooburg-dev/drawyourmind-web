@@ -28,11 +28,6 @@
         <br />
         <span>jeongmupark@gmail.com</span>
         <br />
-        <!-- 
-        <span>+82 10 3806 7021</span>
-        <br />
-         -->
-        <br />
         <span>
           <a href="http://github.com/mooooburg-dev" target="_blank">@Github</a>
         </span>
@@ -56,8 +51,6 @@
           <li class="logo"><img src="/static/img/logo_3.png" /></li>
           <li class="logo"><img src="/static/img/logo_4.png" /></li>
           <li class="logo"><img src="/static/img/logo_5.png" /></li>
-          <li class="logo"><img src="/static/img/logo_6.png" /></li>
-          <!-- <li class="logo"><img src="/static/img/logo_7.png" /></li> -->
         </ul>
       </div>
       <div class="menus mt-4">
@@ -116,10 +109,6 @@ export default {
           path: 'https://blog.drawyourmind.com/',
           visible: true,
         },
-        // {
-        //   name: "Comments",
-        //   path: "/comments",
-        // },
       ],
 
       baseURL: '',
