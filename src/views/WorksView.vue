@@ -5,10 +5,10 @@
     </div>
 
     <div class="content-container">
-      <div class="mb-3" style="width: 840px; position:relative;">
+      <div class="mb-3" style="width: 840px; position: relative">
         <div class="works-page-text">
           work no
-          <span style="font-weight:bold; color:#3ab67f;">{{ pageNum }}</span>
+          <span style="font-weight: bold; color: #3ab67f">{{ pageNum }}</span>
           of {{ arrPathName.length }} /
           <a href="#" @click.prevent="clickCallback(arrPathName.length)"
             >view all project</a
@@ -25,7 +25,7 @@
         <span
           @click="arrowClick('next')"
           class="works-arrow-btn"
-          style="float: right;"
+          style="float: right"
         >
           Next
           <b-icon
@@ -86,17 +86,17 @@ export default {
   watch: {
     $route: {
       handler() {
-        if (this.$route.path.toLowerCase() == '/works') {
+        if (this.$route.path.toLowerCase() === '/works') {
           this.$router.push(
             this.$route.path + '/' + this.arrPathName[this.pageNum - 1]
           )
-        } else if (this.$route.path.toLowerCase() == '/works/') {
+        } else if (this.$route.path.toLowerCase() === '/works/') {
           this.$router.push(
             this.$route.path + this.arrPathName[this.pageNum - 1]
           )
         } else {
           for (const idx in this.arrPathName) {
-            if (this.arrPathName[idx] == this.$route.meta.name) {
+            if (this.arrPathName[idx] === this.$route.meta.name) {
               this.pageNum = Number(idx) + 1
             }
           }
@@ -109,7 +109,7 @@ export default {
   mounted() {},
 
   methods: {
-    clickCallback: function(pageNum) {
+    clickCallback: function (pageNum) {
       this.pageNum = pageNum
       this.$router.push(`/works/${this.arrPathName[this.pageNum - 1]}`)
     },

@@ -16,12 +16,13 @@ Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
-Vue.component('paginate', Paginate)
-
 Vue.config.productionTip = false
 
 new Vue({
   // axios,
   router,
   render: (h) => h(App),
+  components: {
+    paginate: Paginate,
+  },
 }).$mount('#app')

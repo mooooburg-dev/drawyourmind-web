@@ -1,19 +1,20 @@
+const CopyPlugin = require('copy-webpack-plugin')
+
 module.exports = {
   lintOnSave: true,
-  // pluginOptions: {
-  //   i18n: {
-  //     locale: "ko",
-  //     fallbackLocale: "ko",
-  //     localeDir: "locales",
-  //     enableInSFC: false
-  //   }
-  // },
   configureWebpack: {
-    // plugins: [
-    //   new webpack.ProvidePlugin({
-    //     'window.Quill': 'quill/dist/quill.js',
-    //     'Quill': 'quill/dist/quill.js'
-    //   }),
-    // ]
+    plugins: [
+      new CopyPlugin({
+        patterns: [{ from: 'src/posts', to: 'static/posts' }],
+      }),
+    ],
+    module: {
+      rules: [
+        {
+          test: /\.md$/i,
+          loader: 'raw-loader',
+        },
+      ],
+    },
   },
 }

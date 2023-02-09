@@ -87,8 +87,7 @@ export default {
         {
           name: 'MEDIT',
           date: '2019.09 ~ 2021.03',
-          role:
-            '<b>Position_</b><br/>R&D Group / Front-end Developer<br/>Informatation Startegy Team / Web Developer',
+          role: '<b>Position_</b><br/>R&D Group / Front-end Developer<br/>Informatation Startegy Team / Web Developer',
           photo: 'https://photos.app.goo.gl/FHKaNQnjdJKaN1oz5',
           projects: [
             {
@@ -227,25 +226,19 @@ export default {
 
   mounted() {
     $('.career-item-desc').slideUp(0)
-    $('.career-text')
-      .eq(0)
-      .trigger('click')
+    $('.career-text').eq(0).trigger('click')
   },
 
   methods: {
     careerItemClick(item, item_idx) {
-      if (this.sIdx == item_idx) return
+      if (this.sIdx === item_idx) return
 
       this.sIdx = item_idx
 
       $('.career-text').removeClass('active')
-      $('.career-text')
-        .eq(this.sIdx)
-        .addClass('active')
+      $('.career-text').eq(this.sIdx).addClass('active')
       $('.career-item-desc').slideUp()
-      $('.career-item-desc')
-        .eq(this.sIdx)
-        .slideDown()
+      $('.career-item-desc').eq(this.sIdx).slideDown()
     },
   },
 }

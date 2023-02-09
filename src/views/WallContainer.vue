@@ -1,6 +1,6 @@
 <template>
   <div class="wall-wrapper">
-    <div class="wall-cover"></div>
+    <div class="wall-cover" />
     <transition name="fade">
       <div
         v-if="issues.items && issues.items.length > 0"
@@ -8,7 +8,7 @@
       >
         <div
           class="issues-logo mb-3"
-          style="cursor:pointer;"
+          style="cursor: pointer"
           @click.prevent="issueLogoClick"
         >
           <img src="/static/img/logo_4.png" class="works-photo-icon" />
@@ -18,7 +18,7 @@
           <div v-if="item.visible" class="issue-item" :key="'fixed' + item_idx">
             <a :href="item.html_url" target="_blank">
               > {{ item.title }}
-              <span style="font-size:11px;">
+              <span style="font-size: 11px">
                 [{{ item.repository_url }}]
                 {{ $moment(item.updated_at).format('YYYY/MM/DD') }}
               </span>
@@ -33,7 +33,7 @@
           >
             <a :href="item.html_url" target="_blank">
               > {{ item.title }}
-              <span style="font-size:11px;">
+              <span style="font-size: 11px">
                 [{{ getRepositoryNm(item.repository_url) }}]
                 {{ $moment(item.updated_at).format('YYYY/MM/DD') }}
               </span>
@@ -42,7 +42,7 @@
         </template>
       </div>
     </transition>
-    <coding-video></coding-video>
+    <coding-video />
   </div>
 </template>
 
