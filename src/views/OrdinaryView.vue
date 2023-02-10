@@ -4,26 +4,43 @@
       <span class="oxtail content-title text-uppercase">{{ $route.name }}</span>
     </div>
     <div class="content-container ordinary-list">
-      <div v-for="(item, item_idx) in paginatedData()" :key="item_idx" class="ordinary-item">
+      <div
+        v-for="(item, item_idx) in paginatedData()"
+        :key="item_idx"
+        class="ordinary-item"
+      >
         <span class="ordinary-text oxtail">
           <a :href="item.url" target="_blank">{{ item.title }}</a>
         </span>
-        <span class="ordinary-sm-text oxtail">&nbsp; at {{ $moment(item.date).format('MMMM YYYY') }}</span>
+        <span class="ordinary-sm-text oxtail"
+          >&nbsp; at {{ $moment(item.date).format('MMMM YYYY') }}</span
+        >
       </div>
     </div>
 
     <!-- 등록(글쓰기) 버튼 -->
-    <!-- 
+
     <div class="wirte-button">
       <b-button size="lg" variant="primary" class="mb-2">
         <b-icon icon="pencil" aria-label="Help"></b-icon>
       </b-button>
     </div>
-     -->
 
     <!-- paginate(전체 페이지가 1 이상일때만 보이기) -->
     <nav v-if="pageCount() > 1" aria-label="Page navigation example">
-      <paginate v-model="pageNum" :page-count="pageCount()" :page-range="5" :margin-pages="1" :container-class="'pagination justify-content-center'" :prev-class="'page-item'" :page-class="'page-item'" :next-class="'page-item'" :prev-link-class="'page-link'" :page-link-class="'page-link'" :next-link-class="'page-link'">
+      <paginate
+        v-model="pageNum"
+        :page-count="pageCount()"
+        :page-range="5"
+        :margin-pages="1"
+        :container-class="'pagination justify-content-center'"
+        :prev-class="'page-item'"
+        :page-class="'page-item'"
+        :next-class="'page-item'"
+        :prev-link-class="'page-link'"
+        :page-link-class="'page-link'"
+        :next-link-class="'page-link'"
+      >
         :click-handler="clickCallback"
       </paginate>
     </nav>
