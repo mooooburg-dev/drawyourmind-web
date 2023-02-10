@@ -1,6 +1,6 @@
 <template>
   <div class="wall-wrapper">
-    <div class="wall-cover"></div>
+    <div class="wall-cover" />
     <transition name="fade">
       <div
         v-if="issues.items && issues.items.length > 0"
@@ -42,7 +42,7 @@
         </template>
       </div>
     </transition>
-    <coding-video></coding-video>
+    <coding-video />
   </div>
 </template>
 
