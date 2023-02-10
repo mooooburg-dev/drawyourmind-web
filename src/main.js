@@ -20,7 +20,4 @@ Vue.config.productionTip = false
 new Vue({
   router,
   render: (h) => h(App),
-  components: {
-    paginate: Paginate,
-  },
 }).$mount('#app')
