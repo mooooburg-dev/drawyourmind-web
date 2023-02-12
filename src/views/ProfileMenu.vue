@@ -57,15 +57,13 @@
         <template v-for="(item, item_idx) in menus">
           <div v-if="item.visible == true" :key="item_idx">
             <span
-              :class="
-                `oxtail menu-text menu-item ${
-                  item.name &&
-                  $route.name &&
-                  $route.path.includes(item.name.toLowerCase())
-                    ? 'active'
-                    : 'unActive'
-                }`
-              "
+              :class="`oxtail menu-text menu-item ${
+                item.name &&
+                $route.name &&
+                $route.path.includes(item.name.toLowerCase())
+                  ? 'active'
+                  : 'unActive'
+              }`"
               @click="menuClickHandler(item)"
             >
               {{ item.name }}
@@ -99,9 +97,13 @@ export default {
           visible: true,
         },
         {
+          name: 'Daily365',
+          path: 'https://daily.drawyourmind.com/',
+          visible: true,
+        },
+        {
           name: 'Dev.Note',
           path: 'http://dev.drawyourmind.com/',
-          // path: "https://velog.io/@drawyourmind",  //velog
           visible: true,
         },
         {
@@ -123,12 +125,12 @@ export default {
   mounted() {
     this.baseURL = process.env.VUE_APP_BASE_URL
 
-    $('.menu-item').on('mouseover', function(e) {
+    $('.menu-item').on('mouseover', function (e) {
       e.preventDefault()
       $(this).addClass('over')
     })
 
-    $('.menu-item').on('mouseleave', function(e) {
+    $('.menu-item').on('mouseleave', function (e) {
       e.preventDefault()
       $(this).removeClass('over')
     })
