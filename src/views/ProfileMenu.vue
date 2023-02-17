@@ -47,7 +47,7 @@
         </div>
         <br />
       </div>
-      <div class="mt-4">
+      <div>
         <ul class="logos">
           <li class="logo"><img src="/static/img/logo_0.png" /></li>
           <li class="logo"><img src="/static/img/logo_1.png" /></li>
