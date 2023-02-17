@@ -27,20 +27,24 @@
         </span>
         <br />
         <span>jeongmupark@gmail.com</span>
-        <br />
-        <span>
-          <a href="http://github.com/mooooburg-dev" target="_blank">@Github</a>
-        </span>
-        <br />
-        <span>
-          <a href="https://twitter.com/jeongmu" target="_blank">@Twitter</a>
-        </span>
-        <br />
-        <span>
-          <a href="https://www.linkedin.com/in/jeongmupark" target="_blank">
-            @Linkedin
-          </a>
-        </span>
+        <div class="mt-4">
+          <p>
+            <a href="http://github.com/mooooburg-dev" target="_blank"
+              >@Github</a
+            >
+          </p>
+          <p>
+            <a href="http://note.drawyourmind.com" target="_blank">@Note</a>
+          </p>
+          <p>
+            <a href="https://twitter.com/jeongmu" target="_blank">@Twitter</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/jeongmupark" target="_blank">
+              @Linkedin
+            </a>
+          </p>
+        </div>
         <br />
       </div>
       <div class="mt-4">
@@ -156,4 +160,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+p {
+  margin-bottom: 0.2rem;
+}
+</style>
