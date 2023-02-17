@@ -20,13 +20,8 @@ export default [
     visible: true,
   },
   {
-    name: 'Dev.Note',
-    path: 'http://dev.drawyourmind.com/',
-    visible: true,
-  },
-  {
     name: 'Blog',
-    path: 'https://blog.drawyourmind.com/',
+    path: 'https://dev.drawyourmind.com/',
     visible: true,
   },
 ]
