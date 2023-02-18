@@ -12,12 +12,12 @@
           @click.prevent="issueLogoClick"
         >
           <img src="/static/img/logo_4.png" class="works-photo-icon" />
-          진행중인 이슈
+          Issuses
         </div>
         <template v-for="(item, item_idx) in fixedIssues">
           <div v-if="item.visible" class="issue-item" :key="'fixed' + item_idx">
             <a :href="item.html_url" target="_blank">
-              > {{ item.title }}
+              • {{ item.title }}
               <span style="font-size: 11px">
                 [{{ item.repository_url }}]
                 {{ $moment(item.updated_at).format('YYYY/MM/DD') }}
@@ -32,7 +32,7 @@
             :key="item_idx"
           >
             <a :href="item.html_url" target="_blank">
-              > {{ item.title }}
+              • {{ item.title }}
               <span style="font-size: 11px">
                 [{{ getRepositoryNm(item.repository_url) }}]
                 {{ $moment(item.updated_at).format('YYYY/MM/DD') }}

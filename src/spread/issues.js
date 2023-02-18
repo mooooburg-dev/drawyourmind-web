@@ -4,7 +4,7 @@ export default [
     html_url: 'https://github.com/mooooburg-dev/drawyourmind-web',
     repository_url: 'drawyourmind-web',
     updated_at: '20200712',
-    visible: true,
+    visible: false,
   },
   {
     title: '타임라인 구상중',
