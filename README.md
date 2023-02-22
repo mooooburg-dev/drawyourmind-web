@@ -8,7 +8,7 @@
 - Bootstrap
 
 ## Infra
-Infra: AWS(EC2, S3, CloudFront)
+Infra: AWS(EC2, S3, CloudFront)  
 Backend: Java Spring   
 DB : mariaDB  
 
