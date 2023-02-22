@@ -3,17 +3,19 @@
 개인 기록용 포트폴리오 페이지 입니다.  
 현재까지 작업한 프로젝트 히스토리를 기록하고 있습니다.  
 
-### Build With
+## Build With
 - Vue.js
 - Bootstrap
 
-### Infra
-Infra: AWS : EC2 / S3 / CloudFront / RDS  
+## Infra
+Infra: AWS(EC2, S3, CloudFront)
 Backend: Java Spring   
-DB : MariaDB  
+DB : mariaDB  
 
+## Design Prototype
+![IMG_8682](https://user-images.githubusercontent.com/18201794/220590859-b486d97f-8ece-46ff-a1b6-0058770ac9b7.JPG)
 
-### Contact  
+## Contact  
 jeongmupark@gmail.com  
 
 
