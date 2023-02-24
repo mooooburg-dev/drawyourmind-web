@@ -60,7 +60,12 @@
 </template>
 
 <script>
+import paginate from 'vuejs-paginate'
+
 export default {
+  components: {
+    paginate,
+  },
   data() {
     return {
       // works 데이터
