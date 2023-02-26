@@ -19,15 +19,14 @@
     </div>
 
     <!-- 등록(글쓰기) 버튼 -->
-
-    <div class="wirte-button">
+    <!-- <div class="wirte-button">
       <b-button size="lg" variant="primary" class="mb-2">
         <b-icon icon="pencil" aria-label="Help"></b-icon>
       </b-button>
-    </div>
+    </div> -->
 
     <!-- paginate(전체 페이지가 1 이상일때만 보이기) -->
-    <nav v-if="pageCount() > 1" aria-label="Page navigation example">
+    <!-- <nav v-if="pageCount() > 1" aria-label="Page navigation example">
       <paginate
         v-model="pageNum"
         :page-count="pageCount()"
@@ -43,7 +42,7 @@
       >
         :click-handler="clickCallback"
       </paginate>
-    </nav>
+    </nav> -->
   </div>
 </template>
 
