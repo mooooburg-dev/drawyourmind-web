@@ -20,5 +20,3 @@ jeongmupark@gmail.com
 
 
 2020-07-12 @drawyourmind.com
-
-
