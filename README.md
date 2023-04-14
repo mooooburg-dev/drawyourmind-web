@@ -6,6 +6,7 @@
 ## Build With
 - Vue.js
 - Bootstrap
+- Webpack
 
 ## Infra
 Infra: AWS(EC2, S3, CloudFront)  
