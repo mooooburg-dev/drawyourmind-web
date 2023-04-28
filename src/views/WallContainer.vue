@@ -12,7 +12,7 @@
           @click.prevent="issueLogoClick"
         >
           <img src="/static/img/logo_4.png" class="works-photo-icon" />
-          Issuses
+          Issues
         </div>
         <template v-for="(item, item_idx) in fixedIssues">
           <div v-if="item.visible" class="issue-item" :key="'fixed' + item_idx">
