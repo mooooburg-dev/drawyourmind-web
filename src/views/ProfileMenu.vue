@@ -27,23 +27,27 @@
         </span>
         <br />
         <span>jeongmupark@gmail.com</span>
-        <br />
-        <span>
-          <a href="http://github.com/mooooburg-dev" target="_blank">@Github</a>
-        </span>
-        <br />
-        <span>
-          <a href="https://twitter.com/jeongmu" target="_blank">@Twitter</a>
-        </span>
-        <br />
-        <span>
-          <a href="https://www.linkedin.com/in/jeongmupark" target="_blank">
-            @Linkedin
-          </a>
-        </span>
+        <div class="mt-4">
+          <p>
+            <a href="http://github.com/mooooburg-dev" target="_blank"
+              >@Github</a
+            >
+          </p>
+          <p>
+            <a href="http://note.drawyourmind.com" target="_blank">@Note</a>
+          </p>
+          <p>
+            <a href="https://twitter.com/jeongmu" target="_blank">@Twitter</a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/jeongmupark" target="_blank">
+              @Linkedin
+            </a>
+          </p>
+        </div>
         <br />
       </div>
-      <div class="mt-4">
+      <div>
         <ul class="logos">
           <li class="logo"><img src="/static/img/logo_0.png" /></li>
           <li class="logo"><img src="/static/img/logo_1.png" /></li>
@@ -57,15 +61,13 @@
         <template v-for="(item, item_idx) in menus">
           <div v-if="item.visible == true" :key="item_idx">
             <span
-              :class="
-                `oxtail menu-text menu-item ${
-                  item.name &&
-                  $route.name &&
-                  $route.path.includes(item.name.toLowerCase())
-                    ? 'active'
-                    : 'unActive'
-                }`
-              "
+              :class="`oxtail menu-text menu-item ${
+                item.name &&
+                $route.name &&
+                $route.path.includes(item.name.toLowerCase())
+                  ? 'active'
+                  : 'unActive'
+              }`"
               @click="menuClickHandler(item)"
             >
               {{ item.name }}
@@ -79,38 +81,12 @@
 
 <script>
 import axios from 'axios'
+import menus from '../spread/menus'
+
 export default {
   data() {
     return {
-      menus: [
-        {
-          name: 'Career',
-          path: '/career',
-          visible: true,
-        },
-        {
-          name: 'Works',
-          path: '/works',
-          visible: true,
-        },
-        {
-          name: 'Ordinary',
-          path: '/ordinary',
-          visible: true,
-        },
-        {
-          name: 'Dev.Note',
-          path: 'http://dev.drawyourmind.com/',
-          // path: "https://velog.io/@drawyourmind",  //velog
-          visible: true,
-        },
-        {
-          name: 'Blog',
-          path: 'https://blog.drawyourmind.com/',
-          visible: true,
-        },
-      ],
-
+      menus,
       baseURL: '',
       tempPath: '',
 
@@ -123,12 +99,12 @@ export default {
   mounted() {
     this.baseURL = process.env.VUE_APP_BASE_URL
 
-    $('.menu-item').on('mouseover', function(e) {
+    $('.menu-item').on('mouseover', function (e) {
       e.preventDefault()
       $(this).addClass('over')
     })
 
-    $('.menu-item').on('mouseleave', function(e) {
+    $('.menu-item').on('mouseleave', function (e) {
       e.preventDefault()
       $(this).removeClass('over')
     })
@@ -184,4 +160,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+p {
+  margin-bottom: 0.2rem;
+}
+</style>
