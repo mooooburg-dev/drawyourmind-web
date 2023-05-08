@@ -10,7 +10,7 @@
 
 ## Infra
 Infra: AWS(EC2, S3, CloudFront)  
-Backend: Java Spring   
+Backend: Spring   
 DB : mariaDB  
 
 ## Design Prototype
