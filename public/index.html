@@ -29,6 +29,33 @@
     />
     <link rel="stylesheet" href="https://use.typekit.net/rlg3ybw.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      ;(function () {
+        let w = window
+        function l() {
+          console.log('l()')
+          if (w.ChannelIOInitialized) {
+            return
+          }
+          w.ChannelIOInitialized = true
+          var s = document.createElement('script')
+          s.type = 'text/javascript'
+          s.async = true
+          s.src = 'http://pantagruel.cafe24.com/temp/core.js'
+          var x = document.getElementsByTagName('script')[0]
+          if (x.parentNode) {
+            x.parentNode.insertBefore(s, x)
+          }
+        }
+        if (document.readyState === 'complete') {
+          l()
+        } else {
+          w.addEventListener('DOMContentLoaded', l)
+          w.addEventListener('load', l)
+        }
+      })()
+    </script>
   </head>
   <body>
     <noscript>
@@ -38,6 +65,7 @@
       </strong>
     </noscript>
     <div id="app"></div>
+    <div id="root"></div>
     <!-- built files will be auto injected -->
   </body>
 </html>
