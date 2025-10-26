@@ -1,11 +1,11 @@
 ---
-title: "Medit Partner Portal System"
-duration: "2020.03 ~ 2020.12"
-team: "MEDIT IST"
-role: "Front-end 개발(Vue.js) / Front 환경 설계 / AWS 인프라 구축"
-mainImage: "/static/img/works/mpp_0.png"
+title: 'Medit Partner Portal System'
+duration: '2020.03 ~ 2020.12'
+team: 'MEDIT IST'
+role: 'Front-end 개발(Vue.js) / Front 환경 설계 / AWS 인프라 구축'
+mainImage: '/static/img/works/mpp_0.png'
 year: 2020
-github: "https://github.com/mooooburg-dev/medit-partner-portal"
+github: 'https://github.com/mooooburg-dev/medit-partner-portal'
 ---
 
 <div class="mt-5">
@@ -48,7 +48,7 @@ github: "https://github.com/mooooburg-dev/medit-partner-portal"
     </li>
     <li>
       Vue의 데이터가 변경 되었지만 화면상에 렌더링이 되지 않을 때
-      $forceUpdate 사용히기
+      $forceUpdate 사용하기
     </li>
   </ul>
 </div>
@@ -93,11 +93,5 @@ github: "https://github.com/mooooburg-dev/medit-partner-portal"
     </li>
     <li><img src="/static/img/works/mpp_3.png" /></li>
     <li><img src="/static/img/works/mpp_4.png" /></li>
-    <li>
-      <p class="text-left">
-        위 글에 대한 저작권은 본 사이트에 있으며 무단으로 복제 및 배포하실
-        수 없습니다.
-      </p>
-    </li>
   </ul>
 </div>

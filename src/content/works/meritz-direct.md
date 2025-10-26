@@ -1,10 +1,10 @@
 ---
-title: "Meritz Direct Insurance"
-duration: "2015.07 ~ 2016.01"
-advertiser: "메리츠화재"
-member: "eTRIBE Meritz TF"
-role: "front-end (Angular.js)"
-mainImage: "/static/img/works/meritz_0.jpg"
+title: 'Meritz Direct Insurance'
+duration: '2015.07 ~ 2016.01'
+advertiser: '메리츠화재'
+member: 'eTRIBE Meritz TF'
+role: 'front-end (Angular.js)'
+mainImage: '/static/img/works/meritz_0.jpg'
 year: 2015
 ---
 
@@ -70,11 +70,5 @@ year: 2015
       </p>
     </li>
     <li><img src="/static/img/works/meritz_3.jpg" /></li>
-    <li>
-      <p class="text-left">
-        위 글에 대한 저작권은 본 사이트에 있으며 무단으로 복제 및 배포하실
-        수 없습니다.
-      </p>
-    </li>
   </ul>
 </div>
