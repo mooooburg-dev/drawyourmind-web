@@ -1,6 +1,7 @@
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+커밋 메시지를 작성할 떄는 작업 내용별로 분리하여 커밋하고 한글로 작성하며 CLAUDE 작업자는 제외함.
 
 ## Project Overview
 
