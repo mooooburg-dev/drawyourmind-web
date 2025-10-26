@@ -1,11 +1,11 @@
 ---
-title: "Medit e-HR System"
-duration: "2019.09 ~ 2019.12"
-team: "MEDIT IST"
-role: "front-end (Vue.js)"
-mainImage: "/static/img/works/ehr_0.png"
+title: 'Medit e-HR System'
+duration: '2019.09 ~ 2019.12'
+team: 'MEDIT IST'
+role: 'front-end (Vue.js)'
+mainImage: '/static/img/works/ehr_0.png'
 year: 2019
-github: "https://github.com/mooooburg-dev/Medit-HR"
+github: 'https://github.com/mooooburg-dev/Medit-HR'
 ---
 
 <div class="mt-5">
@@ -89,11 +89,5 @@ github: "https://github.com/mooooburg-dev/Medit-HR"
       </p>
     </li>
     <li><img src="/static/img/works/ehr_5.png" /></li>
-    <li>
-      <p class="text-left">
-        위 글에 대한 저작권은 본 사이트에 있으며 무단으로 복제 및 배포하실
-        수 없습니다.
-      </p>
-    </li>
   </ul>
 </div>

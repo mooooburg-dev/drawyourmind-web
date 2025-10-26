@@ -1,12 +1,12 @@
 ---
-title: "adidas golf marketing operation"
-duration: "2017.12 ~ 2018.12"
-advertiser: "아디다스 코리아"
-member: "MediaBling Crossmedia Team"
-role: "아디다스골프 온라인 마케팅 운영 대행"
-mainImage: "/static/img/works/adidas_golf_0.jpg"
+title: 'adidas golf marketing operation'
+duration: '2017.12 ~ 2018.12'
+advertiser: '아디다스 코리아'
+member: 'MediaBling Crossmedia Team'
+role: '아디다스골프 온라인 마케팅 운영 대행'
+mainImage: '/static/img/works/adidas_golf_0.jpg'
 year: 2018
-photos: "https://photos.app.goo.gl/PcXQB8TFHWXNdYmm9"
+photos: 'https://photos.app.goo.gl/PcXQB8TFHWXNdYmm9'
 ---
 
 <div class="img-container text-center mt-5">
@@ -30,7 +30,7 @@ photos: "https://photos.app.goo.gl/PcXQB8TFHWXNdYmm9"
         기본적으로 활용할 수 있는 제품의 아이템 촬영부터 보다 다양한 영상
         컨텐츠를 제작하였으며, 시즌에 맞는 키비쥬얼 촬영과 시즌 캠페인
         영상 광고 역시 제작하였다. 컨텐츠 제작은 하우스 스튜디오의
-        프토그래퍼와 영상팀의 협업으로 진행 되었으며 당시 우리
+        포토그래퍼와 영상팀의 협업으로 진행 되었으며 당시 우리
         크로스미디어팀에서 전체 관리를 담당하였다.
       </p>
     </li>
@@ -70,11 +70,5 @@ photos: "https://photos.app.goo.gl/PcXQB8TFHWXNdYmm9"
     <li><img src="/static/img/works/adidas_golf_3.jpg" /></li>
     <li><img src="/static/img/works/adidas_golf_4.jpg" /></li>
 
-    <li>
-      <p class="text-left">
-        위 글에 대한 저작권은 본 사이트에 있으며 무단으로 복제 및 배포하실
-        수 없습니다.
-      </p>
-    </li>
   </ul>
 </div>

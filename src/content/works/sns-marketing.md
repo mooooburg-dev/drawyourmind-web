@@ -1,10 +1,10 @@
 ---
-title: "Brand Social Marekting Operation"
-duration: "2016.09 ~ 2017.08"
-advertiser: "Dior"
-member: "MediaBling Crossmedia Team"
-role: "SNS 마케팅 총괄 운영 관리"
-mainImage: "/static/img/works/sns_marketing_0.jpg"
+title: 'Brand Social Marketing Operation'
+duration: '2016.09 ~ 2017.08'
+advertiser: 'Dior'
+member: 'MediaBling Crossmedia Team'
+role: 'SNS 마케팅 총괄 운영 관리'
+mainImage: '/static/img/works/sns_marketing_0.jpg'
 year: 2017
 ---
 

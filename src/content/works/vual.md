@@ -1,14 +1,14 @@
 ---
-title: "VUAL Transparent Display Kiosk"
-duration: "2012.06 ~ 2015.05"
-advertiser: "eTRIBE"
-member: "eTRIBE VUAL TF"
-role: "TF 파트장 수행 / Flash AIR, GEOF, SOCKET, SHOWROOM 개발"
-mainImage: "/static/img/works/vual_0.png"
+title: 'VUAL Transparent Display Kiosk'
+duration: '2012.06 ~ 2015.05'
+advertiser: 'eTRIBE'
+member: 'eTRIBE VUAL TF'
+role: 'TF 파트장 수행 / Flash AIR, GEOF, SOCKET, SHOWROOM 개발'
+mainImage: '/static/img/works/vual_0.png'
 year: 2012
-website: "https://web.archive.org/web/20181231004705/http://vual.co.kr/"
-facebook: "https://www.facebook.com/vual.fuelband"
-photos: "https://photos.app.goo.gl/xLQxnqq4p5yppRUPA"
+website: 'https://web.archive.org/web/20181231004705/http://vual.co.kr/'
+facebook: 'https://www.facebook.com/vual.fuelband'
+photos: 'https://photos.app.goo.gl/xLQxnqq4p5yppRUPA'
 ---
 
 <div class="mt-5">
@@ -107,7 +107,7 @@ photos: "https://photos.app.goo.gl/xLQxnqq4p5yppRUPA"
       <p class="text-left">
         VUAL 키오스크에는 사용자의 하루 일과를 영상에 담아 퓨얼 밴드를
         착용하여 달리는 경험을 유도하고 제품의 메뉴얼 설명과 실제
-        투명디스플레 안에 배치되어 있는 아이폰과의 연동을 경험해 볼 수
+        투명디스플레이 안에 배치되어 있는 아이폰과의 연동을 경험해 볼 수
         있도록 서비스를 제공했다. 그렇게 사용자가 얻게된 퓨얼 게이지를
         페이스북 페이지를 통해 공유하여 전세계에 페이스북 친구들과 경험을
         공유할 수 있는 컨셉으로 제작되었으며, 관련된 영상은 모션그래픽
@@ -145,12 +145,6 @@ photos: "https://photos.app.goo.gl/xLQxnqq4p5yppRUPA"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-    </li>
-    <li>
-      <p class="text-left">
-        위 글에 대한 저작권은 본 사이트에 있으며 무단으로 복제 및 배포하실
-        수 없습니다.
-      </p>
     </li>
   </ul>
 </div>
