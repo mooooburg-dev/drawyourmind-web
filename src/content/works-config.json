@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": "hsmoabo",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "mpp",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "hr",
+      "order": 3,
+      "active": true
+    },
+    {
+      "id": "vual",
+      "order": 4,
+      "active": true
+    },
+    {
+      "id": "meritz-direct",
+      "order": 5,
+      "active": true
+    },
+    {
+      "id": "adidas-golf",
+      "order": 6,
+      "active": true
+    },
+    {
+      "id": "gooutstore",
+      "order": 7,
+      "active": true
+    },
+    {
+      "id": "dior-gallery",
+      "order": 8,
+      "active": true
+    },
+    {
+      "id": "ybm-digital-book",
+      "order": 9,
+      "active": true
+    },
+    {
+      "id": "sns-marketing",
+      "order": 10,
+      "active": true
+    },
+    {
+      "id": "lotte-howmuch",
+      "order": 11,
+      "active": true
+    },
+    {
+      "id": "all",
+      "order": 12,
+      "active": true
+    }
+  ]
+}
