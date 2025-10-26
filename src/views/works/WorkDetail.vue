@@ -72,12 +72,20 @@ export default {
 
   async mounted() {
     await this.loadMarkdown()
+    // 컴포넌트 마운트 시 스크롤을 최상단으로 이동
+    this.$nextTick(() => {
+      window.scrollTo(0, 0)
+    })
   },
 
   watch: {
     '$route.meta.name': {
-      handler() {
-        this.loadMarkdown()
+      async handler() {
+        await this.loadMarkdown()
+        // 페이지 이동 시 스크롤을 최상단으로 이동
+        this.$nextTick(() => {
+          window.scrollTo(0, 0)
+        })
       },
     },
   },

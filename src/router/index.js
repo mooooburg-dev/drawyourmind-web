@@ -63,6 +63,15 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // savedPosition은 브라우저의 뒤로/앞으로 버튼을 사용할 때만 존재
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      // 모든 라우트 네비게이션에서 페이지 최상단으로 스크롤
+      return { x: 0, y: 0 }
+    }
+  },
 })
 
 export default router
