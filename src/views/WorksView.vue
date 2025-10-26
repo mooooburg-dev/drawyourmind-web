@@ -61,6 +61,7 @@
 
 <script>
 import paginate from 'vuejs-paginate'
+import worksConfig from '../content/works-config.json'
 
 export default {
   components: {
@@ -68,21 +69,11 @@ export default {
   },
   data() {
     return {
-      // works 데이터
-      arrPathName: [
-        'hsmoabo',
-        'mpp',
-        'hr',
-        'vual',
-        'meritz-direct',
-        'adidas-golf',
-        'gooutstore',
-        'dior-gallery',
-        'ybm-digital-book',
-        'sns-marketing',
-        'lotte-howmuch',
-        'all',
-      ],
+      // works 데이터 - 설정 파일에서 자동 로드
+      arrPathName: worksConfig.projects
+        .filter((p) => p.active)
+        .sort((a, b) => a.order - b.order)
+        .map((p) => p.id),
 
       pageNum: 1,
     }
